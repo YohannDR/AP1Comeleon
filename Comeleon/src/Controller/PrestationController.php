@@ -6,6 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+use App\Entity\Presta;
+
 class PrestationController extends AbstractController
 {
     /**
@@ -13,27 +15,36 @@ class PrestationController extends AbstractController
      */
     public function index(): Response
     {
+        $repo = $this->getDoctrine()->getRepository(Presta::class);
+
+        $presta = $repo->findAll();
+        
         return $this->render('prestation/prestation.html.twig', [
             'controller_name' => 'PrestationController',
+            'prestas' => $presta,
         ]);
     }
 
     /**
-     * @Route("/prestation/1", name="prestation_show")
+     * @Route("/prestation/{id}", name="prestation_show")
      */
-    public function show(): Response
+    public function show($id): Response
     {
+        $repo = $this->getDoctrine()->getRepository(Presta::class);
+
+        $presta = $repo->find($id);
+
         return $this->render('prestation/show.html.twig', [
-            'controller_name' => 'PrestationController',
+            'presta' => '$presta',
         ]);
     }
 
     /**
-     * @Route("/prestation/add", name="prestation_add")
+     * @Route("/prestation/create", name="prestation_create")
      */
-    public function add() : Response
+    public function create() : Response
     {
-        return $this->render('prestation/add.html.twig', [
+        return $this->render('prestation/create.html.twig', [
             'controller_name' => 'PrestationController',
         ]);
     }

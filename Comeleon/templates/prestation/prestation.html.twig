@@ -15,7 +15,7 @@
             <ul class="navbar-nav me-auto">
                 
                 <li class="nav-item">
-                <a class="nav-link" href="/prestation/add">Ajouter une prestation</a>
+                <a class="nav-link" href="/prestation/create">Ajouter une prestation</a>
                 </li>
 
                 <li class="nav-item">
@@ -33,31 +33,23 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
+
 <div class="container">
     <div class="row">
         <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°1</h2>
+            <section class="prestas">
+                {% for presta in prestas %}
+
+                <h2>{{ presta.titre }}</h2>
                 <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <img src="{{ presta.description }}">
+                    {{ presta.image }}
                     <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
                 </div>
+                {% endfor %}
             </section>
         </div>
-        <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°2</h2>
-                <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-    </div>
+        
 </div>
 
 {% endblock %}

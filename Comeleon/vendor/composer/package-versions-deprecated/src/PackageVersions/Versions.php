@@ -99,10 +99,10 @@ final class Versions
   'symfony/yaml' => 'v5.3.6@4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7',
   'twig/extra-bundle' => 'v3.3.3@fa92b8301ff8878e45fe9f54ab7ad99872e080f3',
   'twig/twig' => 'v3.3.3@a27fa056df8a6384316288ca8b0fa3a35fdeb569',
-  'symfony/polyfill-ctype' => '*@334a0ef8ee063f388cfb8842b5c15e99ff58a4bf',
-  'symfony/polyfill-iconv' => '*@334a0ef8ee063f388cfb8842b5c15e99ff58a4bf',
-  'symfony/polyfill-php72' => '*@334a0ef8ee063f388cfb8842b5c15e99ff58a4bf',
-  '__root__' => 'dev-main@334a0ef8ee063f388cfb8842b5c15e99ff58a4bf',
+  'symfony/polyfill-ctype' => '*@',
+  'symfony/polyfill-iconv' => '*@',
+  'symfony/polyfill-php72' => '*@',
+  '__root__' => '1.0.0+no-version-set@',
 );
 
     private function __construct()

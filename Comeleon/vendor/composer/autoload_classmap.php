@@ -6,8 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\AvisController' => $baseDir . '/src/Controller/AvisController.php',
+    'App\\Controller\\PrestationController' => $baseDir . '/src/Controller/PrestationController.php',
     'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
+    'App\\Entity\\Avis' => $baseDir . '/src/Entity/Avis.php',
+    'App\\Entity\\Presta' => $baseDir . '/src/Entity/Presta.php',
+    'App\\Entity\\Test' => $baseDir . '/src/Entity/Test.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
+    'App\\Repository\\AvisRepository' => $baseDir . '/src/Repository/AvisRepository.php',
+    'App\\Repository\\PrestaRepository' => $baseDir . '/src/Repository/PrestaRepository.php',
+    'App\\Repository\\PrestationRepository' => $baseDir . '/src/Repository/PrestationRepository.php',
+    'App\\Repository\\TestRepository' => $baseDir . '/src/Repository/TestRepository.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => $vendorDir . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',

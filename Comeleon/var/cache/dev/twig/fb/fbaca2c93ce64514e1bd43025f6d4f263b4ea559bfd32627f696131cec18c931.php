@@ -81,7 +81,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
             <ul class=\"navbar-nav me-auto\">
                 
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation/add\">Ajouter une prestation</a>
+                <a class=\"nav-link\" href=\"/prestation/create\">Ajouter une prestation</a>
                 </li>
 
                 <li class=\"nav-item\">
@@ -99,37 +99,45 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
+
 <div class=\"container\">
     <div class=\"row\">
         <div class=\"col-lg-5\">
-            <section class=\"articles\">
-                <h2>Titre de la prestation n°1</h2>
+            <section class=\"prestas\">
+                ";
+        // line 41
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["prestas"]) || array_key_exists("prestas", $context) ? $context["prestas"] : (function () { throw new RuntimeError('Variable "prestas" does not exist.', 41, $this->source); })()));
+        foreach ($context['_seq'] as $context["_key"] => $context["presta"]) {
+            // line 42
+            echo "
+                <h2>";
+            // line 43
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "titre", [], "any", false, false, false, 43), "html", null, true);
+            echo "</h2>
                 <div class=\"content\">
-                    <img src=\"http://placehold.it/350x150\">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <img src=\"";
+            // line 45
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "description", [], "any", false, false, false, 45), "html", null, true);
+            echo "\">
+                    ";
+            // line 46
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "image", [], "any", false, false, false, 46), "html", null, true);
+            echo "
                     <a href=\"";
-        // line 45
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
-        echo "\" class=\"btn btn-primary\">Lire la suite</a>
+            // line 47
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
+            echo "\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
-            </section>
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['presta'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 50
+        echo "            </section>
         </div>
-        <div class=\"col-lg-5\">
-            <section class=\"articles\">
-                <h2>Titre de la prestation n°2</h2>
-                <div class=\"content\">
-                    <img src=\"http://placehold.it/350x150\">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href=\"";
-        // line 56
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
-        echo "\" class=\"btn btn-primary\">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-    </div>
+        
 </div>
 
 ";
@@ -150,7 +158,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     public function getDebugInfo()
     {
-        return array (  127 => 56,  113 => 45,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
+        return array (  138 => 50,  129 => 47,  125 => 46,  121 => 45,  116 => 43,  113 => 42,  109 => 41,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -172,7 +180,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
             <ul class=\"navbar-nav me-auto\">
                 
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation/add\">Ajouter une prestation</a>
+                <a class=\"nav-link\" href=\"/prestation/create\">Ajouter une prestation</a>
                 </li>
 
                 <li class=\"nav-item\">
@@ -190,31 +198,23 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
+
 <div class=\"container\">
     <div class=\"row\">
         <div class=\"col-lg-5\">
-            <section class=\"articles\">
-                <h2>Titre de la prestation n°1</h2>
+            <section class=\"prestas\">
+                {% for presta in prestas %}
+
+                <h2>{{ presta.titre }}</h2>
                 <div class=\"content\">
-                    <img src=\"http://placehold.it/350x150\">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <img src=\"{{ presta.description }}\">
+                    {{ presta.image }}
                     <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
+                {% endfor %}
             </section>
         </div>
-        <div class=\"col-lg-5\">
-            <section class=\"articles\">
-                <h2>Titre de la prestation n°2</h2>
-                <div class=\"content\">
-                    <img src=\"http://placehold.it/350x150\">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-    </div>
+        
 </div>
 
 {% endblock %}", "prestation/prestation.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\prestation.html.twig");
