@@ -13,7 +13,17 @@ class PrestationController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('prestation/index.html.twig', [
+        return $this->render('prestation/prestation.html.twig', [
+            'controller_name' => 'PrestationController',
+        ]);
+    }
+
+    /**
+     * @Route("/prestation/1", name="prestation_show")
+     */
+    public function show(): Response
+    {
+        return $this->render('prestation/show.html.twig', [
             'controller_name' => 'PrestationController',
         ]);
     }
