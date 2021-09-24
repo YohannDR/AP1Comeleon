@@ -11,6 +11,8 @@ return [
         '/avis' => [[['_route' => 'avis', '_controller' => 'App\\Controller\\AvisController::index'], null, null, null, false, false, null]],
         '/prestation' => [[['_route' => 'prestation', '_controller' => 'App\\Controller\\PrestationController::index'], null, null, null, false, false, null]],
         '/prestation/1' => [[['_route' => 'prestation_show', '_controller' => 'App\\Controller\\PrestationController::show'], null, null, null, false, false, null]],
+        '/prestation/add' => [[['_route' => 'prestation_add', '_controller' => 'App\\Controller\\PrestationController::add'], null, null, null, false, false, null]],
+        '/prestation/supp' => [[['_route' => 'prestation_supp', '_controller' => 'App\\Controller\\PrestationController::supp'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

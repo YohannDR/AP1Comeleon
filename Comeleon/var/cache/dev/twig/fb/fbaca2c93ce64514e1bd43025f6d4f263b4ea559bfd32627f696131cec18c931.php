@@ -62,19 +62,42 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     }
 
-    // line 5
+    // line 6
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
-        echo "<style>
+        // line 7
+        echo "    <body>
+        <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
+        <div class=\"container-fluid\">
+            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+            </button>
+
+            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+            <ul class=\"navbar-nav me-auto\">
+                
+                <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"/prestation/add\">Ajouter une prestation</a>
+                </li>
+
+                <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"/prestation/supp\">Supprimer une prestation</a>
+                </li>
+               
+            </ul>
+            </div>
+        </div>
+        </nav>
+       
+    </body>
+<style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
 
 <div class=\"container\">
     <div class=\"row\">
@@ -86,7 +109,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
                     <p>PARAGRAPHE DE LA PRESTATION</p>
                     <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
                     <a href=\"";
-        // line 21
+        // line 45
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
         echo "\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
@@ -100,7 +123,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
                     <p>PARAGRAPHE DE LA PRESTATION</p>
                     <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
                     <a href=\"";
-        // line 32
+        // line 56
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
         echo "\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
@@ -127,7 +150,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     public function getDebugInfo()
     {
-        return array (  104 => 32,  90 => 21,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  127 => 56,  113 => 45,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -136,12 +159,36 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
 {% block title %}Prestations{% endblock %}
 
+
 {% block body %}
+    <body>
+        <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
+        <div class=\"container-fluid\">
+            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+            <span class=\"navbar-toggler-icon\"></span>
+            </button>
+
+            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
+            <ul class=\"navbar-nav me-auto\">
+                
+                <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"/prestation/add\">Ajouter une prestation</a>
+                </li>
+
+                <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"/prestation/supp\">Supprimer une prestation</a>
+                </li>
+               
+            </ul>
+            </div>
+        </div>
+        </nav>
+       
+    </body>
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
 
 <div class=\"container\">
     <div class=\"row\">

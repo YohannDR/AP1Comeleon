@@ -27,4 +27,24 @@ class PrestationController extends AbstractController
             'controller_name' => 'PrestationController',
         ]);
     }
+
+    /**
+     * @Route("/prestation/add", name="prestation_add")
+     */
+    public function add() : Response
+    {
+        return $this->render('prestation/add.html.twig', [
+            'controller_name' => 'PrestationController',
+        ]);
+    }
+
+    /**
+     * @Route("/prestation/supp", name="prestation_supp")
+     */
+    public function supp() : Response
+    {
+        return $this->render('prestation/supp.html.twig', [
+            'controller_name' => 'PrestationController',
+        ]);
+    }
 }
