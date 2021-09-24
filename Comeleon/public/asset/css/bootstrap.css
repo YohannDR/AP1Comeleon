@@ -91,6 +91,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.test {
+  display : inline-block
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -1402,6 +1406,12 @@ progress {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: 58.333333%;
+  }
+  .image1{
+    object-fit: contain;
+  }
+  img[class] { 
+    width: 100%;
   }
   .col-lg-8 {
     -ms-flex: 0 0 auto;
