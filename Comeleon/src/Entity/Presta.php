@@ -5,6 +5,8 @@ namespace App\Entity;
 use App\Repository\PrestaRepository;
 use Doctrine\ORM\Mapping as ORM;
 
+use Symfony\Component\Validator\Constraints as Assert;
+
 /**
  * @ORM\Entity(repositoryClass=PrestaRepository::class)
  */
@@ -19,16 +21,19 @@ class Presta
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\Length(min=10, max=255, minMessage="Votre titre est trop court")
      */
     private $titre;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\Length(min=10)
      */
     private $description;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\Url
      */
     private $image;
 

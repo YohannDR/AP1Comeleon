@@ -70,8 +70,8 @@ return [[
 '[C]App%5CController%5CPrestationController' => 1,
 'App%5CController%5CPrestationController%23index' => 3,
 '[C]App%5CController%5CPrestationController%23index' => 1,
-'App%5CController%5CPrestationController%23create' => 4,
-'[C]App%5CController%5CPrestationController%23create' => 1,
+'App%5CController%5CPrestationController%23form' => 4,
+'[C]App%5CController%5CPrestationController%23form' => 1,
 'App%5CController%5CPrestationController%23show' => 5,
 '[C]App%5CController%5CPrestationController%23show' => 1,
 'App%5CController%5CPrestationController%23supp' => 6,
@@ -590,7 +590,7 @@ return [[
 ], [
 
 0 => [],
-1 => 1632586389,
+1 => 1632590954,
 2 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -638,21 +638,25 @@ return [[
 4 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
-            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+            clone $p['Symfony\\Component\\Routing\\Annotation\\Route'],
         ],
         null,
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
                     '/prestation/new',
+                    '/prestation/{id}/edit',
                 ],
                 'name' => [
                     'prestation_create',
+                    'prestation_edit',
                 ],
             ],
         ],
         [
             $o[0],
+            $o[1],
         ],
         []
     );

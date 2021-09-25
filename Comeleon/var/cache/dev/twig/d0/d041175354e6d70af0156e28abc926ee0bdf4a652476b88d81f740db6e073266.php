@@ -58,8 +58,8 @@ class __TwigTemplate_4d249ed70e7cd2d46f97fe07c659d4f2f7aa21da2c1da02bd60855b8fdb
         // line 4
         echo "
 <div class=\"container\">
-    <div class=\"row\">
-        <div class=\"col-lg-6\">
+
+        
             <section class=\"Presta\">
                 <h2> ";
         // line 9
@@ -84,14 +84,18 @@ class __TwigTemplate_4d249ed70e7cd2d46f97fe07c659d4f2f7aa21da2c1da02bd60855b8fdb
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 16, $this->source); })()), "description", [], "any", false, false, false, 16), "html", null, true);
         echo "
                     </div>
+                    <br><br>
+                    <form method=\"post\" action=\"/prestation\">
+                        <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
+                    </form>
                 </div>
+                
             </section>
-        </div>
-    </div>
+            
+      
+
 <br><br>
-<form method=\"post\" action=\"/prestation\">
-    <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
-</form>
+
 </div>
 
 ";
@@ -122,8 +126,8 @@ class __TwigTemplate_4d249ed70e7cd2d46f97fe07c659d4f2f7aa21da2c1da02bd60855b8fdb
 {% block body %}
 
 <div class=\"container\">
-    <div class=\"row\">
-        <div class=\"col-lg-6\">
+
+        
             <section class=\"Presta\">
                 <h2> {{ presta.titre }} </h2>
             <br>
@@ -134,14 +138,18 @@ class __TwigTemplate_4d249ed70e7cd2d46f97fe07c659d4f2f7aa21da2c1da02bd60855b8fdb
                         <br><br>
                         {{ presta.description }}
                     </div>
+                    <br><br>
+                    <form method=\"post\" action=\"/prestation\">
+                        <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
+                    </form>
                 </div>
+                
             </section>
-        </div>
-    </div>
+            
+      
+
 <br><br>
-<form method=\"post\" action=\"/prestation\">
-    <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
-</form>
+
 </div>
 
 {% endblock %}", "prestation/show.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\show.html.twig");

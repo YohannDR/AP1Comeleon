@@ -35,9 +35,8 @@
 
 
 <div class="container">
-    <div class="row">
+    
        {% for presta in prestas %}
-        <div class="col-lg-6">
             <section class="Presta">
                 <h2>{{ presta.titre }}</h2>
                 <div class="metadata">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
@@ -50,9 +49,7 @@
                 </div>
             </section>
             <br><br><br><br>
-        </div>
            {% endfor %}
-    </div>
 </div>
 
 {% endblock %}

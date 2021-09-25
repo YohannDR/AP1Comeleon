@@ -3,8 +3,8 @@
 {% block body %}
 
 <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
+
+        
             <section class="Presta">
                 <h2> {{ presta.titre }} </h2>
             <br>
@@ -15,14 +15,18 @@
                         <br><br>
                         {{ presta.description }}
                     </div>
+                    <br><br>
+                    <form method="post" action="/prestation">
+                        <button type="submit" class="btn btn-secondary">Retour</button>
+                    </form>
                 </div>
+                
             </section>
-        </div>
-    </div>
+            
+      
+
 <br><br>
-<form method="post" action="/prestation">
-    <button type="submit" class="btn btn-secondary">Retour</button>
-</form>
+
 </div>
 
 {% endblock %}

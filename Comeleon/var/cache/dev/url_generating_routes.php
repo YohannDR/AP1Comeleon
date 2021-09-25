@@ -5,7 +5,8 @@
 return [
     'avis' => [[], ['_controller' => 'App\\Controller\\AvisController::index'], [], [['text', '/avis']], [], []],
     'prestation' => [[], ['_controller' => 'App\\Controller\\PrestationController::index'], [], [['text', '/prestation']], [], []],
-    'prestation_create' => [[], ['_controller' => 'App\\Controller\\PrestationController::create'], [], [['text', '/prestation/new']], [], []],
+    'prestation_create' => [[], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/prestation/new']], [], []],
+    'prestation_edit' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
     'prestation_show' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
     'prestation_supp' => [[], ['_controller' => 'App\\Controller\\PrestationController::supp'], [], [['text', '/prestation/supp']], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],

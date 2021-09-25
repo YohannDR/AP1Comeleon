@@ -8,9 +8,22 @@
 
     {{ form_start(formPresta) }}
     
-    {{ form_widget(formPresta) }}
+    {{ form_row(formPresta.titre, {'attr': {'placeholder': "Titre de la prestation" }}) }}
+
+    {{ form_row(formPresta.image, {'attr': {'placeholder': "URL de l'image" }}) }}
+
+    {{ form_row(formPresta.description, {'attr': {'placeholder': "Description de la prestation" }}) }}
+
+
+
     <br>
-    <button type="submit" class="btn btn-success">Ajouter la prestation</button>
+    <button type="submit" class="btn btn-success">
+        {% if editMode %}
+            Enregistrer les modifications
+        {% else %}
+            Ajouter l'article
+        {% endif %}
+    </button>
 
     {{ form_end(formPresta) }}
 

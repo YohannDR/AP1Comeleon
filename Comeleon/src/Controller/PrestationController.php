@@ -18,6 +18,8 @@ use App\Repository\PrestaRepository;
 
 use Doctrine\ORM\EntityManagerInterface;
 
+use App\Form\PrestationType;
+
 class PrestationController extends AbstractController
 {
     /**
@@ -37,31 +39,36 @@ class PrestationController extends AbstractController
 
     /**
      * @Route("/prestation/new", name="prestation_create")
+     * @Route("/prestation/{id}/edit", name="prestation_edit")
      */
-    public function create(Request $request, EntityManagerInterface $manager) : Response
+    public function form(Presta $presta = null, Request $request, EntityManagerInterface $manager) : Response
     {
-        $presta = new Presta();
-        $form = $this->createFormBuilder($presta)
-                     ->add('titre', TextType::class, [
-                         'attr' => [
-                             'placeholder' => "Titre de la prestation"
-                         ]
-                     ])
-                     ->add('image', TextType::class, [
-                        'attr' => [
-                            'placeholder' => "Image de la prestation"
-                        ]
-                    ])
-                     ->add('description', TextareaType::class, [
-                        'attr' => [
-                            'placeholder' => "Description de la prestation"
-                        ]
-                    ])
-                     ->getForm();
+        if (!$presta) {
+            $presta = new Presta();
+        }
+        
+        $presta->setTitre("Titre d'exemple")
+                ->setDescription("Le contenu de la prestation");
 
+        /*$form = $this->createFormBuilder($presta)
+                     ->add('titre')
+                     ->add('image')
+                     ->add('description')
+                     ->getForm(); */
 
+        $form = $this->createForm(PrestationType::class, $presta);
+
+        $form->handleRequest($request);
+        
+        if ($form->isSubmitted() && $form->isValid()) {
+            $presta->setCreatedAt(new \DateTime());
+            $manager->persist($presta);
+            $manager->flush();
+            return $this->redirectToRoute('prestation_show', ['id' => $presta->getId()]);
+        }
         return $this->render('prestation/create.html.twig', [
-            'formPresta' => $form->createView()
+            'formPresta' => $form->createView(),
+            'editMode' => $presta->getId() !== null
         ]);
     }
 

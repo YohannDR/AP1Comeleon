@@ -691,6 +691,15 @@
             'reference' => '345965b40c1847ebdbb2ab0eb98c71a98a5e167b',
             'dev_requirement' => false,
         ),
+        'symfony/validator' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/validator',
+            'aliases' => array(),
+            'reference' => '916a7c6cf3ede36eb0e4097500e0a12dcff520a7',
+            'dev_requirement' => false,
+        ),
         'symfony/var-dumper' => array(
             'pretty_version' => 'v5.3.7',
             'version' => '5.3.7.0',

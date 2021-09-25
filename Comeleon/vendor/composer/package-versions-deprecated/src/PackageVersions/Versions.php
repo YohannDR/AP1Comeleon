@@ -99,6 +99,7 @@ final class Versions
   'symfony/translation-contracts' => 'v2.4.0@95c812666f3e91db75385749fe219c5e494c7f95',
   'symfony/twig-bridge' => 'v5.3.7@503e12aded4d5cbda4f8d1f3824c6a108119822f',
   'symfony/twig-bundle' => 'v5.3.4@345965b40c1847ebdbb2ab0eb98c71a98a5e167b',
+  'symfony/validator' => 'v5.3.7@916a7c6cf3ede36eb0e4097500e0a12dcff520a7',
   'symfony/var-dumper' => 'v5.3.7@3ad5af4aed07d0a0201bbcfc42658fe6c5b2fb8f',
   'symfony/var-exporter' => 'v5.3.7@2ded877ab0574d8b646f4eb3f716f8ed7ee7f392',
   'symfony/yaml' => 'v5.3.6@4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7',
