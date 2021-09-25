@@ -81,7 +81,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
             <ul class=\"navbar-nav me-auto\">
                 
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation/create\">Ajouter une prestation</a>
+                <a class=\"nav-link\" href=\"/prestation/new\">Ajouter une prestation</a>
                 </li>
 
                 <li class=\"nav-item\">
@@ -121,33 +121,30 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "createdAt", [], "any", false, false, false, 43), "H:i"), "html", null, true);
             echo "</div>
                 <div class=\"content\">
-                
-
                     <img src=\"";
-            // line 47
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "image", [], "any", false, false, false, 47), "html", null, true);
+            // line 45
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "image", [], "any", false, false, false, 45), "html", null, true);
             echo "\">
                     <br><br>
                     ";
-            // line 49
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "description", [], "any", false, false, false, 49), "html", null, true);
+            // line 47
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "description", [], "any", false, false, false, 47), "html", null, true);
             echo "
+                    <br><br>
                     <a href=\"";
-            // line 50
-            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
+            // line 49
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show", ["id" => twig_get_attribute($this->env, $this->source, $context["presta"], "id", [], "any", false, false, false, 49)]), "html", null, true);
             echo "\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
-        
             </section>
             <br><br><br><br>
-             
         </div>
            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['presta'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 58
+        // line 55
         echo "    </div>
 </div>
 
@@ -169,7 +166,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     public function getDebugInfo()
     {
-        return array (  151 => 58,  137 => 50,  133 => 49,  128 => 47,  119 => 43,  115 => 42,  111 => 40,  107 => 39,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
+        return array (  148 => 55,  136 => 49,  131 => 47,  126 => 45,  119 => 43,  115 => 42,  111 => 40,  107 => 39,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -191,7 +188,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
             <ul class=\"navbar-nav me-auto\">
                 
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation/create\">Ajouter une prestation</a>
+                <a class=\"nav-link\" href=\"/prestation/new\">Ajouter une prestation</a>
                 </li>
 
                 <li class=\"nav-item\">
@@ -218,17 +215,14 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
                 <h2>{{ presta.titre }}</h2>
                 <div class=\"metadata\">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
                 <div class=\"content\">
-                
-
                     <img src=\"{{ presta.image }}\">
                     <br><br>
                     {{ presta.description }}
-                    <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
+                    <br><br>
+                    <a href=\"{{ path('prestation_show', {id: presta.id} ) }}\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
-        
             </section>
             <br><br><br><br>
-             
         </div>
            {% endfor %}
     </div>

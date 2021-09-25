@@ -57,20 +57,42 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
 
         // line 4
         echo "
-
-<section class=\"Presta\">
-    <h2>Titre de la prestation</h2>
-    <div class=\"content\">
-        <img src=\"http://placehold.it/350x150\">
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+<div class=\"container\">
+    <div class=\"row\">
+        
+            <section class=\"Presta\">
+                <h2> ";
+        // line 9
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 9, $this->source); })()), "titre", [], "any", false, false, false, 9), "html", null, true);
+        echo " </h2>
+            <br>
+    
+                <div class=\"metadata\">Ecrit le ";
+        // line 12
+        echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 12, $this->source); })()), "createdAt", [], "any", false, false, false, 12), "d/m/Y"), "html", null, true);
+        echo " à ";
+        echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 12, $this->source); })()), "createdAt", [], "any", false, false, false, 12), "H:i"), "html", null, true);
+        echo "</div>
+                    <div class=\"content\">
+                        <img src=\"";
+        // line 14
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 14, $this->source); })()), "image", [], "any", false, false, false, 14), "html", null, true);
+        echo "\">
+                        <br><br>
+                        ";
+        // line 16
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["presta"]) || array_key_exists("presta", $context) ? $context["presta"] : (function () { throw new RuntimeError('Variable "presta" does not exist.', 16, $this->source); })()), "description", [], "any", false, false, false, 16), "html", null, true);
+        echo "
+                    </div>
+                </div>
+            </section>
+        
     </div>
-</section>
-
-<form method=\"get\" action=\"/prestation\">
+<br><br>
+<form method=\"post\" action=\"/prestation\">
     <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
 </form>
+</div>
 
 ";
         
@@ -90,7 +112,7 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
 
     public function getDebugInfo()
     {
-        return array (  59 => 4,  52 => 3,  35 => 1,);
+        return array (  84 => 16,  79 => 14,  72 => 12,  66 => 9,  59 => 4,  52 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -99,20 +121,28 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
 
 {% block body %}
 
-
-<section class=\"Presta\">
-    <h2>Titre de la prestation</h2>
-    <div class=\"content\">
-        <img src=\"http://placehold.it/350x150\">
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+<div class=\"container\">
+    <div class=\"row\">
+        
+            <section class=\"Presta\">
+                <h2> {{ presta.titre }} </h2>
+            <br>
+    
+                <div class=\"metadata\">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
+                    <div class=\"content\">
+                        <img src=\"{{ presta.image }}\">
+                        <br><br>
+                        {{ presta.description }}
+                    </div>
+                </div>
+            </section>
+        
     </div>
-</section>
-
-<form method=\"get\" action=\"/prestation\">
+<br><br>
+<form method=\"post\" action=\"/prestation\">
     <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
 </form>
+</div>
 
 {% endblock %}", "prestation/show.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\show.html.twig");
     }

@@ -2,19 +2,27 @@
 
 {% block body %}
 
-
-<section class="Presta">
-    <h2>Titre de la prestation</h2>
-    <div class="content">
-        <img src="http://placehold.it/350x150">
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
-        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <section class="Presta">
+                <h2> {{ presta.titre }} </h2>
+            <br>
+    
+                <div class="metadata">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
+                    <div class="content">
+                        <img src="{{ presta.image }}">
+                        <br><br>
+                        {{ presta.description }}
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-</section>
-
-<form method="get" action="/prestation">
+<br><br>
+<form method="post" action="/prestation">
     <button type="submit" class="btn btn-secondary">Retour</button>
 </form>
+</div>
 
 {% endblock %}

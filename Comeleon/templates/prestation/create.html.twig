@@ -1,6 +1,13 @@
 {% extends 'base.html.twig' %}
 {% block body %}
 
-    <h1>Ajouter une prestation</h1>
+    <h1>Création d'une prestation !</h1>
 
+    <form action="" method="post">
+        <input type="text" name="titre" placeholder="Titre de la prestation">
+        <textarea name="description" placeholder="Description de la prestation"></textarea>
+        <input type="text" name="image" placeholder="URL de l'image">
+
+        <button type="submit">Ajouter</button>
+    </form
 {% endblock %}

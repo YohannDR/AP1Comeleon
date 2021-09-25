@@ -57,8 +57,15 @@ class __TwigTemplate_da52d9c91ef3a52fa8c9deadba77919eea49f7f287726d66c8a52f43c7c
 
         // line 3
         echo "
-    <h1>Ajouter une prestation</h1>
+    <h1>Création d'une prestation !</h1>
 
+    <form action=\"\" method=\"post\">
+        <input type=\"text\" name=\"titre\" placeholder=\"Titre de la prestation\">
+        <textarea name=\"description\" placeholder=\"Description de la prestation\"></textarea>
+        <input type=\"text\" name=\"image\" placeholder=\"URL de l'image\">
+
+        <button type=\"submit\">Ajouter</button>
+    </form
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -85,8 +92,15 @@ class __TwigTemplate_da52d9c91ef3a52fa8c9deadba77919eea49f7f287726d66c8a52f43c7c
         return new Source("{% extends 'base.html.twig' %}
 {% block body %}
 
-    <h1>Ajouter une prestation</h1>
+    <h1>Création d'une prestation !</h1>
 
+    <form action=\"\" method=\"post\">
+        <input type=\"text\" name=\"titre\" placeholder=\"Titre de la prestation\">
+        <textarea name=\"description\" placeholder=\"Description de la prestation\"></textarea>
+        <input type=\"text\" name=\"image\" placeholder=\"URL de l'image\">
+
+        <button type=\"submit\">Ajouter</button>
+    </form
 {% endblock %}
 ", "prestation/create.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\create.html.twig");
     }
