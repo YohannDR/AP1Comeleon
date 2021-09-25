@@ -58,22 +58,15 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
         // line 4
         echo "
 
-        <section class=\"articles\">
-            <h2>";
-        // line 7
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 7, $this->source); })()), "title", [], "any", false, false, false, 7), "html", null, true);
-        echo "</h2>
-                <div class=\"content\">
-                    <img src=\"";
-        // line 9
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 9, $this->source); })()), "image", [], "any", false, false, false, 9), "html", null, true);
-        echo "\" alt=\"\">
-                    ";
-        // line 10
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 10, $this->source); })()), "description", [], "any", false, false, false, 10), "html", null, true);
-        echo "
-                </div>
-        </section>
+<section class=\"Presta\">
+    <h2>Titre de la prestation</h2>
+    <div class=\"content\">
+        <img src=\"http://placehold.it/350x150\">
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+    </div>
+</section>
 
 <form method=\"get\" action=\"/prestation\">
     <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>
@@ -97,7 +90,7 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
 
     public function getDebugInfo()
     {
-        return array (  73 => 10,  69 => 9,  64 => 7,  59 => 4,  52 => 3,  35 => 1,);
+        return array (  59 => 4,  52 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -107,13 +100,15 @@ class __TwigTemplate_fe940f9cf2b6e7cca112d2cd8e963c013d84bfc7f5c3dd5662aa31ff673
 {% block body %}
 
 
-        <section class=\"articles\">
-            <h2>{{ article.title }}</h2>
-                <div class=\"content\">
-                    <img src=\"{{ article.image }}\" alt=\"\">
-                    {{ article.description }}
-                </div>
-        </section>
+<section class=\"Presta\">
+    <h2>Titre de la prestation</h2>
+    <div class=\"content\">
+        <img src=\"http://placehold.it/350x150\">
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+        <p>desdcvriptiozdzdzn zdqzdzqgbduzqdiuzqd  zqdbzqudzuqiduzqigbdiuzqd.</p>
+    </div>
+</section>
 
 <form method=\"get\" action=\"/prestation\">
     <button type=\"submit\" class=\"btn btn-secondary\">Retour</button>

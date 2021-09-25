@@ -17,30 +17,16 @@ class PrestationController extends AbstractController
     {
         $repo = $this->getDoctrine()->getRepository(Presta::class);
 
-        $presta = $repo->findAll();
+        $prestas = $repo->findAll();
         
         return $this->render('prestation/prestation.html.twig', [
             'controller_name' => 'PrestationController',
-            'prestas' => $presta,
+            'prestas' => $prestas,
         ]);
     }
 
     /**
-     * @Route("/prestation/{id}", name="prestation_show")
-     */
-    public function show($id): Response
-    {
-        $repo = $this->getDoctrine()->getRepository(Presta::class);
-
-        $presta = $repo->find($id);
-
-        return $this->render('prestation/show.html.twig', [
-            'presta' => '$presta',
-        ]);
-    }
-
-    /**
-     * @Route("/prestation/create", name="prestation_create")
+     * @Route("/prestation/new", name="prestation_create")
      */
     public function create() : Response
     {
@@ -48,6 +34,17 @@ class PrestationController extends AbstractController
             'controller_name' => 'PrestationController',
         ]);
     }
+
+    /**
+     * @Route("/prestation/1", name="prestation_show")
+     */
+    public function show(): Response
+    {
+        return $this->render('prestation/show.html.twig', [
+        ]);
+    }
+
+    
 
     /**
      * @Route("/prestation/supp", name="prestation_supp")

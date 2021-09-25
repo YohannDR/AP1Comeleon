@@ -36,20 +36,26 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-5">
-            <section class="prestas">
-                {% for presta in prestas %}
-
+       {% for presta in prestas %}
+        <div class="col-lg-6">
+            <section class="Presta">
                 <h2>{{ presta.titre }}</h2>
+                <div class="metadata">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
                 <div class="content">
-                    <img src="{{ presta.description }}">
-                    {{ presta.image }}
+                
+
+                    <img src="{{ presta.image }}">
+                    <br><br>
+                    {{ presta.description }}
                     <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
                 </div>
-                {% endfor %}
-            </section>
-        </div>
         
+            </section>
+            <br><br><br><br>
+             
+        </div>
+           {% endfor %}
+    </div>
 </div>
 
 {% endblock %}

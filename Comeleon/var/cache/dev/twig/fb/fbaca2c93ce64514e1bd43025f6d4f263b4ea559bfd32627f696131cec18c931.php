@@ -102,42 +102,53 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
 <div class=\"container\">
     <div class=\"row\">
-        <div class=\"col-lg-5\">
-            <section class=\"prestas\">
-                ";
-        // line 41
+       ";
+        // line 39
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["prestas"]) || array_key_exists("prestas", $context) ? $context["prestas"] : (function () { throw new RuntimeError('Variable "prestas" does not exist.', 41, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["prestas"]) || array_key_exists("prestas", $context) ? $context["prestas"] : (function () { throw new RuntimeError('Variable "prestas" does not exist.', 39, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["presta"]) {
-            // line 42
-            echo "
+            // line 40
+            echo "        <div class=\"col-lg-6\">
+            <section class=\"Presta\">
                 <h2>";
-            // line 43
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "titre", [], "any", false, false, false, 43), "html", null, true);
+            // line 42
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "titre", [], "any", false, false, false, 42), "html", null, true);
             echo "</h2>
+                <div class=\"metadata\">Ecrit le ";
+            // line 43
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "createdAt", [], "any", false, false, false, 43), "d/m/Y"), "html", null, true);
+            echo " à ";
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "createdAt", [], "any", false, false, false, 43), "H:i"), "html", null, true);
+            echo "</div>
                 <div class=\"content\">
+                
+
                     <img src=\"";
-            // line 45
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "description", [], "any", false, false, false, 45), "html", null, true);
+            // line 47
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "image", [], "any", false, false, false, 47), "html", null, true);
             echo "\">
+                    <br><br>
                     ";
-            // line 46
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "image", [], "any", false, false, false, 46), "html", null, true);
+            // line 49
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["presta"], "description", [], "any", false, false, false, 49), "html", null, true);
             echo "
                     <a href=\"";
-            // line 47
+            // line 50
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
             echo "\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
-                ";
+        
+            </section>
+            <br><br><br><br>
+             
+        </div>
+           ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['presta'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 50
-        echo "            </section>
-        </div>
-        
+        // line 58
+        echo "    </div>
 </div>
 
 ";
@@ -158,7 +169,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     public function getDebugInfo()
     {
-        return array (  138 => 50,  129 => 47,  125 => 46,  121 => 45,  116 => 43,  113 => 42,  109 => 41,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
+        return array (  151 => 58,  137 => 50,  133 => 49,  128 => 47,  119 => 43,  115 => 42,  111 => 40,  107 => 39,  73 => 7,  66 => 6,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -201,20 +212,26 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
 <div class=\"container\">
     <div class=\"row\">
-        <div class=\"col-lg-5\">
-            <section class=\"prestas\">
-                {% for presta in prestas %}
-
+       {% for presta in prestas %}
+        <div class=\"col-lg-6\">
+            <section class=\"Presta\">
                 <h2>{{ presta.titre }}</h2>
+                <div class=\"metadata\">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
                 <div class=\"content\">
-                    <img src=\"{{ presta.description }}\">
-                    {{ presta.image }}
+                
+
+                    <img src=\"{{ presta.image }}\">
+                    <br><br>
+                    {{ presta.description }}
                     <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
                 </div>
-                {% endfor %}
-            </section>
-        </div>
         
+            </section>
+            <br><br><br><br>
+             
+        </div>
+           {% endfor %}
+    </div>
 </div>
 
 {% endblock %}", "prestation/prestation.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\prestation.html.twig");
