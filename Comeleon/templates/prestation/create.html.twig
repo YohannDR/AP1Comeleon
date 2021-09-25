@@ -1,13 +1,17 @@
 {% extends 'base.html.twig' %}
+
+{% form_theme formPresta 'bootstrap_4_layout.html.twig' %}
+
 {% block body %}
 
     <h1>Création d'une prestation !</h1>
 
-    <form action="" method="post">
-        <input type="text" name="titre" placeholder="Titre de la prestation">
-        <textarea name="description" placeholder="Description de la prestation"></textarea>
-        <input type="text" name="image" placeholder="URL de l'image">
+    {{ form_start(formPresta) }}
+    
+    {{ form_widget(formPresta) }}
+    <br>
+    <button type="submit" class="btn btn-success">Ajouter la prestation</button>
 
-        <button type="submit">Ajouter</button>
-    </form
+    {{ form_end(formPresta) }}
+
 {% endblock %}

@@ -3,11 +3,17 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+
 use App\Entity\Presta;
+
 use App\Repository\PrestaRepository;
 
 use Doctrine\ORM\EntityManagerInterface;
@@ -34,24 +40,28 @@ class PrestationController extends AbstractController
      */
     public function create(Request $request, EntityManagerInterface $manager) : Response
     {
-        //dump($request);
+        $presta = new Presta();
+        $form = $this->createFormBuilder($presta)
+                     ->add('titre', TextType::class, [
+                         'attr' => [
+                             'placeholder' => "Titre de la prestation"
+                         ]
+                     ])
+                     ->add('image', TextType::class, [
+                        'attr' => [
+                            'placeholder' => "Image de la prestation"
+                        ]
+                    ])
+                     ->add('description', TextareaType::class, [
+                        'attr' => [
+                            'placeholder' => "Description de la prestation"
+                        ]
+                    ])
+                     ->getForm();
 
-        if ($request->request->count() > 0) {
-            $presta = new Presta();
-            $presta->setTitre($request->request->get('titre'))
-                    ->setDescription($request->request->get('description'))
-                    ->setImage($request->request->get('image'))
-                    ->setCreatedAt(new \DateTime());
-                
-                    $manager->persist($presta);
-                    $manager->flush();
-
-                    return $this->redirectToRoute('prestation_show', 
-                                                ['id' => $presta->getId()]);
-        }
 
         return $this->render('prestation/create.html.twig', [
-            'controller_name' => 'PrestationController',
+            'formPresta' => $form->createView()
         ]);
     }
 

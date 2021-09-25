@@ -442,6 +442,15 @@
             'reference' => 'f1e77e62bcb068bf094f4781eca1436ef818ff72',
             'dev_requirement' => false,
         ),
+        'symfony/form' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/form',
+            'aliases' => array(),
+            'reference' => '325f8c34c3bc58192274e64f042cfc2daad792b0',
+            'dev_requirement' => false,
+        ),
         'symfony/framework-bundle' => array(
             'pretty_version' => 'v5.3.7',
             'version' => '5.3.7.0',
@@ -487,6 +496,15 @@
             'reference' => 'f093d906c667cba7e3f74487d9e5e55aaf25a031',
             'dev_requirement' => false,
         ),
+        'symfony/options-resolver' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/options-resolver',
+            'aliases' => array(),
+            'reference' => '4b78e55b179003a42523a362cc0e8327f7a69b5e',
+            'dev_requirement' => false,
+        ),
         'symfony/polyfill-ctype' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -506,6 +524,15 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-intl-grapheme',
             'aliases' => array(),
             'reference' => '16880ba9c5ebe3642d1995ab866db29270b36535',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-intl-icu' => array(
+            'pretty_version' => 'v1.23.0',
+            'version' => '1.23.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-icu',
+            'aliases' => array(),
+            'reference' => '4a80a521d6176870b6445cfb469c130f9cae1dda',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-intl-normalizer' => array(
@@ -557,6 +584,24 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-php81',
             'aliases' => array(),
             'reference' => 'e66119f3de95efc359483f810c4c3e6436279436',
+            'dev_requirement' => false,
+        ),
+        'symfony/property-access' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/property-access',
+            'aliases' => array(),
+            'reference' => 'a4bbf09b8f3e2d2c89cc2c8b3d6682bf4c3d5589',
+            'dev_requirement' => false,
+        ),
+        'symfony/property-info' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/property-info',
+            'aliases' => array(),
+            'reference' => '7202b6c93a07df5df83eb58e3757dffb77fc5d90',
             'dev_requirement' => false,
         ),
         'symfony/proxy-manager-bridge' => array(

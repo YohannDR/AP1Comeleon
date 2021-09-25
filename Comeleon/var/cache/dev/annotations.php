@@ -70,10 +70,10 @@ return [[
 '[C]App%5CController%5CPrestationController' => 1,
 'App%5CController%5CPrestationController%23index' => 3,
 '[C]App%5CController%5CPrestationController%23index' => 1,
-'App%5CController%5CPrestationController%23show' => 4,
-'[C]App%5CController%5CPrestationController%23show' => 1,
-'App%5CController%5CPrestationController%23create' => 5,
+'App%5CController%5CPrestationController%23create' => 4,
 '[C]App%5CController%5CPrestationController%23create' => 1,
+'App%5CController%5CPrestationController%23show' => 5,
+'[C]App%5CController%5CPrestationController%23show' => 1,
 'App%5CController%5CPrestationController%23supp' => 6,
 '[C]App%5CController%5CPrestationController%23supp' => 1,
 'App%5CEntity%5CAvis' => 7,
@@ -590,7 +590,7 @@ return [[
 ], [
 
 0 => [],
-1 => 1632522795,
+1 => 1632586389,
 2 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -644,10 +644,10 @@ return [[
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/prestation/1',
+                    '/prestation/new',
                 ],
                 'name' => [
-                    'prestation_show',
+                    'prestation_create',
                 ],
             ],
         ],
@@ -666,10 +666,10 @@ return [[
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/prestation/create',
+                    '/prestation/{id}',
                 ],
                 'name' => [
-                    'prestation_create',
+                    'prestation_show',
                 ],
             ],
         ],
