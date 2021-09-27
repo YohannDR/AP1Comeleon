@@ -106,6 +106,34 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
                 </div>
             </section>
         </div>
+        <div class=\"col-lg-5\">
+            <section class=\"articles\">
+                <h2>Titre de la prestation n°3</h2>
+                <div class=\"content\">
+                    <img src=\"http://placehold.it/350x150\">
+                    <p>PARAGRAPHE DE LA PRESTATION</p>
+                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <a href=\"";
+        // line 43
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
+        echo "\" class=\"btn btn-primary\">Lire la suite</a>
+                </div>
+            </section>
+        </div>
+        <div class=\"col-lg-5\">
+            <section class=\"articles\">
+                <h2>Titre de la prestation n°4</h2>
+                <div class=\"content\">
+                    <img src=\"http://placehold.it/350x150\">
+                    <p>PARAGRAPHE DE LA PRESTATION</p>
+                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <a href=\"";
+        // line 54
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("prestation_show");
+        echo "\" class=\"btn btn-primary\">Lire la suite</a>
+                </div>
+            </section>
+        </div>
     </div>
 </div>
 
@@ -127,7 +155,7 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
 
     public function getDebugInfo()
     {
-        return array (  104 => 32,  90 => 21,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+        return array (  132 => 54,  118 => 43,  104 => 32,  90 => 21,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -159,6 +187,28 @@ class __TwigTemplate_6b7cd562f87416cc09107812d3d2a6096c76346de02f9fa3f0fcc49f6d9
         <div class=\"col-lg-5\">
             <section class=\"articles\">
                 <h2>Titre de la prestation n°2</h2>
+                <div class=\"content\">
+                    <img src=\"http://placehold.it/350x150\">
+                    <p>PARAGRAPHE DE LA PRESTATION</p>
+                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
+                </div>
+            </section>
+        </div>
+        <div class=\"col-lg-5\">
+            <section class=\"articles\">
+                <h2>Titre de la prestation n°3</h2>
+                <div class=\"content\">
+                    <img src=\"http://placehold.it/350x150\">
+                    <p>PARAGRAPHE DE LA PRESTATION</p>
+                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
+                    <a href=\"{{ path('prestation_show') }}\" class=\"btn btn-primary\">Lire la suite</a>
+                </div>
+            </section>
+        </div>
+        <div class=\"col-lg-5\">
+            <section class=\"articles\">
+                <h2>Titre de la prestation n°4</h2>
                 <div class=\"content\">
                     <img src=\"http://placehold.it/350x150\">
                     <p>PARAGRAPHE DE LA PRESTATION</p>
