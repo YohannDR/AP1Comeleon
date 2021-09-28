@@ -72,36 +72,68 @@ return [[
 '[C]App%5CController%5CPrestationController%23show' => 1,
 'App%5CController%5CPrestationController%23supp' => 5,
 '[C]App%5CController%5CPrestationController%23supp' => 1,
-'App%5CEntity%5CCategorie' => 6,
-'[C]App%5CEntity%5CCategorie' => 1,
-'App%5CEntity%5CCategorie%23__construct' => 0,
-'[C]App%5CEntity%5CCategorie%23__construct' => 1,
-'App%5CEntity%5CCategorie%23getId' => 0,
-'[C]App%5CEntity%5CCategorie%23getId' => 1,
-'App%5CEntity%5CCategorie%23getTitreCategorie' => 0,
-'[C]App%5CEntity%5CCategorie%23getTitreCategorie' => 1,
-'App%5CEntity%5CCategorie%23setTitreCategorie' => 0,
-'[C]App%5CEntity%5CCategorie%23setTitreCategorie' => 1,
-'App%5CEntity%5CCategorie%23getDescriptionCategorie' => 0,
-'[C]App%5CEntity%5CCategorie%23getDescriptionCategorie' => 1,
-'App%5CEntity%5CCategorie%23setDescriptionCategorie' => 0,
-'[C]App%5CEntity%5CCategorie%23setDescriptionCategorie' => 1,
-'App%5CEntity%5CCategorie%23getPrestations' => 0,
-'[C]App%5CEntity%5CCategorie%23getPrestations' => 1,
-'App%5CEntity%5CCategorie%23addPrestation' => 0,
-'[C]App%5CEntity%5CCategorie%23addPrestation' => 1,
-'App%5CEntity%5CCategorie%23removePrestation' => 0,
-'[C]App%5CEntity%5CCategorie%23removePrestation' => 1,
-'App%5CEntity%5CCategorie%24id' => 7,
-'[C]App%5CEntity%5CCategorie%24id' => 1,
-'App%5CEntity%5CCategorie%24titreCategorie' => 8,
-'[C]App%5CEntity%5CCategorie%24titreCategorie' => 1,
-'App%5CEntity%5CCategorie%24descriptionCategorie' => 9,
-'[C]App%5CEntity%5CCategorie%24descriptionCategorie' => 1,
-'App%5CEntity%5CCategorie%24prestations' => 10,
-'[C]App%5CEntity%5CCategorie%24prestations' => 1,
-'App%5CEntity%5CPresta' => 11,
+'App%5CEntity%5CCategory' => 6,
+'[C]App%5CEntity%5CCategory' => 1,
+'App%5CEntity%5CCategory%23__construct' => 0,
+'[C]App%5CEntity%5CCategory%23__construct' => 1,
+'App%5CEntity%5CCategory%23getId' => 0,
+'[C]App%5CEntity%5CCategory%23getId' => 1,
+'App%5CEntity%5CCategory%23getTitle' => 0,
+'[C]App%5CEntity%5CCategory%23getTitle' => 1,
+'App%5CEntity%5CCategory%23setTitle' => 0,
+'[C]App%5CEntity%5CCategory%23setTitle' => 1,
+'App%5CEntity%5CCategory%23getDescription' => 0,
+'[C]App%5CEntity%5CCategory%23getDescription' => 1,
+'App%5CEntity%5CCategory%23setDescription' => 0,
+'[C]App%5CEntity%5CCategory%23setDescription' => 1,
+'App%5CEntity%5CCategory%23getPrestations' => 0,
+'[C]App%5CEntity%5CCategory%23getPrestations' => 1,
+'App%5CEntity%5CCategory%23addPrestation' => 0,
+'[C]App%5CEntity%5CCategory%23addPrestation' => 1,
+'App%5CEntity%5CCategory%23removePrestation' => 0,
+'[C]App%5CEntity%5CCategory%23removePrestation' => 1,
+'App%5CEntity%5CCategory%24id' => 7,
+'[C]App%5CEntity%5CCategory%24id' => 1,
+'App%5CEntity%5CCategory%24title' => 8,
+'[C]App%5CEntity%5CCategory%24title' => 1,
+'App%5CEntity%5CCategory%24description' => 9,
+'[C]App%5CEntity%5CCategory%24description' => 1,
+'App%5CEntity%5CCategory%24prestations' => 10,
+'[C]App%5CEntity%5CCategory%24prestations' => 1,
+'App%5CEntity%5CComment' => 11,
+'[C]App%5CEntity%5CComment' => 1,
+'App%5CEntity%5CComment%23getId' => 0,
+'[C]App%5CEntity%5CComment%23getId' => 1,
+'App%5CEntity%5CComment%23getAuthor' => 0,
+'[C]App%5CEntity%5CComment%23getAuthor' => 1,
+'App%5CEntity%5CComment%23setAuthor' => 0,
+'[C]App%5CEntity%5CComment%23setAuthor' => 1,
+'App%5CEntity%5CComment%23getContent' => 0,
+'[C]App%5CEntity%5CComment%23getContent' => 1,
+'App%5CEntity%5CComment%23setContent' => 0,
+'[C]App%5CEntity%5CComment%23setContent' => 1,
+'App%5CEntity%5CComment%23getCreatedAt' => 0,
+'[C]App%5CEntity%5CComment%23getCreatedAt' => 1,
+'App%5CEntity%5CComment%23setCreatedAt' => 0,
+'[C]App%5CEntity%5CComment%23setCreatedAt' => 1,
+'App%5CEntity%5CComment%23getPrestation' => 0,
+'[C]App%5CEntity%5CComment%23getPrestation' => 1,
+'App%5CEntity%5CComment%23setPrestation' => 0,
+'[C]App%5CEntity%5CComment%23setPrestation' => 1,
+'App%5CEntity%5CComment%24id' => 7,
+'[C]App%5CEntity%5CComment%24id' => 1,
+'App%5CEntity%5CComment%24author' => 8,
+'[C]App%5CEntity%5CComment%24author' => 1,
+'App%5CEntity%5CComment%24content' => 9,
+'[C]App%5CEntity%5CComment%24content' => 1,
+'App%5CEntity%5CComment%24createdAt' => 12,
+'[C]App%5CEntity%5CComment%24createdAt' => 1,
+'App%5CEntity%5CComment%24prestation' => 13,
+'[C]App%5CEntity%5CComment%24prestation' => 1,
+'App%5CEntity%5CPresta' => 14,
 '[C]App%5CEntity%5CPresta' => 1,
+'App%5CEntity%5CPresta%23__construct' => 0,
+'[C]App%5CEntity%5CPresta%23__construct' => 1,
 'App%5CEntity%5CPresta%23getId' => 0,
 '[C]App%5CEntity%5CPresta%23getId' => 1,
 'App%5CEntity%5CPresta%23getTitre' => 0,
@@ -120,22 +152,30 @@ return [[
 '[C]App%5CEntity%5CPresta%23getCreatedAt' => 1,
 'App%5CEntity%5CPresta%23setCreatedAt' => 0,
 '[C]App%5CEntity%5CPresta%23setCreatedAt' => 1,
-'App%5CEntity%5CPresta%23getIdCategorie' => 0,
-'[C]App%5CEntity%5CPresta%23getIdCategorie' => 1,
-'App%5CEntity%5CPresta%23setIdCategorie' => 0,
-'[C]App%5CEntity%5CPresta%23setIdCategorie' => 1,
+'App%5CEntity%5CPresta%23getCategory' => 0,
+'[C]App%5CEntity%5CPresta%23getCategory' => 1,
+'App%5CEntity%5CPresta%23setCategory' => 0,
+'[C]App%5CEntity%5CPresta%23setCategory' => 1,
+'App%5CEntity%5CPresta%23getComments' => 0,
+'[C]App%5CEntity%5CPresta%23getComments' => 1,
+'App%5CEntity%5CPresta%23addComment' => 0,
+'[C]App%5CEntity%5CPresta%23addComment' => 1,
+'App%5CEntity%5CPresta%23removeComment' => 0,
+'[C]App%5CEntity%5CPresta%23removeComment' => 1,
 'App%5CEntity%5CPresta%24id' => 7,
 '[C]App%5CEntity%5CPresta%24id' => 1,
-'App%5CEntity%5CPresta%24titre' => 12,
+'App%5CEntity%5CPresta%24titre' => 15,
 '[C]App%5CEntity%5CPresta%24titre' => 1,
-'App%5CEntity%5CPresta%24description' => 13,
+'App%5CEntity%5CPresta%24description' => 16,
 '[C]App%5CEntity%5CPresta%24description' => 1,
-'App%5CEntity%5CPresta%24image' => 14,
+'App%5CEntity%5CPresta%24image' => 17,
 '[C]App%5CEntity%5CPresta%24image' => 1,
-'App%5CEntity%5CPresta%24createdAt' => 15,
+'App%5CEntity%5CPresta%24createdAt' => 12,
 '[C]App%5CEntity%5CPresta%24createdAt' => 1,
-'App%5CEntity%5CPresta%24idCategorie' => 16,
-'[C]App%5CEntity%5CPresta%24idCategorie' => 1,
+'App%5CEntity%5CPresta%24category' => 18,
+'[C]App%5CEntity%5CPresta%24category' => 1,
+'App%5CEntity%5CPresta%24comments' => 19,
+'[C]App%5CEntity%5CPresta%24comments' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
 '[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23setContainer' => 0,
@@ -596,7 +636,7 @@ return [[
 ], [
 
 0 => [],
-1 => 1632856024,
+1 => 1632860685,
 2 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -698,7 +738,7 @@ return [[
         [
             'stdClass' => [
                 'repositoryClass' => [
-                    'App\\Repository\\CategorieRepository',
+                    'App\\Repository\\CategoryRepository',
                 ],
             ],
         ],
@@ -799,7 +839,7 @@ return [[
         [
             'stdClass' => [
                 'mappedBy' => [
-                    'idCategorie',
+                    'category',
                 ],
                 'targetEntity' => [
                     'App\\Entity\\presta',
@@ -821,7 +861,7 @@ return [[
         [
             'stdClass' => [
                 'repositoryClass' => [
-                    'App\\Repository\\PrestaRepository',
+                    'App\\Repository\\CommentRepository',
                 ],
             ],
         ],
@@ -832,6 +872,77 @@ return [[
     );
 },
 12 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'type' => [
+                    'datetime',
+                ],
+                'precision' => [
+                    null,
+                ],
+                'scale' => [
+                    null,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+13 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
+            clone ($p['Doctrine\\ORM\\Mapping\\JoinColumn'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\JoinColumn')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'targetEntity' => [
+                    'App\\Entity\\presta',
+                ],
+                'inversedBy' => [
+                    'comments',
+                ],
+                'nullable' => [
+                    1 => false,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+            $o[1],
+        ],
+        []
+    );
+},
+14 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Entity')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'repositoryClass' => [
+                    'App\\Repository\\PrestaRepository',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+15 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -875,7 +986,7 @@ return [[
         []
     );
 },
-13 => static function () {
+16 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -913,7 +1024,7 @@ return [[
         []
     );
 },
-14 => static function () {
+17 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -948,32 +1059,7 @@ return [[
         []
     );
 },
-15 => static function () {
-    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
-        $o = [
-            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
-        ],
-        null,
-        [
-            'stdClass' => [
-                'type' => [
-                    'datetime',
-                ],
-                'precision' => [
-                    null,
-                ],
-                'scale' => [
-                    null,
-                ],
-            ],
-        ],
-        [
-            $o[0],
-        ],
-        []
-    );
-},
-16 => static function () {
+18 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
@@ -983,7 +1069,7 @@ return [[
         [
             'stdClass' => [
                 'targetEntity' => [
-                    'App\\Entity\\Categorie',
+                    'App\\Entity\\Category',
                 ],
                 'inversedBy' => [
                     'prestations',
@@ -996,6 +1082,31 @@ return [[
         [
             $o[0],
             $o[1],
+        ],
+        []
+    );
+},
+19 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToMany'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToMany')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'mappedBy' => [
+                    'prestation',
+                ],
+                'targetEntity' => [
+                    'App\\Entity\\Comment',
+                ],
+                'orphanRemoval' => [
+                    true,
+                ],
+            ],
+        ],
+        [
+            $o[0],
         ],
         []
     );
