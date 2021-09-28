@@ -99,7 +99,7 @@ class __TwigTemplate_06b97387eb84b6cfe10e9986edfeb0b33637bcc3607ae7e363652b957f9
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-
+<br><br>
 <div class=\"container\">
     
        ";
@@ -203,7 +203,7 @@ class __TwigTemplate_06b97387eb84b6cfe10e9986edfeb0b33637bcc3607ae7e363652b957f9
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-
+<br><br>
 <div class=\"container\">
     
        {% for presta in prestas %}
@@ -222,6 +222,6 @@ class __TwigTemplate_06b97387eb84b6cfe10e9986edfeb0b33637bcc3607ae7e363652b957f9
            {% endfor %}
 </div>
 
-{% endblock %}", "prestation/prestation.html.twig", "C:\\Users\\Marvine Gaudrée\\Documents\\workspace\\AP1Comeleon\\Comeleon\\templates\\prestation\\prestation.html.twig");
+{% endblock %}", "prestation/prestation.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\templates\\prestation\\prestation.html.twig");
     }
 }

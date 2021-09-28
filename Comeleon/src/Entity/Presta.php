@@ -42,6 +42,12 @@ class Presta
      */
     private $createdAt;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Categorie::class, inversedBy="prestations")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $idCategorie;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -91,6 +97,18 @@ class Presta
     public function setCreatedAt(\DateTimeInterface $createdAt): self
     {
         $this->createdAt = $createdAt;
+
+        return $this;
+    }
+
+    public function getIdCategorie(): ?Categorie
+    {
+        return $this->idCategorie;
+    }
+
+    public function setIdCategorie(?Categorie $idCategorie): self
+    {
+        $this->idCategorie = $idCategorie;
 
         return $this;
     }
