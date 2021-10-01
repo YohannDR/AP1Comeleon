@@ -5,7 +5,13 @@
 
 {% block body %}
 <center>
+</br>
 <div style="width:85%; text-align:left;">
+{# Si word est non vide, un mot interdit à été détecté #}
+{% if error is not empty %}
+<div class="text-danger" style="font-size:25px">Un mot banni a été détecté ! (Mot invalide : {{ error }})</div>
+{% endif %}
+{# Affichage de la form #}
 {{ form_start(form) }}
 </br>
 {{ form_row(form.nom_user, {'attr' : {'placeholder': 'Nom d\'utilisateur'}}) }}
@@ -21,8 +27,4 @@
 {{ form_end(form) }}
 </div></center>
 </br>
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 {% endblock %}
