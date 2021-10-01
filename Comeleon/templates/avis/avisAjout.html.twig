@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{% block title %}Ajouter un avis{% endblock %}
+
+{% block body %}
+<center>
+<div style="width:85%; text-align:left;">
+{{ form_start(form) }}
+</br>
+{{ form_row(form.nom_user, {'attr' : {'placeholder': 'Nom d\'utilisateur'}}) }}
+</br>
+{{ form_row(form.titre, {'attr' : {'placeholder': 'Titre de l\'avis'}}) }}
+</br>
+{{ form_row(form.commentaire, {'attr' : {'placeholder': 'Commentaire'}}) }}
+</br>
+<div style="text-align:center">
+{{ form_row(form.submit) }}
+</div>
+</br>
+{{ form_end(form) }}
+</div></center>
+</br>
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+{% endblock %}

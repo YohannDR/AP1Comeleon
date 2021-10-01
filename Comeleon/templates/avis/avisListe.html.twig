@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Avis{% endblock %}
+
+{% block body %}
+{% for A in avis %}
+<div style="margin-left:7%; margin-left:7%; margin-top:3%">
+<div class="card border-secondary mb-3" style="max-width: 80rem;">
+  <div class="card-header" style="font-size:20px;">Avis de {{ A.nomUser }}</div>
+  <div class="card-body">
+    <h4 class="card-title">Titre : {{ A.titre }}</h4>
+    <p class="card-text">Commentaire : {{ A.commentaire|nl2br }}</p>
+  </div>
+</div>
+</div>
+{% endfor %}
+
+<center><div class="d-grid gap-2" style="width:10%">
+  <button class="btn btn-lg btn-primary" type="button" onclick="window.location.href='/avis/ajouter';">Écrire un avis</button>
+</div></center>
+{% endblock %}

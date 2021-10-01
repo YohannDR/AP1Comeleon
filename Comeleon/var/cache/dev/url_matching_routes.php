@@ -8,7 +8,8 @@
 return [
     false, // $matchHost
     [ // $staticRoutes
-        '/avis' => [[['_route' => 'avis', '_controller' => 'App\\Controller\\AvisController::index'], null, null, null, false, false, null]],
+        '/avis/ajouter' => [[['_route' => 'avis/ajouter', '_controller' => 'App\\Controller\\AvisController::avisAjout'], null, null, null, false, false, null]],
+        '/avis' => [[['_route' => 'avis', '_controller' => 'App\\Controller\\AvisController::avis'], null, null, null, false, false, null]],
         '/prestation' => [[['_route' => 'prestation', '_controller' => 'App\\Controller\\PrestationController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
