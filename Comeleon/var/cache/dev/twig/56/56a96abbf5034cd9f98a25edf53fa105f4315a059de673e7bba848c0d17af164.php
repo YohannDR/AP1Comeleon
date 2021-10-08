@@ -53,49 +53,52 @@ class __TwigTemplate_d4ae7e384ff0898b69c83daba9867402a24633d9c7068d8ed74070caa78
         // line 8
         echo "        ";
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 11
-        echo "
-        ";
         // line 12
+        echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
         // line 15
         echo "    </head>
     <body>
-                <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-        <div class=\"container-fluid\">
-            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-            <span class=\"navbar-toggler-icon\"></span>
-            </button>
+    <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+  <div class=\"container-fluid\">
+    
+    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+      <span class=\"navbar-toggler-icon\"></span>
+    </button>
 
-            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-            <ul class=\"navbar-nav me-auto\">
-                <li class=\"nav-item\">
-                <a class=\"nav-link active\" href=\"/\">Accueil
-                    <span class=\"visually-hidden\">(current)</span>
-                </a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/presentation\">Présentation</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation\">Prestation</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/avis\">Avis</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"#\">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-        </nav>
+    <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
+      <ul class=\"navbar-nav me-auto\">
+        <li class=\"nav-item\">
+          <a class=\"nav-link active\" href=\"/\">Accueil
+            <span class=\"visually-hidden\">(current)</span>
+          </a>
+        </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
+        </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"/contact\">Contact</a>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>
         ";
-        // line 46
+        // line 43
         $this->displayBlock('body', $context, $blocks);
-        // line 48
+        // line 44
         echo "    </body>
-</html>";
+    <style>
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+          }
+        </style>
+</html>
+";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -122,7 +125,9 @@ class __TwigTemplate_d4ae7e384ff0898b69c83daba9867402a24633d9c7068d8ed74070caa78
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 9
-        echo "            <link rel=\"stylesheet\" href=\"../asset/css/bootstrap.css\"/>
+        echo "            ";
+        // line 10
+        echo "            <link rel=\"stylesheet\" href=\"/asset/css/bootstrap.css\"/>
         ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -145,15 +150,13 @@ class __TwigTemplate_d4ae7e384ff0898b69c83daba9867402a24633d9c7068d8ed74070caa78
 
     }
 
-    // line 46
+    // line 43
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 47
-        echo "        ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -166,7 +169,7 @@ class __TwigTemplate_d4ae7e384ff0898b69c83daba9867402a24633d9c7068d8ed74070caa78
 
     public function getDebugInfo()
     {
-        return array (  156 => 47,  149 => 46,  142 => 14,  140 => 13,  133 => 12,  125 => 9,  118 => 8,  105 => 5,  97 => 48,  95 => 46,  62 => 15,  60 => 12,  57 => 11,  54 => 8,  50 => 5,  44 => 1,);
+        return array (  154 => 43,  147 => 14,  145 => 13,  138 => 12,  130 => 10,  128 => 9,  121 => 8,  108 => 5,  92 => 44,  90 => 43,  60 => 15,  57 => 12,  54 => 8,  50 => 5,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -179,46 +182,50 @@ class __TwigTemplate_d4ae7e384ff0898b69c83daba9867402a24633d9c7068d8ed74070caa78
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
         {% block stylesheets %}
-            <link rel=\"stylesheet\" href=\"../asset/css/bootstrap.css\"/>
+            {#{{ encore_entry_link_tags('app') }}#}
+            <link rel=\"stylesheet\" href=\"/asset/css/bootstrap.css\"/>
         {% endblock %}
-
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
     </head>
     <body>
-                <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
-        <div class=\"container-fluid\">
-            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-            <span class=\"navbar-toggler-icon\"></span>
-            </button>
+    <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
+  <div class=\"container-fluid\">
+    
+    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor02\" aria-controls=\"navbarColor02\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+      <span class=\"navbar-toggler-icon\"></span>
+    </button>
 
-            <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
-            <ul class=\"navbar-nav me-auto\">
-                <li class=\"nav-item\">
-                <a class=\"nav-link active\" href=\"/\">Accueil
-                    <span class=\"visually-hidden\">(current)</span>
-                </a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/presentation\">Présentation</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation\">Prestation</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/avis\">Avis</a>
-                </li>
-                <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"#\">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-        </nav>
-        {% block body %}
-        {% endblock %}
+    <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
+      <ul class=\"navbar-nav me-auto\">
+        <li class=\"nav-item\">
+          <a class=\"nav-link active\" href=\"/\">Accueil
+            <span class=\"visually-hidden\">(current)</span>
+          </a>
+        </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"/prestation\">Prestations</a>
+        </li>
+        <li class=\"nav-item\">
+          <a class=\"nav-link\" href=\"/contact\">Contact</a>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+        {% block body %}{% endblock %}
     </body>
-</html>", "base.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\templates\\base.html.twig");
+    <style>
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+          }
+        </style>
+</html>
+", "base.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\templates\\base.html.twig");
     }
 }

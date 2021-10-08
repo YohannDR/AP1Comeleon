@@ -1,110 +1,38 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Prestations{% endblock %}
-
-<<<<<<< HEAD
-{% block body %}
-=======
+{% block title %}Toutes les prestations{% endblock %}
 
 {% block body %}
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-                
-                <li class="nav-item">
-                <a class="nav-link" href="/prestation/new">Ajouter une prestation</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="/prestation/supp">Supprimer une prestation</a>
-                </li>
-               
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/prestation/new">Ajouter une prestation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-right" href="/panier">Voir le panier</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        </nav>
-       
-    </body>
->>>>>>> main
+  </nav>
+</body>
+
+<div class="container">
+    <div class="grid">
+        {% for prestation in prestations %}
+            {% include 'prestation/_card.html.twig' with {prestation: prestation} only %}
+        {% endfor %}
+    </div>
+</div>
+
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-
-<<<<<<< HEAD
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°1</h2>
-                <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-        <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°2</h2>
-                <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-        <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°3</h2>
-                <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-        <div class="col-lg-5">
-            <section class="articles">
-                <h2>Titre de la prestation n°4</h2>
-                <div class="content">
-                    <img src="http://placehold.it/350x150">
-                    <p>PARAGRAPHE DE LA PRESTATION</p>
-                    <p>dzd hqzbdjkzqbdjzqbkfbzqf</p>
-                    <a href="{{ path('prestation_show') }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-        </div>
-    </div>
-=======
 <br><br>
-<div class="container">
-    
-       {% for presta in prestas %}
-            <section class="Presta">
-                <h2>{{ presta.titre }}</h2>
-                <div class="metadata">Ecrit le {{ presta.createdAt | date('d/m/Y') }} à {{ presta.createdAt | date('H:i') }}</div>
-                <div class="content">
-                    <img src="{{ presta.image }}">
-                    <br><br>
-                    {{ presta.description }}
-                    <br><br>
-                    <a href="{{ path('prestation_show', {id: presta.id} ) }}" class="btn btn-primary">Lire la suite</a>
-                </div>
-            </section>
-            <br><br><br><br>
-           {% endfor %}
->>>>>>> main
-</div>
 
 {% endblock %}

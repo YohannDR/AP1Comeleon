@@ -6,52 +6,47 @@
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
         {% block stylesheets %}
-            <link rel="stylesheet" href="../asset/css/bootstrap.css"/>
+            {#{{ encore_entry_link_tags('app') }}#}
+            <link rel="stylesheet" href="/asset/css/bootstrap.css"/>
         {% endblock %}
-
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
     </head>
     <body>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                <a class="nav-link active" href="/">Accueil
-                    <span class="visually-hidden">(current)</span>
-                </a>
-                </li>
-                <li class="nav-item">
-<<<<<<< HEAD
-                <a class="nav-link" href="#">Présentation</a>
-=======
-                <a class="nav-link" href="/presentation">Présentation</a>
->>>>>>> main
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/prestation">Prestation</a>
-                </li>
-                <li class="nav-item">
-<<<<<<< HEAD
-                <a class="nav-link" href="#">Avis</a>
-=======
-                <a class="nav-link" href="/avis">Avis</a>
->>>>>>> main
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-        </nav>
-        {% block body %}
-        {% endblock %}
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Accueil
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/prestation">Prestations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+        {% block body %}{% endblock %}
     </body>
+    <style>
+          .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+          }
+        </style>
 </html>
