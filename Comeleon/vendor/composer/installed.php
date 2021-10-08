@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '759be6e067fa934ca7aeb1d8f06bfe04dddaa757',
+        'reference' => '5ca4e549d7dd615a3ff226a571004f2810b05eaf',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '759be6e067fa934ca7aeb1d8f06bfe04dddaa757',
+            'reference' => '5ca4e549d7dd615a3ff226a571004f2810b05eaf',
             'dev_requirement' => false,
         ),
         'composer/package-versions-deprecated' => array(
@@ -503,6 +503,15 @@
             'install_path' => __DIR__ . '/../symfony/maker-bundle',
             'aliases' => array(),
             'reference' => 'f093d906c667cba7e3f74487d9e5e55aaf25a031',
+            'dev_requirement' => false,
+        ),
+        'symfony/notifier' => array(
+            'pretty_version' => 'v5.3.9',
+            'version' => '5.3.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/notifier',
+            'aliases' => array(),
+            'reference' => '71d3d7f35a7d5706a200a6b9516c7c2922ee4dd7',
             'dev_requirement' => false,
         ),
         'symfony/options-resolver' => array(

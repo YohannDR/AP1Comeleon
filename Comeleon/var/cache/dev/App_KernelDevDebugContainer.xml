@@ -1187,6 +1187,88 @@
     <service id="form.type_extension.submit.validator" class="Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension">
       <tag name="form.type_extension" extended-type="Symfony\Component\Form\Extension\Core\Type\SubmitType"/>
     </service>
+    <service id="notifier" class="Symfony\Component\Notifier\Notifier">
+      <argument type="service" id=".service_locator.Jj4.kdv"/>
+      <argument type="service" id="notifier.channel_policy" on-invalid="ignore"/>
+      <call method="addAdminRecipient">
+        <argument type="service" id="notifier.admin_recipient.0"/>
+      </call>
+    </service>
+    <service id="notifier.channel_policy" class="Symfony\Component\Notifier\Channel\ChannelPolicy">
+      <argument type="collection">
+        <argument key="urgent" type="collection">
+          <argument>email</argument>
+        </argument>
+        <argument key="high" type="collection">
+          <argument>email</argument>
+        </argument>
+        <argument key="medium" type="collection">
+          <argument>email</argument>
+        </argument>
+        <argument key="low" type="collection">
+          <argument>email</argument>
+        </argument>
+      </argument>
+    </service>
+    <service id="notifier.channel.browser" class="Symfony\Component\Notifier\Channel\BrowserChannel">
+      <tag name="notifier.channel" channel="browser"/>
+      <argument type="service" id="request_stack"/>
+    </service>
+    <service id="notifier.channel.chat" class="Symfony\Component\Notifier\Channel\ChatChannel">
+      <tag name="notifier.channel" channel="chat"/>
+      <argument type="service" id="chatter.transports"/>
+      <argument>null</argument>
+    </service>
+    <service id="notifier.channel.sms" class="Symfony\Component\Notifier\Channel\SmsChannel">
+      <tag name="notifier.channel" channel="sms"/>
+      <argument type="service" id="texter.transports"/>
+      <argument>null</argument>
+    </service>
+    <service id="notifier.monolog_handler" class="Symfony\Bridge\Monolog\Handler\NotifierHandler">
+      <argument type="service" id="notifier"/>
+    </service>
+    <service id="notifier.failed_message_listener" class="Symfony\Component\Notifier\EventListener\SendFailedMessageToNotifierListener">
+      <argument type="service" id="notifier"/>
+    </service>
+    <service id="chatter.transports" class="Symfony\Component\Notifier\Transport\Transports">
+      <argument type="collection"/>
+      <factory service="chatter.transport_factory" method="fromStrings"/>
+    </service>
+    <service id="chatter.transport_factory" class="Symfony\Component\Notifier\Transport">
+      <argument type="tagged_iterator" tag="chatter.transport_factory"/>
+    </service>
+    <service id="chatter.messenger.chat_handler" class="Symfony\Component\Notifier\Messenger\MessageHandler">
+      <tag name="messenger.message_handler" handles="Symfony\Component\Notifier\Message\ChatMessage"/>
+      <argument type="service" id="chatter.transports"/>
+    </service>
+    <service id="texter.transports" class="Symfony\Component\Notifier\Transport\Transports">
+      <argument type="collection"/>
+      <factory service="texter.transport_factory" method="fromStrings"/>
+    </service>
+    <service id="texter.transport_factory" class="Symfony\Component\Notifier\Transport">
+      <argument type="tagged_iterator" tag="texter.transport_factory"/>
+    </service>
+    <service id="texter.messenger.sms_handler" class="Symfony\Component\Notifier\Messenger\MessageHandler">
+      <tag name="messenger.message_handler" handles="Symfony\Component\Notifier\Message\SmsMessage"/>
+      <argument type="service" id="texter.transports"/>
+    </service>
+    <service id="notifier.logger_notification_listener" class="Symfony\Component\Notifier\EventListener\NotificationLoggerListener">
+      <tag name="kernel.event_subscriber"/>
+    </service>
+    <service id="notifier.transport_factory.abstract" class="Symfony\Component\Notifier\Transport\AbstractTransportFactory" abstract="true">
+      <argument type="service" id="debug.event_dispatcher"/>
+      <argument type="service" id="http_client" on-invalid="ignore"/>
+    </service>
+    <service id="notifier.transport_factory.null" class="Symfony\Component\Notifier\Transport\NullTransportFactory">
+      <tag name="chatter.transport_factory"/>
+      <tag name="texter.transport_factory"/>
+      <argument type="service" id="debug.event_dispatcher"/>
+      <argument>null</argument>
+    </service>
+    <service id="notifier.admin_recipient.0" class="Symfony\Component\Notifier\Recipient\Recipient">
+      <argument>admin@example.com</argument>
+      <argument></argument>
+    </service>
     <service id="validator" class="Symfony\Component\Validator\Validator\ValidatorInterface" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
       <factory service="validator.builder" method="getValidator"/>
@@ -1450,6 +1532,14 @@
           <argument>onFinishRequest</argument>
         </argument>
         <argument>0</argument>
+      </call>
+      <call method="addListener">
+        <argument>Symfony\Component\Notifier\Event\MessageEvent</argument>
+        <argument type="collection">
+          <argument type="service_closure" id="notifier.logger_notification_listener"/>
+          <argument>onNotification</argument>
+        </argument>
+        <argument>-255</argument>
       </call>
       <call method="addListener">
         <argument>kernel.request</argument>
@@ -3219,6 +3309,12 @@
         <argument key="manager" type="service_closure" id="doctrine.orm.default_entity_manager"/>
       </argument>
     </service>
+    <service id=".service_locator.zI.9Io5" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="notifier" type="service_closure" id="notifier"/>
+      </argument>
+    </service>
     <service id=".service_locator.d2d5XWd" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -3237,11 +3333,11 @@
         <argument key="prestation" type="service_closure" id=".errored..service_locator.i3NsxiZ.App\Entity\Prestation"/>
       </argument>
     </service>
-    <service id=".service_locator.eJqczlA" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.f5hhn9t" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Controller\CartController::index" type="service_closure" id=".service_locator.eiYULdo"/>
-        <argument key="App\Controller\ContactController::create" type="service_closure" id=".service_locator.oiABibH"/>
+        <argument key="App\Controller\ContactController::create" type="service_closure" id=".service_locator.zI.9Io5"/>
         <argument key="App\Controller\ContactController::index" type="service_closure" id=".service_locator.oiABibH"/>
         <argument key="App\Controller\PrestationController::form" type="service_closure" id=".service_locator.Pn8ZKjs"/>
         <argument key="App\Controller\PrestationController::index" type="service_closure" id=".service_locator.d2d5XWd"/>
@@ -3253,7 +3349,7 @@
         <argument key="kernel::registerContainerConfiguration" type="service_closure" id=".service_locator.KfbR3DY"/>
         <argument key="kernel::terminate" type="service_closure" id=".service_locator.KfwZsne"/>
         <argument key="App\Controller\CartController:index" type="service_closure" id=".service_locator.eiYULdo"/>
-        <argument key="App\Controller\ContactController:create" type="service_closure" id=".service_locator.oiABibH"/>
+        <argument key="App\Controller\ContactController:create" type="service_closure" id=".service_locator.zI.9Io5"/>
         <argument key="App\Controller\ContactController:index" type="service_closure" id=".service_locator.oiABibH"/>
         <argument key="App\Controller\PrestationController:form" type="service_closure" id=".service_locator.Pn8ZKjs"/>
         <argument key="App\Controller\PrestationController:index" type="service_closure" id=".service_locator.d2d5XWd"/>
@@ -3472,6 +3568,14 @@
         <argument key="session" type="service_closure" id=".session.do-not-use" on-invalid="ignore"/>
       </argument>
     </service>
+    <service id=".service_locator.Jj4.kdv" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="browser" type="service_closure" id="notifier.channel.browser"/>
+        <argument key="chat" type="service_closure" id="notifier.channel.chat"/>
+        <argument key="sms" type="service_closure" id="notifier.channel.sms"/>
+      </argument>
+    </service>
     <service id=".service_locator.kODoftA" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -3502,12 +3606,12 @@
     <service id="debug.argument_resolver.request.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\RequestValueResolver"/>
     <service id="debug.argument_resolver.session.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\SessionValueResolver"/>
     <service id="debug.argument_resolver.service.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver">
-      <argument type="service" id=".service_locator.eJqczlA"/>
+      <argument type="service" id=".service_locator.f5hhn9t"/>
     </service>
     <service id="debug.argument_resolver.default.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver"/>
     <service id="debug.argument_resolver.variadic.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver"/>
     <service id="debug.argument_resolver.not_tagged_controller.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\NotTaggedControllerValueResolver">
-      <argument type="service" id=".service_locator.eJqczlA"/>
+      <argument type="service" id=".service_locator.f5hhn9t"/>
     </service>
     <service id=".doctrine.orm.default_metadata_driver.inner" class="Doctrine\Persistence\Mapping\Driver\MappingDriverChain">
       <call method="addDriver">
@@ -4083,6 +4187,9 @@
     <service id="Symfony\Component\Form\FormFactoryInterface" alias="form.factory"/>
     <service id="form.property_accessor" alias="property_accessor"/>
     <service id="form.choice_list_factory" alias="form.choice_list_factory.cached"/>
+    <service id="Symfony\Component\Notifier\NotifierInterface" alias="notifier"/>
+    <service id="Symfony\Component\Notifier\ChatterInterface" alias="chatter"/>
+    <service id="Symfony\Component\Notifier\TexterInterface" alias="texter"/>
     <service id="Symfony\Component\Validator\Validator\ValidatorInterface" alias="validator"/>
     <service id="validator.mapping.class_metadata_factory" alias="validator"/>
     <service id="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" alias="debug.file_link_formatter"/>
@@ -4124,7 +4231,7 @@
     <service id="doctrine.migrations.metadata_storage" alias="doctrine.migrations.storage.table_storage"/>
     <service id="container.env_var_processors_locator" alias=".service_locator.0GV1BZZ" public="true"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.eJqczlA"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.f5hhn9t"/>
     <service id="session" alias=".session.do-not-use" public="true">
       <deprecated package="symfony/framework-bundle" version="5.3">The "%alias_id%" service and "SessionInterface" alias are deprecated, use "$requestStack-&gt;getSession()" instead.</deprecated>
     </service>
@@ -4135,6 +4242,7 @@
     <service id=".service_locator.JBAFp66" alias=".service_locator.KfbR3DY"/>
     <service id=".service_locator.GInJ29O" alias=".service_locator.eiYULdo"/>
     <service id=".service_locator.fyH.VEA" alias=".service_locator.oiABibH"/>
+    <service id=".service_locator.taozXdS" alias=".service_locator.zI.9Io5"/>
     <service id=".service_locator.pvTal07" alias=".service_locator.d2d5XWd"/>
     <service id=".service_locator.aN6j0Ml" alias=".service_locator.Pn8ZKjs"/>
     <service id=".service_locator.mOBWqGc" alias=".service_locator.i3NsxiZ"/>

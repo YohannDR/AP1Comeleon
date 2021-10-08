@@ -6,12 +6,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 
 use App\Form\ContactType;
 use App\Repository\ContactRepository;
 use Doctrine\ORM\EntityManagerInterface;
 
+use Symfony\Component\Notifier\Notification\Notification;
+use Symfony\Component\Notifier\NotifierInterface;
+
 use App\Entity\Contact;
+use App\Entity\Prestation;
 
 class ContactController extends AbstractController
 {
@@ -20,31 +25,19 @@ class ContactController extends AbstractController
      */
     public function index(Request $request, EntityManagerInterface $manager): Response
     {
-        return $this->render('contact/index.html.twig');
+        //return $this->render('contact/index.html.twig');
+        return $this->redirectToRoute('prestation');
     }
 
     /**
      * @Route("/contact", name="contact_create")
      */
-    public function create(Request $request, EntityManagerInterface $manager): Response
+    public function create(Request $request, NotifierInterface $notifier): Response
     {
-        /*
-        if ($request->request->count() > 0) {
-            $contact = new Contact();
-            $contact->setNom($request->request->get('nom'))
-                    ->setPrenom($request->request->get('prenom'))
-                    ->setMail($request->request->get('mail'))
-                    ->setTelephone($request->request->get('telephone'))
-                    ->setDescription($request->request->get('description'))
-                    ->setCreatedAt(new \DateTime());
-            $manager->persist($contact);
-            $manager->flush();
-
-            return $this->redirectToRoute('contact');
-        }
-        return $this->render('contact/contact.html.twig'); */
-
         $contact = new Contact();
+
+        $manager = $this->getDoctrine()->getManager();
+        
         $form = $this->createFormBuilder($contact)
                      ->add('nom')
                      ->add('prenom')
@@ -52,7 +45,15 @@ class ContactController extends AbstractController
                      ->add('telephone')
                      ->add('description')
                      ->getForm();
-
+        $form->handleRequest($request);
+        
+        $notifier->send(new Notification('Vous avez envoyé le message.', ['browser']));
+        
+        if ($form->isSubmitted() && $form->isValid()) {
+            $manager->persist($contact);
+            $manager->flush();
+            return $this->redirectToRoute('contact');
+        }
         return $this->render('contact/contact.html.twig', [
             'formContact' => $form->createView()
         ]);
