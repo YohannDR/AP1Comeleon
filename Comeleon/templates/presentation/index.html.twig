@@ -15,7 +15,7 @@
 </div>
 </br />
 <div class="container-lg">
-    <div class="row">
+    <div class="row vignets">
         <div class="col-md-6"><img class="img-responsive" src="https://cdn.pixabay.com/photo/2021/02/26/09/04/man-6051163_960_720.jpg"></div>
         <div class="col-md-6">
             <h3> Mr.X </h3>
@@ -25,7 +25,7 @@
         </div>
     </div>
     </br />
-    <div class="row">
+    <div class="row vignets">
         <div class="col-md-6">
             {% for presentation in presentations %}
             {% if presentation.id == 1 %}
@@ -38,7 +38,7 @@
         {% endfor %}
     </div>
     </br />
-    <div class="row">
+    <div class="row vignets">
             {% for presentation in presentations %}
             {% if presentation.id == 2 %}
         <div class="col-md-6"><img class="img-responsive" src={{ presentation.img}}></div>
