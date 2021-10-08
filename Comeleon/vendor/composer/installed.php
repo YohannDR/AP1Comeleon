@@ -1,40 +1,22 @@
 <?php return array(
     'root' => array(
-<<<<<<< HEAD
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'type' => 'project',
-        'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'reference' => '44810d025585bac442a47c766568dbe998c1f342',
-=======
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '48c797b94acca255a6d4dfdc6c6c5235f97b516a',
->>>>>>> feature-PageAvis
+        'reference' => '32a392b1df3c6e8f8ada00da4fb339809034c534',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-<<<<<<< HEAD
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => '44810d025585bac442a47c766568dbe998c1f342',
-=======
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '48c797b94acca255a6d4dfdc6c6c5235f97b516a',
->>>>>>> feature-PageAvis
+            'reference' => '32a392b1df3c6e8f8ada00da4fb339809034c534',
             'dev_requirement' => false,
         ),
         'composer/package-versions-deprecated' => array(
@@ -217,18 +199,6 @@
             'reference' => '006aa5d32f887a4db4353b13b5b5095613e0611f',
             'dev_requirement' => false,
         ),
-<<<<<<< HEAD
-        'fzaninotto/faker' => array(
-            'pretty_version' => 'v1.9.2',
-            'version' => '1.9.2.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../fzaninotto/faker',
-            'aliases' => array(),
-            'reference' => '848d8125239d7dbf8ab25cb7f054f1a630e68c2e',
-            'dev_requirement' => false,
-        ),
-=======
->>>>>>> feature-PageAvis
         'laminas/laminas-code' => array(
             'pretty_version' => '4.4.3',
             'version' => '4.4.3.0',
@@ -721,18 +691,6 @@
             'reference' => '345965b40c1847ebdbb2ab0eb98c71a98a5e167b',
             'dev_requirement' => false,
         ),
-<<<<<<< HEAD
-        'symfony/validator' => array(
-            'pretty_version' => 'v5.3.7',
-            'version' => '5.3.7.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/validator',
-            'aliases' => array(),
-            'reference' => '916a7c6cf3ede36eb0e4097500e0a12dcff520a7',
-            'dev_requirement' => false,
-        ),
-=======
->>>>>>> feature-PageAvis
         'symfony/var-dumper' => array(
             'pretty_version' => 'v5.3.7',
             'version' => '5.3.7.0',

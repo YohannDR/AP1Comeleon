@@ -449,6 +449,7 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'App\\Repository\\CommentaireRepository' => __DIR__ . '/../..' . '/src/Repository/CommentaireRepository.php',
 =======
         'App\\Controller\\AvisController' => __DIR__ . '/../..' . '/src/Controller/AvisController.php',
+        'App\\Controller\\PrestationController' => __DIR__ . '/../..' . '/src/Controller/PrestationController.php',
         'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
         'App\\Entity\\Avis' => __DIR__ . '/../..' . '/src/Entity/Avis.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',

@@ -20,6 +20,7 @@ return array(
     'App\\Repository\\CommentaireRepository' => $baseDir . '/src/Repository/CommentaireRepository.php',
 =======
     'App\\Controller\\AvisController' => $baseDir . '/src/Controller/AvisController.php',
+    'App\\Controller\\PrestationController' => $baseDir . '/src/Controller/PrestationController.php',
     'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
     'App\\Entity\\Avis' => $baseDir . '/src/Entity/Avis.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
