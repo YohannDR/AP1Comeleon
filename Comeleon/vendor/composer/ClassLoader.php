@@ -42,6 +42,7 @@ namespace Composer\Autoload;
  */
 class ClassLoader
 {
+<<<<<<< HEAD
     /** @var ?string */
     private $vendorDir;
 
@@ -103,14 +104,38 @@ class ClassLoader
     /**
      * @param ?string $vendorDir
      */
+=======
+    private $vendorDir;
+
+    // PSR-4
+    private $prefixLengthsPsr4 = array();
+    private $prefixDirsPsr4 = array();
+    private $fallbackDirsPsr4 = array();
+
+    // PSR-0
+    private $prefixesPsr0 = array();
+    private $fallbackDirsPsr0 = array();
+
+    private $useIncludePath = false;
+    private $classMap = array();
+    private $classMapAuthoritative = false;
+    private $missingClasses = array();
+    private $apcuPrefix;
+
+    private static $registeredLoaders = array();
+
+>>>>>>> feature-PageAvis
     public function __construct($vendorDir = null)
     {
         $this->vendorDir = $vendorDir;
     }
 
+<<<<<<< HEAD
     /**
      * @return string[]
      */
+=======
+>>>>>>> feature-PageAvis
     public function getPrefixes()
     {
         if (!empty($this->prefixesPsr0)) {
@@ -120,47 +145,63 @@ class ClassLoader
         return array();
     }
 
+<<<<<<< HEAD
     /**
      * @return array[]
      * @psalm-return array<string, array<int, string>>
      */
+=======
+>>>>>>> feature-PageAvis
     public function getPrefixesPsr4()
     {
         return $this->prefixDirsPsr4;
     }
 
+<<<<<<< HEAD
     /**
      * @return array[]
      * @psalm-return array<string, string>
      */
+=======
+>>>>>>> feature-PageAvis
     public function getFallbackDirs()
     {
         return $this->fallbackDirsPsr0;
     }
 
+<<<<<<< HEAD
     /**
      * @return array[]
      * @psalm-return array<string, string>
      */
+=======
+>>>>>>> feature-PageAvis
     public function getFallbackDirsPsr4()
     {
         return $this->fallbackDirsPsr4;
     }
 
+<<<<<<< HEAD
     /**
      * @return string[] Array of classname => path
      * @psalm-var array<string, string>
      */
+=======
+>>>>>>> feature-PageAvis
     public function getClassMap()
     {
         return $this->classMap;
     }
 
     /**
+<<<<<<< HEAD
      * @param string[] $classMap Class to filename map
      * @psalm-param array<string, string> $classMap
      *
      * @return void
+=======
+     * @param array $classMap Class to filename map
+>>>>>>> feature-PageAvis
      */
     public function addClassMap(array $classMap)
     {
@@ -175,11 +216,17 @@ class ClassLoader
      * Registers a set of PSR-0 directories for a given prefix, either
      * appending or prepending to the ones previously set for this prefix.
      *
+<<<<<<< HEAD
      * @param string          $prefix  The prefix
      * @param string[]|string $paths   The PSR-0 root directories
      * @param bool            $prepend Whether to prepend the directories
      *
      * @return void
+=======
+     * @param string       $prefix  The prefix
+     * @param array|string $paths   The PSR-0 root directories
+     * @param bool         $prepend Whether to prepend the directories
+>>>>>>> feature-PageAvis
      */
     public function add($prefix, $paths, $prepend = false)
     {
@@ -222,6 +269,7 @@ class ClassLoader
      * Registers a set of PSR-4 directories for a given namespace, either
      * appending or prepending to the ones previously set for this namespace.
      *
+<<<<<<< HEAD
      * @param string          $prefix  The prefix/namespace, with trailing '\\'
      * @param string[]|string $paths   The PSR-4 base directories
      * @param bool            $prepend Whether to prepend the directories
@@ -229,6 +277,13 @@ class ClassLoader
      * @throws \InvalidArgumentException
      *
      * @return void
+=======
+     * @param string       $prefix  The prefix/namespace, with trailing '\\'
+     * @param array|string $paths   The PSR-4 base directories
+     * @param bool         $prepend Whether to prepend the directories
+     *
+     * @throws \InvalidArgumentException
+>>>>>>> feature-PageAvis
      */
     public function addPsr4($prefix, $paths, $prepend = false)
     {
@@ -272,10 +327,15 @@ class ClassLoader
      * Registers a set of PSR-0 directories for a given prefix,
      * replacing any others previously set for this prefix.
      *
+<<<<<<< HEAD
      * @param string          $prefix The prefix
      * @param string[]|string $paths  The PSR-0 base directories
      *
      * @return void
+=======
+     * @param string       $prefix The prefix
+     * @param array|string $paths  The PSR-0 base directories
+>>>>>>> feature-PageAvis
      */
     public function set($prefix, $paths)
     {
@@ -290,12 +350,19 @@ class ClassLoader
      * Registers a set of PSR-4 directories for a given namespace,
      * replacing any others previously set for this namespace.
      *
+<<<<<<< HEAD
      * @param string          $prefix The prefix/namespace, with trailing '\\'
      * @param string[]|string $paths  The PSR-4 base directories
      *
      * @throws \InvalidArgumentException
      *
      * @return void
+=======
+     * @param string       $prefix The prefix/namespace, with trailing '\\'
+     * @param array|string $paths  The PSR-4 base directories
+     *
+     * @throws \InvalidArgumentException
+>>>>>>> feature-PageAvis
      */
     public function setPsr4($prefix, $paths)
     {
@@ -315,8 +382,11 @@ class ClassLoader
      * Turns on searching the include path for class files.
      *
      * @param bool $useIncludePath
+<<<<<<< HEAD
      *
      * @return void
+=======
+>>>>>>> feature-PageAvis
      */
     public function setUseIncludePath($useIncludePath)
     {
@@ -339,8 +409,11 @@ class ClassLoader
      * that have not been registered with the class map.
      *
      * @param bool $classMapAuthoritative
+<<<<<<< HEAD
      *
      * @return void
+=======
+>>>>>>> feature-PageAvis
      */
     public function setClassMapAuthoritative($classMapAuthoritative)
     {
@@ -361,8 +434,11 @@ class ClassLoader
      * APCu prefix to use to cache found/not-found classes, if the extension is enabled.
      *
      * @param string|null $apcuPrefix
+<<<<<<< HEAD
      *
      * @return void
+=======
+>>>>>>> feature-PageAvis
      */
     public function setApcuPrefix($apcuPrefix)
     {
@@ -383,8 +459,11 @@ class ClassLoader
      * Registers this instance as an autoloader.
      *
      * @param bool $prepend Whether to prepend the autoloader or not
+<<<<<<< HEAD
      *
      * @return void
+=======
+>>>>>>> feature-PageAvis
      */
     public function register($prepend = false)
     {
@@ -404,8 +483,11 @@ class ClassLoader
 
     /**
      * Unregisters this instance as an autoloader.
+<<<<<<< HEAD
      *
      * @return void
+=======
+>>>>>>> feature-PageAvis
      */
     public function unregister()
     {
@@ -485,11 +567,14 @@ class ClassLoader
         return self::$registeredLoaders;
     }
 
+<<<<<<< HEAD
     /**
      * @param  string       $class
      * @param  string       $ext
      * @return string|false
      */
+=======
+>>>>>>> feature-PageAvis
     private function findFileWithExtension($class, $ext)
     {
         // PSR-4 lookup
@@ -561,10 +646,13 @@ class ClassLoader
  * Scope isolated include.
  *
  * Prevents access to $this/self from included files.
+<<<<<<< HEAD
  *
  * @param  string $file
  * @return void
  * @private
+=======
+>>>>>>> feature-PageAvis
  */
 function includeFile($file)
 {

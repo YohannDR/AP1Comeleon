@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+<<<<<<< HEAD
     'App\\Controller\\PrestationController' => $baseDir . '/src/Controller/PrestationController.php',
     'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
     'App\\DataFixtures\\PrestationFixtures' => $baseDir . '/src/DataFixtures/PrestationFixtures.php',
@@ -17,6 +18,13 @@ return array(
     'App\\Repository\\CategoryRepository' => $baseDir . '/src/Repository/CategoryRepository.php',
     'App\\Repository\\CommentRepository' => $baseDir . '/src/Repository/CommentRepository.php',
     'App\\Repository\\CommentaireRepository' => $baseDir . '/src/Repository/CommentaireRepository.php',
+=======
+    'App\\Controller\\AvisController' => $baseDir . '/src/Controller/AvisController.php',
+    'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
+    'App\\Entity\\Avis' => $baseDir . '/src/Entity/Avis.php',
+    'App\\Kernel' => $baseDir . '/src/Kernel.php',
+    'App\\Repository\\AvisRepository' => $baseDir . '/src/Repository/AvisRepository.php',
+>>>>>>> feature-PageAvis
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Collator' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
@@ -1140,6 +1148,7 @@ return array(
     'Doctrine\\SqlFormatter\\SqlFormatter' => $vendorDir . '/doctrine/sql-formatter/src/SqlFormatter.php',
     'Doctrine\\SqlFormatter\\Token' => $vendorDir . '/doctrine/sql-formatter/src/Token.php',
     'Doctrine\\SqlFormatter\\Tokenizer' => $vendorDir . '/doctrine/sql-formatter/src/Tokenizer.php',
+<<<<<<< HEAD
     'Faker\\Calculator\\Ean' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Ean.php',
     'Faker\\Calculator\\Iban' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
     'Faker\\Calculator\\Inn' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
@@ -1593,6 +1602,8 @@ return array(
     'Faker\\Provider\\zh_TW\\Text' => $vendorDir . '/fzaninotto/faker/src/Faker/Provider/zh_TW/Text.php',
     'Faker\\UniqueGenerator' => $vendorDir . '/fzaninotto/faker/src/Faker/UniqueGenerator.php',
     'Faker\\ValidGenerator' => $vendorDir . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
+=======
+>>>>>>> feature-PageAvis
     'IntlDateFormatter' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/IntlDateFormatter.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'Laminas\\Code\\DeclareStatement' => $vendorDir . '/laminas/laminas-code/src/DeclareStatement.php',
@@ -3465,6 +3476,7 @@ return array(
     'Symfony\\Component\\String\\Slugger\\AsciiSlugger' => $vendorDir . '/symfony/string/Slugger/AsciiSlugger.php',
     'Symfony\\Component\\String\\Slugger\\SluggerInterface' => $vendorDir . '/symfony/string/Slugger/SluggerInterface.php',
     'Symfony\\Component\\String\\UnicodeString' => $vendorDir . '/symfony/string/UnicodeString.php',
+<<<<<<< HEAD
     'Symfony\\Component\\Validator\\Command\\DebugCommand' => $vendorDir . '/symfony/validator/Command/DebugCommand.php',
     'Symfony\\Component\\Validator\\Constraint' => $vendorDir . '/symfony/validator/Constraint.php',
     'Symfony\\Component\\Validator\\ConstraintValidator' => $vendorDir . '/symfony/validator/ConstraintValidator.php',
@@ -3672,6 +3684,8 @@ return array(
     'Symfony\\Component\\Validator\\Validator\\ValidatorInterface' => $vendorDir . '/symfony/validator/Validator/ValidatorInterface.php',
     'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilder' => $vendorDir . '/symfony/validator/Violation/ConstraintViolationBuilder.php',
     'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilderInterface' => $vendorDir . '/symfony/validator/Violation/ConstraintViolationBuilderInterface.php',
+=======
+>>>>>>> feature-PageAvis
     'Symfony\\Component\\VarDumper\\Caster\\AmqpCaster' => $vendorDir . '/symfony/var-dumper/Caster/AmqpCaster.php',
     'Symfony\\Component\\VarDumper\\Caster\\ArgsStub' => $vendorDir . '/symfony/var-dumper/Caster/ArgsStub.php',
     'Symfony\\Component\\VarDumper\\Caster\\Caster' => $vendorDir . '/symfony/var-dumper/Caster/Caster.php',

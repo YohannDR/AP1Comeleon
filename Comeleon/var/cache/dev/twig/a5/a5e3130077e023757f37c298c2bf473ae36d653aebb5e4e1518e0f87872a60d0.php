@@ -379,6 +379,10 @@ class __TwigTemplate_16bac93715f7a33a33dba580e984b1b4532d6fe37926a9a048f3f33dc40
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
+<<<<<<< HEAD
 ", "tailwind_2_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
+=======
+", "tailwind_2_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\tailwind_2_layout.html.twig");
+>>>>>>> feature-PageAvis
     }
 }

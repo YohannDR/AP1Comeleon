@@ -20,7 +20,11 @@ class AnnotationsConfig
     private $debug;
     
     /**
+<<<<<<< HEAD
      * @default true
+=======
+     * @default false
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|bool $value
      * @return $this
      */
@@ -32,7 +36,11 @@ class AnnotationsConfig
     }
     
     /**
+<<<<<<< HEAD
      * @default 'php_array'
+=======
+     * @default 'none'
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|mixed $value
      * @return $this
      */

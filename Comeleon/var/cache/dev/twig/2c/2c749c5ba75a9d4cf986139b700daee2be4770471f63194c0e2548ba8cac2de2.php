@@ -484,6 +484,10 @@ col-sm-10
         </div>{#--#}
     </div>
 {%- endblock checkbox_row %}
+<<<<<<< HEAD
 ", "bootstrap_4_horizontal_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_horizontal_layout.html.twig");
+=======
+", "bootstrap_4_horizontal_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_horizontal_layout.html.twig");
+>>>>>>> feature-PageAvis
     }
 }

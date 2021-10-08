@@ -28,7 +28,11 @@ class ValidationConfig
     private $autoMapping;
     
     /**
+<<<<<<< HEAD
      * @default true
+=======
+     * @default false
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|bool $value
      * @return $this
      */
@@ -52,7 +56,11 @@ class ValidationConfig
     }
     
     /**
+<<<<<<< HEAD
      * @default true
+=======
+     * @default false
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|bool $value
      * @return $this
      */

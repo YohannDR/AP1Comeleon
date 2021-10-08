@@ -1734,6 +1734,7 @@
             "install-path": "../friendsofphp/proxy-manager-lts"
         },
         {
+<<<<<<< HEAD
             "name": "fzaninotto/faker",
             "version": "v1.9.2",
             "version_normalized": "1.9.2.0",
@@ -1792,6 +1793,8 @@
             "install-path": "../fzaninotto/faker"
         },
         {
+=======
+>>>>>>> feature-PageAvis
             "name": "laminas/laminas-code",
             "version": "4.4.3",
             "version_normalized": "4.4.3.0",
@@ -5608,6 +5611,7 @@
             "install-path": "../symfony/twig-bundle"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/validator",
             "version": "v5.3.7",
             "version_normalized": "5.3.7.0",
@@ -5721,6 +5725,8 @@
             "install-path": "../symfony/validator"
         },
         {
+=======
+>>>>>>> feature-PageAvis
             "name": "symfony/var-dumper",
             "version": "v5.3.7",
             "version_normalized": "5.3.7.0",

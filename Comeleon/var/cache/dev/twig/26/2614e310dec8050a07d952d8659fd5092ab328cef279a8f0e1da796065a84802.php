@@ -247,6 +247,10 @@ class __TwigTemplate_5c3cfb322312518ba327ef7ed7bdbefaa0151639599b337e105ff8e6b5f
     {% set attr = attr|merge({class: (attr.class|default('') ~ ' button')|trim}) %}
     {{- parent() -}}
 {%- endblock button_widget %}
+<<<<<<< HEAD
 ", "foundation_6_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_6_layout.html.twig");
+=======
+", "foundation_6_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_6_layout.html.twig");
+>>>>>>> feature-PageAvis
     }
 }

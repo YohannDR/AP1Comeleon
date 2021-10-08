@@ -4,7 +4,11 @@
 
 namespace Composer\Autoload;
 
+<<<<<<< HEAD
 class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
+=======
+class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
+>>>>>>> feature-PageAvis
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -44,7 +48,10 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
+<<<<<<< HEAD
             'Symfony\\Component\\Validator\\' => 28,
+=======
+>>>>>>> feature-PageAvis
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Runtime\\' => 26,
@@ -86,10 +93,13 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         array (
             'Laminas\\Code\\' => 13,
         ),
+<<<<<<< HEAD
         'F' => 
         array (
             'Faker\\' => 6,
         ),
+=======
+>>>>>>> feature-PageAvis
         'D' => 
         array (
             'Doctrine\\SqlFormatter\\' => 22,
@@ -194,10 +204,13 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
+<<<<<<< HEAD
         'Symfony\\Component\\Validator\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
         ),
+=======
+>>>>>>> feature-PageAvis
         'Symfony\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
@@ -334,10 +347,13 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
         ),
+<<<<<<< HEAD
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
+=======
+>>>>>>> feature-PageAvis
         'Doctrine\\SqlFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/sql-formatter/src',
@@ -419,6 +435,7 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
     );
 
     public static $classMap = array (
+<<<<<<< HEAD
         'App\\Controller\\PrestationController' => __DIR__ . '/../..' . '/src/Controller/PrestationController.php',
         'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
         'App\\DataFixtures\\PrestationFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/PrestationFixtures.php',
@@ -430,6 +447,13 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         'App\\Repository\\CategoryRepository' => __DIR__ . '/../..' . '/src/Repository/CategoryRepository.php',
         'App\\Repository\\CommentRepository' => __DIR__ . '/../..' . '/src/Repository/CommentRepository.php',
         'App\\Repository\\CommentaireRepository' => __DIR__ . '/../..' . '/src/Repository/CommentaireRepository.php',
+=======
+        'App\\Controller\\AvisController' => __DIR__ . '/../..' . '/src/Controller/AvisController.php',
+        'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
+        'App\\Entity\\Avis' => __DIR__ . '/../..' . '/src/Entity/Avis.php',
+        'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
+        'App\\Repository\\AvisRepository' => __DIR__ . '/../..' . '/src/Repository/AvisRepository.php',
+>>>>>>> feature-PageAvis
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
@@ -1553,6 +1577,7 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         'Doctrine\\SqlFormatter\\SqlFormatter' => __DIR__ . '/..' . '/doctrine/sql-formatter/src/SqlFormatter.php',
         'Doctrine\\SqlFormatter\\Token' => __DIR__ . '/..' . '/doctrine/sql-formatter/src/Token.php',
         'Doctrine\\SqlFormatter\\Tokenizer' => __DIR__ . '/..' . '/doctrine/sql-formatter/src/Tokenizer.php',
+<<<<<<< HEAD
         'Faker\\Calculator\\Ean' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Ean.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
@@ -2006,6 +2031,8 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
+=======
+>>>>>>> feature-PageAvis
         'IntlDateFormatter' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/IntlDateFormatter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Laminas\\Code\\DeclareStatement' => __DIR__ . '/..' . '/laminas/laminas-code/src/DeclareStatement.php',
@@ -3878,6 +3905,7 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         'Symfony\\Component\\String\\Slugger\\AsciiSlugger' => __DIR__ . '/..' . '/symfony/string/Slugger/AsciiSlugger.php',
         'Symfony\\Component\\String\\Slugger\\SluggerInterface' => __DIR__ . '/..' . '/symfony/string/Slugger/SluggerInterface.php',
         'Symfony\\Component\\String\\UnicodeString' => __DIR__ . '/..' . '/symfony/string/UnicodeString.php',
+<<<<<<< HEAD
         'Symfony\\Component\\Validator\\Command\\DebugCommand' => __DIR__ . '/..' . '/symfony/validator/Command/DebugCommand.php',
         'Symfony\\Component\\Validator\\Constraint' => __DIR__ . '/..' . '/symfony/validator/Constraint.php',
         'Symfony\\Component\\Validator\\ConstraintValidator' => __DIR__ . '/..' . '/symfony/validator/ConstraintValidator.php',
@@ -4085,6 +4113,8 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
         'Symfony\\Component\\Validator\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/symfony/validator/Validator/ValidatorInterface.php',
         'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilder' => __DIR__ . '/..' . '/symfony/validator/Violation/ConstraintViolationBuilder.php',
         'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilderInterface' => __DIR__ . '/..' . '/symfony/validator/Violation/ConstraintViolationBuilderInterface.php',
+=======
+>>>>>>> feature-PageAvis
         'Symfony\\Component\\VarDumper\\Caster\\AmqpCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/AmqpCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\ArgsStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ArgsStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\Caster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/Caster.php',
@@ -4472,9 +4502,15 @@ class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+<<<<<<< HEAD
             $loader->prefixLengthsPsr4 = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$classMap;
+=======
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb::$classMap;
+>>>>>>> feature-PageAvis
 
         }, null, ClassLoader::class);
     }

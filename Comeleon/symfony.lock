@@ -195,10 +195,14 @@
     },
     "symfony/form": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "version": "v5.3.7"
 =======
         "version": "v5.3.8"
 >>>>>>> origin/feature-Page-Presentation
+=======
+        "version": "v5.3.7"
+>>>>>>> feature-PageAvis
     },
     "symfony/framework-bundle": {
         "version": "5.3",
@@ -241,11 +245,14 @@
         "version": "v5.3.7"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "symfony/password-hasher": {
         "version": "v5.3.8"
     },
 >>>>>>> origin/feature-Page-Presentation
+=======
+>>>>>>> feature-PageAvis
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -269,16 +276,22 @@
     },
     "symfony/property-access": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature-PageAvis
         "version": "v5.3.7"
     },
     "symfony/property-info": {
         "version": "v5.3.7"
+<<<<<<< HEAD
 =======
         "version": "v5.3.8"
     },
     "symfony/property-info": {
         "version": "v5.3.8"
 >>>>>>> origin/feature-Page-Presentation
+=======
+>>>>>>> feature-PageAvis
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.4"

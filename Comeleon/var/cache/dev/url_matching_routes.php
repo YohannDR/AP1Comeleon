@@ -8,6 +8,7 @@
 return [
     false, // $matchHost
     [ // $staticRoutes
+<<<<<<< HEAD
         '/prestation' => [[['_route' => 'prestation', '_controller' => 'App\\Controller\\PrestationController::index'], null, null, null, false, false, null]],
         '/prestation/new' => [[['_route' => 'prestation_create', '_controller' => 'App\\Controller\\PrestationController::form'], null, null, null, false, false, null]],
     ],
@@ -28,6 +29,19 @@ return [
         45 => [[['_route' => 'prestation_show', '_controller' => 'App\\Controller\\PrestationController::show'], ['id'], null, null, false, true, null]],
         57 => [[['_route' => 'prestation_supp', '_controller' => 'App\\Controller\\PrestationController::supp'], [], null, null, false, false, null]],
         93 => [
+=======
+        '/avis/ajouter' => [[['_route' => 'avis/ajouter', '_controller' => 'App\\Controller\\AvisController::avisAjout'], null, null, null, false, false, null]],
+        '/avis' => [[['_route' => 'avis', '_controller' => 'App\\Controller\\AvisController::avis'], null, null, null, false, false, null]],
+        '/prestation' => [[['_route' => 'prestation', '_controller' => 'App\\Controller\\PrestationController::index'], null, null, null, false, false, null]],
+    ],
+    [ // $regexpList
+        0 => '{^(?'
+                .'|/_error/(\\d+)(?:\\.([^/]++))?(*:35)'
+            .')/?$}sDu',
+    ],
+    [ // $dynamicRoutes
+        35 => [
+>>>>>>> feature-PageAvis
             [['_route' => '_preview_error', '_controller' => 'error_controller::preview', '_format' => 'html'], ['code', '_format'], null, null, false, true, null],
             [null, null, null, null, false, false, 0],
         ],

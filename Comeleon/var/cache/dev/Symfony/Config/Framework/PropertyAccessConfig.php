@@ -22,7 +22,11 @@ class PropertyAccessConfig
     private $throwExceptionOnInvalidPropertyPath;
     
     /**
+<<<<<<< HEAD
      * @default true
+=======
+     * @default false
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|bool $value
      * @return $this
      */

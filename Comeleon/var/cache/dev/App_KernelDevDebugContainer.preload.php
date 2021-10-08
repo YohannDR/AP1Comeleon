@@ -10,6 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
+<<<<<<< HEAD
 require __DIR__.'/ContainerZFBXu7R/App_KernelDevDebugContainer.php';
 require __DIR__.'/ContainerZFBXu7R/EntityManager_9a5be93.php';
 require __DIR__.'/ContainerZFBXu7R/getValidator_NotCompromisedPasswordService.php';
@@ -80,6 +81,64 @@ require __DIR__.'/ContainerZFBXu7R/get_Container_Private_Form_Type_FileService.p
 require __DIR__.'/ContainerZFBXu7R/get_Container_Private_Form_FactoryService.php';
 require __DIR__.'/ContainerZFBXu7R/get_Container_Private_FilesystemService.php';
 require __DIR__.'/ContainerZFBXu7R/get_Container_Private_CacheClearerService.php';
+=======
+require __DIR__.'/ContainerTJzT3vs/App_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerTJzT3vs/EntityManager_9a5be93.php';
+require __DIR__.'/ContainerTJzT3vs/getTwig_Runtime_HttpkernelService.php';
+require __DIR__.'/ContainerTJzT3vs/getTwig_Form_RendererService.php';
+require __DIR__.'/ContainerTJzT3vs/getSessionService.php';
+require __DIR__.'/ContainerTJzT3vs/getServicesResetterService.php';
+require __DIR__.'/ContainerTJzT3vs/getSecrets_VaultService.php';
+require __DIR__.'/ContainerTJzT3vs/getRouting_LoaderService.php';
+require __DIR__.'/ContainerTJzT3vs/getPropertyAccessorService.php';
+require __DIR__.'/ContainerTJzT3vs/getFragment_Renderer_InlineService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_TypeGuesser_DoctrineService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_TypeExtension_Form_HttpFoundationService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_Type_FormService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_Type_EntityService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_Type_ColorService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_Type_ChoiceService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_RegistryService.php';
+require __DIR__.'/ContainerTJzT3vs/getForm_ChoiceListFactory_CachedService.php';
+require __DIR__.'/ContainerTJzT3vs/getErrorControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_UuidGeneratorService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_UlidGeneratorService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Orm_Listeners_PdoCacheAdapterDoctrineSchemaSubscriberService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Orm_Listeners_DoctrineTokenProviderSchemaSubscriberService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Orm_DefaultEntityManagerService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Orm_DefaultAnnotationMetadataDriverService.php';
+require __DIR__.'/ContainerTJzT3vs/getDoctrine_Dbal_DefaultConnectionService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_VariadicService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_SessionService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_ServiceService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_RequestAttributeService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_RequestService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_NotTaggedControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/getDebug_ArgumentResolver_DefaultService.php';
+require __DIR__.'/ContainerTJzT3vs/getContainer_EnvVarProcessorsLocatorService.php';
+require __DIR__.'/ContainerTJzT3vs/getContainer_EnvVarProcessorService.php';
+require __DIR__.'/ContainerTJzT3vs/getCache_SystemClearerService.php';
+require __DIR__.'/ContainerTJzT3vs/getCache_SystemService.php';
+require __DIR__.'/ContainerTJzT3vs/getCache_GlobalClearerService.php';
+require __DIR__.'/ContainerTJzT3vs/getCache_AppClearerService.php';
+require __DIR__.'/ContainerTJzT3vs/getCache_AppService.php';
+require __DIR__.'/ContainerTJzT3vs/getTemplateControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/getRedirectControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/getAvisRepositoryService.php';
+require __DIR__.'/ContainerTJzT3vs/getPrestationControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/getAvisControllerService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Session_DeprecatedService.php';
+require __DIR__.'/ContainerTJzT3vs/get_ServiceLocator_YxNo8ZPService.php';
+require __DIR__.'/ContainerTJzT3vs/get_ServiceLocator_W9y3dzmService.php';
+require __DIR__.'/ContainerTJzT3vs/get_ServiceLocator_KfwZsneService.php';
+require __DIR__.'/ContainerTJzT3vs/get_ServiceLocator_KfbR3DYService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Container_Private_TwigService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Container_Private_Form_Type_FileService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Container_Private_Form_FactoryService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Container_Private_FilesystemService.php';
+require __DIR__.'/ContainerTJzT3vs/get_Container_Private_CacheClearerService.php';
+>>>>>>> feature-PageAvis
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -122,6 +181,7 @@ $classes[] = 'Twig\RuntimeLoader\ContainerRuntimeLoader';
 $classes[] = 'Symfony\Component\DependencyInjection\ServiceLocator';
 $classes[] = 'Twig\Extra\TwigExtraBundle\MissingExtensionSuggestor';
 $classes[] = 'Symfony\Bundle\TwigBundle\DependencyInjection\Configurator\EnvironmentConfigurator';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Component\Validator\Validator\ValidatorInterface';
 $classes[] = 'Symfony\Component\HttpFoundation\Session\SessionInterface';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Session\DeprecatedSessionFactory';
@@ -130,6 +190,13 @@ $classes[] = 'App\Repository\CategorieRepository';
 $classes[] = 'App\Repository\CategoryRepository';
 $classes[] = 'App\Repository\CommentRepository';
 $classes[] = 'App\Repository\CommentaireRepository';
+=======
+$classes[] = 'Symfony\Component\HttpFoundation\Session\SessionInterface';
+$classes[] = 'Symfony\Bundle\FrameworkBundle\Session\DeprecatedSessionFactory';
+$classes[] = 'App\Controller\AvisController';
+$classes[] = 'App\Controller\PrestationController';
+$classes[] = 'App\Repository\AvisRepository';
+>>>>>>> feature-PageAvis
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\RedirectController';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\TemplateController';
 $classes[] = 'Symfony\Component\Cache\Adapter\PhpArrayAdapter';
@@ -179,11 +246,17 @@ $classes[] = 'Doctrine\ORM\Mapping\DefaultQuoteStrategy';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Mapping\ContainerEntityListenerResolver';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\ManagerConfigurator';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Bridge\Doctrine\PropertyInfo\DoctrineExtractor';
 $classes[] = 'Doctrine\ORM\Tools\AttachEntityListenersListener';
 $classes[] = 'Symfony\Bridge\Doctrine\SchemaListener\RememberMeTokenProviderDoctrineSchemaSubscriber';
 $classes[] = 'Symfony\Bridge\Doctrine\SchemaListener\PdoCacheAdapterDoctrineSchemaSubscriber';
 $classes[] = 'Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntityValidator';
+=======
+$classes[] = 'Doctrine\ORM\Tools\AttachEntityListenersListener';
+$classes[] = 'Symfony\Bridge\Doctrine\SchemaListener\RememberMeTokenProviderDoctrineSchemaSubscriber';
+$classes[] = 'Symfony\Bridge\Doctrine\SchemaListener\PdoCacheAdapterDoctrineSchemaSubscriber';
+>>>>>>> feature-PageAvis
 $classes[] = 'Symfony\Bridge\Doctrine\IdGenerator\UlidGenerator';
 $classes[] = 'Symfony\Bridge\Doctrine\IdGenerator\UuidGenerator';
 $classes[] = 'Symfony\Component\HttpKernel\Controller\ErrorController';
@@ -206,11 +279,17 @@ $classes[] = 'Symfony\Component\Form\Extension\HttpFoundation\Type\FormTypeHttpF
 $classes[] = 'Symfony\Component\Form\Extension\HttpFoundation\HttpFoundationRequestHandler';
 $classes[] = 'Symfony\Component\Form\Util\ServerParams';
 $classes[] = 'Symfony\Component\Form\Extension\Core\Type\TransformationFailureExtension';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Component\Form\Extension\Validator\Type\FormTypeValidatorExtension';
 $classes[] = 'Symfony\Component\Form\Extension\Validator\Type\RepeatedTypeValidatorExtension';
 $classes[] = 'Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension';
 $classes[] = 'Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser';
 $classes[] = 'Symfony\Component\Form\Extension\Validator\ValidatorTypeGuesser';
+=======
+$classes[] = 'Symfony\Component\Form\Extension\Validator\Type\RepeatedTypeValidatorExtension';
+$classes[] = 'Symfony\Component\Form\Extension\Validator\Type\SubmitTypeValidatorExtension';
+$classes[] = 'Symfony\Bridge\Doctrine\Form\DoctrineOrmTypeGuesser';
+>>>>>>> feature-PageAvis
 $classes[] = 'Symfony\Component\HttpKernel\Fragment\InlineFragmentRenderer';
 $classes[] = 'Sensio\Bundle\FrameworkExtraBundle\EventListener\IsGrantedListener';
 $classes[] = 'Sensio\Bundle\FrameworkExtraBundle\Request\ArgumentNameConverter';
@@ -273,6 +352,7 @@ $classes[] = 'Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragme
 $classes[] = 'Symfony\Component\HttpKernel\Fragment\FragmentUriGenerator';
 $classes[] = 'Symfony\Component\HttpKernel\UriSigner';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\ValidateRequestListener';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Component\Validator\ValidatorBuilder';
 $classes[] = 'Symfony\Component\Validator\Validation';
 $classes[] = 'Symfony\Component\Validator\ContainerConstraintValidatorFactory';
@@ -320,3 +400,7 @@ $classes[] = 'Doctrine\\ORM\\Mapping\\JoinColumn';
 $classes[] = 'Symfony\\Component\\Validator\\Constraints\\Length';
 $classes[] = 'Symfony\\Component\\Validator\\Constraints\\Url';
 Preloader::preload($classes);
+=======
+
+Preloader::preload($classes);
+>>>>>>> feature-PageAvis

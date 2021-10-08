@@ -127,7 +127,11 @@ class CacheConfig
     }
     
     /**
+<<<<<<< HEAD
      * @default 'database_connection'
+=======
+     * @default null
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|mixed $value
      * @return $this
      */

@@ -35,7 +35,11 @@ class SerializerConfig
     }
     
     /**
+<<<<<<< HEAD
      * @default true
+=======
+     * @default false
+>>>>>>> feature-PageAvis
      * @param ParamConfigurator|bool $value
      * @return $this
      */
