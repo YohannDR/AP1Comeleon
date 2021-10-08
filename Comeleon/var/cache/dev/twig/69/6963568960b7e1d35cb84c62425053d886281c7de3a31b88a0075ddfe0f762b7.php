@@ -77,43 +77,43 @@ class __TwigTemplate_094c2e1c397f2f3b1fe68abba0ace2867adc99b2c5788e69e08eb439103
 </br>
 <div style=\"width:85%; text-align:left;\">
 ";
-        // line 10
-        if ( !twig_test_empty((isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new RuntimeError('Variable "error" does not exist.', 10, $this->source); })()))) {
-            // line 11
+        // line 11
+        if ( !twig_test_empty((isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new RuntimeError('Variable "error" does not exist.', 11, $this->source); })()))) {
+            // line 12
             echo "<div class=\"text-danger\" style=\"font-size:25px\">Un mot banni a été détecté ! (Mot invalide : ";
-            echo twig_escape_filter($this->env, (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new RuntimeError('Variable "error" does not exist.', 11, $this->source); })()), "html", null, true);
+            echo twig_escape_filter($this->env, (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new RuntimeError('Variable "error" does not exist.', 12, $this->source); })()), "html", null, true);
             echo ")</div>
 ";
         }
-        // line 13
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 13, $this->source); })()), 'form_start');
-        echo "
-</br>
-";
         // line 15
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 15, $this->source); })()), "nom_user", [], "any", false, false, false, 15), 'row', ["attr" => ["placeholder" => "Nom d'utilisateur"]]);
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 15, $this->source); })()), 'form_start');
         echo "
 </br>
 ";
         // line 17
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 17, $this->source); })()), "titre", [], "any", false, false, false, 17), 'row', ["attr" => ["placeholder" => "Titre de l'avis"]]);
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 17, $this->source); })()), "nom_user", [], "any", false, false, false, 17), 'row', ["attr" => ["placeholder" => "Nom d'utilisateur"]]);
         echo "
 </br>
 ";
         // line 19
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 19, $this->source); })()), "commentaire", [], "any", false, false, false, 19), 'row', ["attr" => ["placeholder" => "Commentaire"]]);
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 19, $this->source); })()), "titre", [], "any", false, false, false, 19), 'row', ["attr" => ["placeholder" => "Titre de l'avis"]]);
+        echo "
+</br>
+";
+        // line 21
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 21, $this->source); })()), "commentaire", [], "any", false, false, false, 21), 'row', ["attr" => ["placeholder" => "Commentaire"]]);
         echo "
 </br>
 <div style=\"text-align:center\">
 ";
-        // line 22
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 22, $this->source); })()), "submit", [], "any", false, false, false, 22), 'row');
+        // line 24
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 24, $this->source); })()), "submit", [], "any", false, false, false, 24), 'row');
         echo "
 </div>
 </br>
 ";
-        // line 25
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 25, $this->source); })()), 'form_end');
+        // line 27
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 27, $this->source); })()), 'form_end');
         echo "
 </div></center>
 </br>
@@ -135,7 +135,7 @@ class __TwigTemplate_094c2e1c397f2f3b1fe68abba0ace2867adc99b2c5788e69e08eb439103
 
     public function getDebugInfo()
     {
-        return array (  116 => 25,  110 => 22,  104 => 19,  99 => 17,  94 => 15,  89 => 13,  83 => 11,  81 => 10,  76 => 7,  69 => 6,  56 => 4,  48 => 1,  46 => 2,  36 => 1,);
+        return array (  116 => 27,  110 => 24,  104 => 21,  99 => 19,  94 => 17,  89 => 15,  83 => 12,  81 => 11,  76 => 7,  69 => 6,  56 => 4,  48 => 1,  46 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -149,9 +149,11 @@ class __TwigTemplate_094c2e1c397f2f3b1fe68abba0ace2867adc99b2c5788e69e08eb439103
 <center>
 </br>
 <div style=\"width:85%; text-align:left;\">
+{# Si word est non vide, un mot interdit à été détecté #}
 {% if error is not empty %}
 <div class=\"text-danger\" style=\"font-size:25px\">Un mot banni a été détecté ! (Mot invalide : {{ error }})</div>
 {% endif %}
+{# Affichage de la form #}
 {{ form_start(form) }}
 </br>
 {{ form_row(form.nom_user, {'attr' : {'placeholder': 'Nom d\\'utilisateur'}}) }}
@@ -167,7 +169,6 @@ class __TwigTemplate_094c2e1c397f2f3b1fe68abba0ace2867adc99b2c5788e69e08eb439103
 {{ form_end(form) }}
 </div></center>
 </br>
-{% endblock %}
-", "avis/avisAjout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\templates\\avis\\avisAjout.html.twig");
+{% endblock %}", "avis/avisAjout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\templates\\avis\\avisAjout.html.twig");
     }
 }
