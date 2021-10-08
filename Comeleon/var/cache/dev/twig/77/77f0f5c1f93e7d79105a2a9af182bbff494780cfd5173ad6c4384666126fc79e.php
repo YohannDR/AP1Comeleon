@@ -59,49 +59,45 @@ class __TwigTemplate_812c300ae3b46f2b5788c619478a751fdde2b3dc4c452abbc5b661c0b28
         echo "
 <div class=\"container\">
     <h1>Page de contact</h1>
-";
-        // line 18
-        echo "
+
     ";
-        // line 19
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 19, $this->source); })()), 'form_start');
+        // line 9
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 9, $this->source); })()), 'form_start');
         echo "
     <br>
 
     ";
-        // line 22
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 22, $this->source); })()), "nom", [], "any", false, false, false, 22), 'row', ["attr" => ["placeholder" => "Votre nom"]]);
+        // line 12
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 12, $this->source); })()), "nom", [], "any", false, false, false, 12), 'row', ["attr" => ["placeholder" => "Votre nom"]]);
         echo "
 <br>
     ";
-        // line 24
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 24, $this->source); })()), "prenom", [], "any", false, false, false, 24), 'row', ["attr" => ["placeholder" => "Votre prénom"]]);
+        // line 14
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 14, $this->source); })()), "prenom", [], "any", false, false, false, 14), 'row', ["attr" => ["placeholder" => "Votre prénom"]]);
         echo "
 <br>
     ";
-        // line 26
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 26, $this->source); })()), "mail", [], "any", false, false, false, 26), 'row', ["attr" => ["placeholder" => "Votre Email"]]);
+        // line 16
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 16, $this->source); })()), "mail", [], "any", false, false, false, 16), 'row', ["attr" => ["placeholder" => "Votre Email"]]);
         echo "
 <br>
     ";
-        // line 28
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 28, $this->source); })()), "telephone", [], "any", false, false, false, 28), 'row', ["attr" => ["placeholder" => "Votre numéro de téléphone"]]);
+        // line 18
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 18, $this->source); })()), "telephone", [], "any", false, false, false, 18), 'row', ["attr" => ["placeholder" => "Votre numéro de téléphone"]]);
         echo "
 <br>
     ";
-        // line 30
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 30, $this->source); })()), "description", [], "any", false, false, false, 30), 'row', ["attr" => ["placeholder" => "Votre message"]]);
+        // line 20
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 20, $this->source); })()), "description", [], "any", false, false, false, 20), 'row', ["attr" => ["placeholder" => "Votre message"]]);
         echo "
 
     <br><br>
 
     <button type=\"submit\" class=\"btn btn-success\">Envoyer le message</button>
-    
-   
 
     ";
-        // line 38
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 38, $this->source); })()), 'form_end');
+        // line 26
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["formContact"]) || array_key_exists("formContact", $context) ? $context["formContact"] : (function () { throw new RuntimeError('Variable "formContact" does not exist.', 26, $this->source); })()), 'form_end');
         echo "
     </div>
 
@@ -123,7 +119,7 @@ class __TwigTemplate_812c300ae3b46f2b5788c619478a751fdde2b3dc4c452abbc5b661c0b28
 
     public function getDebugInfo()
     {
-        return array (  104 => 38,  93 => 30,  88 => 28,  83 => 26,  78 => 24,  73 => 22,  67 => 19,  64 => 18,  59 => 5,  52 => 4,  35 => 1,);
+        return array (  100 => 26,  91 => 20,  86 => 18,  81 => 16,  76 => 14,  71 => 12,  65 => 9,  59 => 5,  52 => 4,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -135,16 +131,6 @@ class __TwigTemplate_812c300ae3b46f2b5788c619478a751fdde2b3dc4c452abbc5b661c0b28
 
 <div class=\"container\">
     <h1>Page de contact</h1>
-{#
-    <form method=\"post\" action=\"\">
-        <input type=\"text\" name=\"nom\" placeholder=\"Votre nom\">
-        <input type=\"text\" name=\"prenom\" placeholder=\"Votre prénom\">
-        <input type=\"text\" name=\"mail\" placeholder=\"Votre email\">
-        <input type=\"text\" name=\"telephone\" placeholder=\"Votre numéro de téléphone\">
-        <textarea name=\"description\" placeholder=\"Votre message\"></textarea>
-        <button type=\"submit\">Enregitrer</button>
-    </form
-    #}
 
     {{ form_start(formContact) }}
     <br>
@@ -162,8 +148,6 @@ class __TwigTemplate_812c300ae3b46f2b5788c619478a751fdde2b3dc4c452abbc5b661c0b28
     <br><br>
 
     <button type=\"submit\" class=\"btn btn-success\">Envoyer le message</button>
-    
-   
 
     {{ form_end(formContact) }}
     </div>

@@ -5,16 +5,6 @@
 
 <div class="container">
     <h1>Page de contact</h1>
-{#
-    <form method="post" action="">
-        <input type="text" name="nom" placeholder="Votre nom">
-        <input type="text" name="prenom" placeholder="Votre prénom">
-        <input type="text" name="mail" placeholder="Votre email">
-        <input type="text" name="telephone" placeholder="Votre numéro de téléphone">
-        <textarea name="description" placeholder="Votre message"></textarea>
-        <button type="submit">Enregitrer</button>
-    </form
-    #}
 
     {{ form_start(formContact) }}
     <br>
@@ -32,8 +22,6 @@
     <br><br>
 
     <button type="submit" class="btn btn-success">Envoyer le message</button>
-    
-   
 
     {{ form_end(formContact) }}
     </div>

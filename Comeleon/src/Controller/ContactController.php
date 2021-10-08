@@ -47,8 +47,6 @@ class ContactController extends AbstractController
                      ->getForm();
         $form->handleRequest($request);
         
-        $notifier->send(new Notification('Vous avez envoyé le message.', ['browser']));
-        
         if ($form->isSubmitted() && $form->isValid()) {
             $manager->persist($contact);
             $manager->flush();
