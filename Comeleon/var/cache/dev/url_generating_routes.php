@@ -13,5 +13,9 @@ return [
     'prestation_create' => [[], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/prestation/new']], [], []],
     'prestation_edit' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
     'prestation_show' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
+    'app_register' => [[], ['_controller' => 'App\\Controller\\RegistrationController::register'], [], [['text', '/register']], [], []],
+    'home' => [[], ['_controller' => 'App\\Controller\\SecurityController::home'], [], [['text', '/home']], [], []],
+    'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], []],
+    'app_logout' => [[], ['_controller' => 'App\\Controller\\SecurityController::logout'], [], [['text', '/logout']], [], []],
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
 ];
