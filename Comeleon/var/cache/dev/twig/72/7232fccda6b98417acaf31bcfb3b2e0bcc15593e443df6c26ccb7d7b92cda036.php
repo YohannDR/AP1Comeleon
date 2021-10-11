@@ -69,7 +69,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
     <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"/\">Accueil
+          <a class=\"nav-link active\" href=\"/login\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         </li>
@@ -79,6 +79,12 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"/contact\">Contact</a>
         </li>
+        <li>
+          <a class=\"nav-link\" href=\"/login\">Connexion</a>
+        </li>
+        <li>
+          <a class=\"nav-link\" href=\"/register\">Inscription</a>
+        </li>
         
       </ul>
      
@@ -86,9 +92,9 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
   </div>
 </nav>
         ";
-        // line 43
+        // line 49
         $this->displayBlock('body', $context, $blocks);
-        // line 44
+        // line 50
         echo "    </body>
     <style>
           .grid {
@@ -111,7 +117,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome!";
+        echo "Bienvenue !";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -150,7 +156,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
 
     }
 
-    // line 43
+    // line 49
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -169,7 +175,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
 
     public function getDebugInfo()
     {
-        return array (  154 => 43,  147 => 14,  145 => 13,  138 => 12,  130 => 10,  128 => 9,  121 => 8,  108 => 5,  92 => 44,  90 => 43,  60 => 15,  57 => 12,  54 => 8,  50 => 5,  44 => 1,);
+        return array (  160 => 49,  153 => 14,  151 => 13,  144 => 12,  136 => 10,  134 => 9,  127 => 8,  114 => 5,  98 => 50,  96 => 49,  60 => 15,  57 => 12,  54 => 8,  50 => 5,  44 => 1,);
     }
 
     public function getSourceContext()
@@ -178,7 +184,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
 <html>
     <head>
         <meta charset=\"UTF-8\">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Bienvenue !{% endblock %}</title>
         {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
         {% block stylesheets %}
@@ -200,7 +206,7 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
     <div class=\"collapse navbar-collapse\" id=\"navbarColor02\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"/\">Accueil
+          <a class=\"nav-link active\" href=\"/login\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         </li>
@@ -209,6 +215,12 @@ class __TwigTemplate_9a84f03e18d56267031c5a4d5ee67cb4228b7547e65c53dcf0aeb80c8d7
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"/contact\">Contact</a>
+        </li>
+        <li>
+          <a class=\"nav-link\" href=\"/login\">Connexion</a>
+        </li>
+        <li>
+          <a class=\"nav-link\" href=\"/register\">Inscription</a>
         </li>
         
       </ul>
