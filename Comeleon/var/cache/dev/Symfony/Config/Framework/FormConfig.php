@@ -21,10 +21,14 @@ class FormConfig
     
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @default true
 =======
      * @default false
 >>>>>>> feature-PageAvis
+=======
+     * @default true
+>>>>>>> origin/feature-PagePrestation
      * @param ParamConfigurator|bool $value
      * @return $this
      */

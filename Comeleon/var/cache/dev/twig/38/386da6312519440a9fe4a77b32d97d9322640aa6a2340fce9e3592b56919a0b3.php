@@ -270,9 +270,13 @@ class __TwigTemplate_6c7d2e143d3510d100b9dd05fb25a63167d1f59a2a8772231d6659b20dd
     </table>
 {%- endblock form_widget_compound -%}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "form_table_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_table_layout.html.twig");
 =======
 ", "form_table_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_table_layout.html.twig");
 >>>>>>> feature-PageAvis
+=======
+", "form_table_layout.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_table_layout.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

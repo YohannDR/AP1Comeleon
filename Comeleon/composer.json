@@ -20,12 +20,18 @@
         "symfony/form": "5.3.*",
         "symfony/framework-bundle": "5.3.*",
         "symfony/maker-bundle": "^1.33",
+        "symfony/notifier": "5.3.*",
         "symfony/proxy-manager-bridge": "5.3.*",
+<<<<<<< HEAD
         "symfony/runtime": "^5.3",
 <<<<<<< HEAD
 =======
         "symfony/security-bundle": "5.3.*",
 >>>>>>> origin/feature-Page-Presentation
+=======
+        "symfony/runtime": "5.3.*",
+        "symfony/security-bundle": "5.3.*",
+>>>>>>> origin/feature-PagePrestation
         "symfony/twig-bundle": "5.3.*",
         "symfony/validator": "5.3.*",
         "symfony/yaml": "5.3.*",

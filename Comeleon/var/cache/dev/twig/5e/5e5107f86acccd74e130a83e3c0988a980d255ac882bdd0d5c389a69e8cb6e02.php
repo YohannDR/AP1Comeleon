@@ -669,9 +669,13 @@ class __TwigTemplate_19663005519a87b44aee4d7045954a00205b27faf657d9166fe1e54fb3d
     </tr>
 {% endmacro %}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
 =======
 ", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
 >>>>>>> feature-PageAvis
+=======
+", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

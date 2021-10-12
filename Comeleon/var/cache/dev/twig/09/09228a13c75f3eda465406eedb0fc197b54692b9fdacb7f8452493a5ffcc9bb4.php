@@ -959,9 +959,13 @@ $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBl
     {{- block('form_row') -}}
 {%- endblock datetime_row %}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "bootstrap_base_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_base_layout.html.twig");
 =======
 ", "bootstrap_base_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_base_layout.html.twig");
 >>>>>>> feature-PageAvis
+=======
+", "bootstrap_base_layout.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_base_layout.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

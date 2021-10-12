@@ -166,9 +166,13 @@ class __TwigTemplate_20d584ad0d47e112c7a76a8ad11b9660cc2ae4c8ea9c8a35cd68d57b95b
     </pre>
 {% endif %}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "@Doctrine/Collector/explain.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\explain.html.twig");
 =======
 ", "@Doctrine/Collector/explain.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\explain.html.twig");
 >>>>>>> feature-PageAvis
+=======
+", "@Doctrine/Collector/explain.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\explain.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

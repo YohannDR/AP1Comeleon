@@ -70,9 +70,13 @@ class __TwigTemplate_42a78d10df71328b5520a0992eee88c727b25c9fd831e378e18f8417022
     <polygon fill=\"#AAA\" points=\"0 17 6.5 17 7.5 21 8.5 17 13 17 12 21 21 21 20 17 24 17 24 24 0 24\" />
 </svg>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "@DoctrineMigrations/Collector/icon.svg", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\icon.svg");
 =======
 ", "@DoctrineMigrations/Collector/icon.svg", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\icon.svg");
 >>>>>>> feature-PageAvis
+=======
+", "@DoctrineMigrations/Collector/icon.svg", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\icon.svg");
+>>>>>>> origin/feature-PagePrestation
     }
 }

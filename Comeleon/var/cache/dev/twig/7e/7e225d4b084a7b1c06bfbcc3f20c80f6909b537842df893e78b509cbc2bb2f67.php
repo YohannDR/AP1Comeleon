@@ -42,9 +42,12 @@ class __TwigTemplate_1d26e5f514d0c6375d1b164b4b6ecaff6c8449ef0405da25223e0574b4c
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "avis/index.html.twig"));
 
+<<<<<<< HEAD
         // line 2
         $this->env->getRuntime("Symfony\\Component\\Form\\FormRenderer")->setTheme((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 2, $this->source); })()), [0 => "bootstrap_4_layout.html.twig"], true);
         // line 1
+=======
+>>>>>>> origin/feature-PagePrestation
         $this->parent = $this->loadTemplate("base.html.twig", "avis/index.html.twig", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
@@ -52,26 +55,39 @@ class __TwigTemplate_1d26e5f514d0c6375d1b164b4b6ecaff6c8449ef0405da25223e0574b4c
 
     }
 
+<<<<<<< HEAD
     // line 4
+=======
+    // line 3
+>>>>>>> origin/feature-PagePrestation
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
+<<<<<<< HEAD
         echo "Avis";
+=======
+        echo "Hello AvisController!";
+>>>>>>> origin/feature-PagePrestation
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
     }
 
+<<<<<<< HEAD
     // line 6
+=======
+    // line 5
+>>>>>>> origin/feature-PagePrestation
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+<<<<<<< HEAD
         // line 7
         echo "<center>
 <div style=\"width:85%; text-align:left;\">
@@ -112,6 +128,32 @@ class __TwigTemplate_1d26e5f514d0c6375d1b164b4b6ecaff6c8449ef0405da25223e0574b4c
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+=======
+        // line 6
+        echo "<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class=\"example-wrapper\">
+    <h1>Hello ";
+        // line 12
+        echo twig_escape_filter($this->env, (isset($context["controller_name"]) || array_key_exists("controller_name", $context) ? $context["controller_name"] : (function () { throw new RuntimeError('Variable "controller_name" does not exist.', 12, $this->source); })()), "html", null, true);
+        echo "! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href=\"";
+        // line 16
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("C:/Workspace/AP1Comeleon/Comeleon/src/Controller/AvisController.php", 0), "html", null, true);
+        echo "\">src/Controller/AvisController.php</a></code></li>
+        <li>Your template at <code><a href=\"";
+        // line 17
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\CodeExtension']->getFileLink("C:/Workspace/AP1Comeleon/Comeleon/templates/avis/index.html.twig", 0), "html", null, true);
+        echo "\">templates/avis/index.html.twig</a></code></li>
+    </ul>
+</div>
+>>>>>>> origin/feature-PagePrestation
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -130,12 +172,17 @@ class __TwigTemplate_1d26e5f514d0c6375d1b164b4b6ecaff6c8449ef0405da25223e0574b4c
 
     public function getDebugInfo()
     {
+<<<<<<< HEAD
         return array (  107 => 21,  101 => 18,  95 => 15,  90 => 13,  85 => 11,  80 => 9,  76 => 7,  69 => 6,  56 => 4,  48 => 1,  46 => 2,  36 => 1,);
+=======
+        return array (  92 => 17,  88 => 16,  81 => 12,  73 => 6,  66 => 5,  53 => 3,  36 => 1,);
+>>>>>>> origin/feature-PagePrestation
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
+<<<<<<< HEAD
 {% form_theme form 'bootstrap_4_layout.html.twig' %}
 
 {% block title %}Avis{% endblock %}
@@ -158,11 +205,32 @@ class __TwigTemplate_1d26e5f514d0c6375d1b164b4b6ecaff6c8449ef0405da25223e0574b4c
 {{ form_end(form) }}
 </div></center>
 </br>
+=======
+
+{% block title %}Hello AvisController!{% endblock %}
+
+{% block body %}
+>>>>>>> origin/feature-PagePrestation
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+<<<<<<< HEAD
 {% endblock %}
 ", "avis/index.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\templates\\avis\\index.html.twig");
+=======
+
+<div class=\"example-wrapper\">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href=\"{{ 'C:/Workspace/AP1Comeleon/Comeleon/src/Controller/AvisController.php'|file_link(0) }}\">src/Controller/AvisController.php</a></code></li>
+        <li>Your template at <code><a href=\"{{ 'C:/Workspace/AP1Comeleon/Comeleon/templates/avis/index.html.twig'|file_link(0) }}\">templates/avis/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}
+", "avis/index.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\templates\\avis\\index.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

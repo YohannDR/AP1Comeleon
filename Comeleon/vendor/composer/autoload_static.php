@@ -5,10 +5,14 @@
 namespace Composer\Autoload;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c
 =======
 class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
 >>>>>>> feature-PageAvis
+=======
+class ComposerStaticInit7e1809885756f2415bf7e68671fb1b4a
+>>>>>>> origin/feature-PagePrestation
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -49,16 +53,30 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             'Symfony\\Component\\VarExporter\\' => 30,
             'Symfony\\Component\\VarDumper\\' => 28,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'Symfony\\Component\\Validator\\' => 28,
 =======
 >>>>>>> feature-PageAvis
+=======
+            'Symfony\\Component\\Validator\\' => 28,
+>>>>>>> origin/feature-PagePrestation
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Stopwatch\\' => 28,
+            'Symfony\\Component\\Security\\Http\\' => 32,
+            'Symfony\\Component\\Security\\Guard\\' => 33,
+            'Symfony\\Component\\Security\\Csrf\\' => 32,
+            'Symfony\\Component\\Security\\Core\\' => 32,
             'Symfony\\Component\\Runtime\\' => 26,
             'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\PropertyInfo\\' => 31,
             'Symfony\\Component\\PropertyAccess\\' => 33,
+<<<<<<< HEAD
             'Symfony\\Component\\OptionsResolver\\' => 34,
+=======
+            'Symfony\\Component\\PasswordHasher\\' => 33,
+            'Symfony\\Component\\OptionsResolver\\' => 34,
+            'Symfony\\Component\\Notifier\\' => 27,
+>>>>>>> origin/feature-PagePrestation
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Form\\' => 23,
@@ -72,6 +90,7 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
+            'Symfony\\Bundle\\SecurityBundle\\' => 30,
             'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
             'Symfony\\Bridge\\Twig\\' => 20,
@@ -94,12 +113,18 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             'Laminas\\Code\\' => 13,
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-PagePrestation
         'F' => 
         array (
             'Faker\\' => 6,
         ),
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         'D' => 
         array (
             'Doctrine\\SqlFormatter\\' => 22,
@@ -205,12 +230,18 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\Validator\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
         ),
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\String\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
@@ -218,6 +249,22 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\Stopwatch\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/stopwatch',
+        ),
+        'Symfony\\Component\\Security\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security-http',
+        ),
+        'Symfony\\Component\\Security\\Guard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security-guard',
+        ),
+        'Symfony\\Component\\Security\\Csrf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security-csrf',
+        ),
+        'Symfony\\Component\\Security\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security-core',
         ),
         'Symfony\\Component\\Runtime\\' => 
         array (
@@ -235,10 +282,24 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         array (
             0 => __DIR__ . '/..' . '/symfony/property-access',
         ),
+<<<<<<< HEAD
+=======
+        'Symfony\\Component\\PasswordHasher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/password-hasher',
+        ),
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\OptionsResolver\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/options-resolver',
         ),
+<<<<<<< HEAD
+=======
+        'Symfony\\Component\\Notifier\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/notifier',
+        ),
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\HttpKernel\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-kernel',
@@ -290,6 +351,10 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Bundle\\TwigBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/twig-bundle',
+        ),
+        'Symfony\\Bundle\\SecurityBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/security-bundle',
         ),
         'Symfony\\Bundle\\MakerBundle\\' => 
         array (
@@ -348,12 +413,18 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
         ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-PagePrestation
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         'Doctrine\\SqlFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/sql-formatter/src',
@@ -436,6 +507,7 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
 
     public static $classMap = array (
 <<<<<<< HEAD
+<<<<<<< HEAD
         'App\\Controller\\PrestationController' => __DIR__ . '/../..' . '/src/Controller/PrestationController.php',
         'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
         'App\\DataFixtures\\PrestationFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/PrestationFixtures.php',
@@ -455,6 +527,25 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'App\\Repository\\AvisRepository' => __DIR__ . '/../..' . '/src/Repository/AvisRepository.php',
 >>>>>>> feature-PageAvis
+=======
+        'App\\Controller\\AvisController' => __DIR__ . '/../..' . '/src/Controller/AvisController.php',
+        'App\\Controller\\CartController' => __DIR__ . '/../..' . '/src/Controller/CartController.php',
+        'App\\Controller\\ContactController' => __DIR__ . '/../..' . '/src/Controller/ContactController.php',
+        'App\\Controller\\PrestationController' => __DIR__ . '/../..' . '/src/Controller/PrestationController.php',
+        'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
+        'App\\DataFixtures\\PrestationFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/PrestationFixtures.php',
+        'App\\Entity\\Categorie' => __DIR__ . '/../..' . '/src/Entity/Categorie.php',
+        'App\\Entity\\Commentaire' => __DIR__ . '/../..' . '/src/Entity/Commentaire.php',
+        'App\\Entity\\Contact' => __DIR__ . '/../..' . '/src/Entity/Contact.php',
+        'App\\Entity\\Prestation' => __DIR__ . '/../..' . '/src/Entity/Prestation.php',
+        'App\\Form\\ContactType' => __DIR__ . '/../..' . '/src/Form/ContactType.php',
+        'App\\Form\\PrestationType' => __DIR__ . '/../..' . '/src/Form/PrestationType.php',
+        'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
+        'App\\Repository\\CategorieRepository' => __DIR__ . '/../..' . '/src/Repository/CategorieRepository.php',
+        'App\\Repository\\CommentaireRepository' => __DIR__ . '/../..' . '/src/Repository/CommentaireRepository.php',
+        'App\\Repository\\ContactRepository' => __DIR__ . '/../..' . '/src/Repository/ContactRepository.php',
+        'App\\Repository\\PrestationRepository' => __DIR__ . '/../..' . '/src/Repository/PrestationRepository.php',
+>>>>>>> origin/feature-PagePrestation
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
@@ -1579,6 +1670,9 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Doctrine\\SqlFormatter\\Token' => __DIR__ . '/..' . '/doctrine/sql-formatter/src/Token.php',
         'Doctrine\\SqlFormatter\\Tokenizer' => __DIR__ . '/..' . '/doctrine/sql-formatter/src/Tokenizer.php',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-PagePrestation
         'Faker\\Calculator\\Ean' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Ean.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',
@@ -2032,8 +2126,11 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         'IntlDateFormatter' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/IntlDateFormatter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Laminas\\Code\\DeclareStatement' => __DIR__ . '/..' . '/laminas/laminas-code/src/DeclareStatement.php',
@@ -2824,6 +2921,63 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Bundle\\MakerBundle\\Util\\YamlManipulationFailedException' => __DIR__ . '/..' . '/symfony/maker-bundle/src/Util/YamlManipulationFailedException.php',
         'Symfony\\Bundle\\MakerBundle\\Util\\YamlSourceManipulator' => __DIR__ . '/..' . '/symfony/maker-bundle/src/Util/YamlSourceManipulator.php',
         'Symfony\\Bundle\\MakerBundle\\Validator' => __DIR__ . '/..' . '/symfony/maker-bundle/src/Validator.php',
+        'Symfony\\Bundle\\SecurityBundle\\CacheWarmer\\ExpressionCacheWarmer' => __DIR__ . '/..' . '/symfony/security-bundle/CacheWarmer/ExpressionCacheWarmer.php',
+        'Symfony\\Bundle\\SecurityBundle\\Command\\DebugFirewallCommand' => __DIR__ . '/..' . '/symfony/security-bundle/Command/DebugFirewallCommand.php',
+        'Symfony\\Bundle\\SecurityBundle\\Command\\UserPasswordEncoderCommand' => __DIR__ . '/..' . '/symfony/security-bundle/Command/UserPasswordEncoderCommand.php',
+        'Symfony\\Bundle\\SecurityBundle\\DataCollector\\SecurityDataCollector' => __DIR__ . '/..' . '/symfony/security-bundle/DataCollector/SecurityDataCollector.php',
+        'Symfony\\Bundle\\SecurityBundle\\Debug\\TraceableFirewallListener' => __DIR__ . '/..' . '/symfony/security-bundle/Debug/TraceableFirewallListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\Debug\\TraceableListenerTrait' => __DIR__ . '/..' . '/symfony/security-bundle/Debug/TraceableListenerTrait.php',
+        'Symfony\\Bundle\\SecurityBundle\\Debug\\WrappedLazyListener' => __DIR__ . '/..' . '/symfony/security-bundle/Debug/WrappedLazyListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\Debug\\WrappedListener' => __DIR__ . '/..' . '/symfony/security-bundle/Debug/WrappedListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\AddExpressionLanguageProvidersPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/AddExpressionLanguageProvidersPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\AddSecurityVotersPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/AddSecurityVotersPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\AddSessionDomainConstraintPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/AddSessionDomainConstraintPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\CleanRememberMeVerifierPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/CleanRememberMeVerifierPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterCsrfFeaturesPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterCsrfFeaturesPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterCsrfTokenClearingLogoutHandlerPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterCsrfTokenClearingLogoutHandlerPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterEntryPointPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterEntryPointPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterGlobalSecurityEventListenersPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterGlobalSecurityEventListenersPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterLdapLocatorPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterLdapLocatorPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\RegisterTokenUsageTrackingPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/RegisterTokenUsageTrackingPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\ReplaceDecoratedRememberMeHandlerPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/ReplaceDecoratedRememberMeHandlerPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Compiler\\SortFirewallListenersPass' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Compiler/SortFirewallListenersPass.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\MainConfiguration' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/MainConfiguration.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\SecurityExtension' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/SecurityExtension.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\AbstractFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/AbstractFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\AnonymousFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/AnonymousFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\AuthenticatorFactoryInterface' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/AuthenticatorFactoryInterface.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\CustomAuthenticatorFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/CustomAuthenticatorFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\FirewallListenerFactoryInterface' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/FirewallListenerFactoryInterface.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\FormLoginFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/FormLoginFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\FormLoginLdapFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/FormLoginLdapFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\GuardAuthenticationFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/GuardAuthenticationFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\HttpBasicFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/HttpBasicFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\HttpBasicLdapFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/HttpBasicLdapFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\JsonLoginFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/JsonLoginFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\JsonLoginLdapFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/JsonLoginLdapFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\LdapFactoryTrait' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/LdapFactoryTrait.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\LoginLinkFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/LoginLinkFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\LoginThrottlingFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/LoginThrottlingFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\RememberMeFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/RememberMeFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\RemoteUserFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/RemoteUserFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\SecurityFactoryInterface' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/SecurityFactoryInterface.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\Factory\\X509Factory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/Factory/X509Factory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\UserProvider\\InMemoryFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/UserProvider/InMemoryFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\UserProvider\\LdapFactory' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/UserProvider/LdapFactory.php',
+        'Symfony\\Bundle\\SecurityBundle\\DependencyInjection\\Security\\UserProvider\\UserProviderFactoryInterface' => __DIR__ . '/..' . '/symfony/security-bundle/DependencyInjection/Security/UserProvider/UserProviderFactoryInterface.php',
+        'Symfony\\Bundle\\SecurityBundle\\EventListener\\FirewallListener' => __DIR__ . '/..' . '/symfony/security-bundle/EventListener/FirewallListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\EventListener\\VoteListener' => __DIR__ . '/..' . '/symfony/security-bundle/EventListener/VoteListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\LoginLink\\FirewallAwareLoginLinkHandler' => __DIR__ . '/..' . '/symfony/security-bundle/LoginLink/FirewallAwareLoginLinkHandler.php',
+        'Symfony\\Bundle\\SecurityBundle\\RememberMe\\DecoratedRememberMeHandler' => __DIR__ . '/..' . '/symfony/security-bundle/RememberMe/DecoratedRememberMeHandler.php',
+        'Symfony\\Bundle\\SecurityBundle\\RememberMe\\FirewallAwareRememberMeHandler' => __DIR__ . '/..' . '/symfony/security-bundle/RememberMe/FirewallAwareRememberMeHandler.php',
+        'Symfony\\Bundle\\SecurityBundle\\SecurityBundle' => __DIR__ . '/..' . '/symfony/security-bundle/SecurityBundle.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\FirewallAwareTrait' => __DIR__ . '/..' . '/symfony/security-bundle/Security/FirewallAwareTrait.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\FirewallConfig' => __DIR__ . '/..' . '/symfony/security-bundle/Security/FirewallConfig.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\FirewallContext' => __DIR__ . '/..' . '/symfony/security-bundle/Security/FirewallContext.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\FirewallMap' => __DIR__ . '/..' . '/symfony/security-bundle/Security/FirewallMap.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\LazyFirewallContext' => __DIR__ . '/..' . '/symfony/security-bundle/Security/LazyFirewallContext.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\LegacyLogoutHandlerListener' => __DIR__ . '/..' . '/symfony/security-bundle/Security/LegacyLogoutHandlerListener.php',
+        'Symfony\\Bundle\\SecurityBundle\\Security\\UserAuthenticator' => __DIR__ . '/..' . '/symfony/security-bundle/Security/UserAuthenticator.php',
         'Symfony\\Bundle\\TwigBundle\\CacheWarmer\\TemplateCacheWarmer' => __DIR__ . '/..' . '/symfony/twig-bundle/CacheWarmer/TemplateCacheWarmer.php',
         'Symfony\\Bundle\\TwigBundle\\Command\\LintCommand' => __DIR__ . '/..' . '/symfony/twig-bundle/Command/LintCommand.php',
         'Symfony\\Bundle\\TwigBundle\\DependencyInjection\\Compiler\\ExtensionPass' => __DIR__ . '/..' . '/symfony/twig-bundle/DependencyInjection/Compiler/ExtensionPass.php',
@@ -3761,6 +3915,71 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\HttpKernel\\RebootableInterface' => __DIR__ . '/..' . '/symfony/http-kernel/RebootableInterface.php',
         'Symfony\\Component\\HttpKernel\\TerminableInterface' => __DIR__ . '/..' . '/symfony/http-kernel/TerminableInterface.php',
         'Symfony\\Component\\HttpKernel\\UriSigner' => __DIR__ . '/..' . '/symfony/http-kernel/UriSigner.php',
+<<<<<<< HEAD
+=======
+        'Symfony\\Component\\Notifier\\Channel\\AbstractChannel' => __DIR__ . '/..' . '/symfony/notifier/Channel/AbstractChannel.php',
+        'Symfony\\Component\\Notifier\\Channel\\BrowserChannel' => __DIR__ . '/..' . '/symfony/notifier/Channel/BrowserChannel.php',
+        'Symfony\\Component\\Notifier\\Channel\\ChannelInterface' => __DIR__ . '/..' . '/symfony/notifier/Channel/ChannelInterface.php',
+        'Symfony\\Component\\Notifier\\Channel\\ChannelPolicy' => __DIR__ . '/..' . '/symfony/notifier/Channel/ChannelPolicy.php',
+        'Symfony\\Component\\Notifier\\Channel\\ChannelPolicyInterface' => __DIR__ . '/..' . '/symfony/notifier/Channel/ChannelPolicyInterface.php',
+        'Symfony\\Component\\Notifier\\Channel\\ChatChannel' => __DIR__ . '/..' . '/symfony/notifier/Channel/ChatChannel.php',
+        'Symfony\\Component\\Notifier\\Channel\\EmailChannel' => __DIR__ . '/..' . '/symfony/notifier/Channel/EmailChannel.php',
+        'Symfony\\Component\\Notifier\\Channel\\SmsChannel' => __DIR__ . '/..' . '/symfony/notifier/Channel/SmsChannel.php',
+        'Symfony\\Component\\Notifier\\Chatter' => __DIR__ . '/..' . '/symfony/notifier/Chatter.php',
+        'Symfony\\Component\\Notifier\\ChatterInterface' => __DIR__ . '/..' . '/symfony/notifier/ChatterInterface.php',
+        'Symfony\\Component\\Notifier\\DataCollector\\NotificationDataCollector' => __DIR__ . '/..' . '/symfony/notifier/DataCollector/NotificationDataCollector.php',
+        'Symfony\\Component\\Notifier\\EventListener\\NotificationLoggerListener' => __DIR__ . '/..' . '/symfony/notifier/EventListener/NotificationLoggerListener.php',
+        'Symfony\\Component\\Notifier\\EventListener\\SendFailedMessageToNotifierListener' => __DIR__ . '/..' . '/symfony/notifier/EventListener/SendFailedMessageToNotifierListener.php',
+        'Symfony\\Component\\Notifier\\Event\\MessageEvent' => __DIR__ . '/..' . '/symfony/notifier/Event/MessageEvent.php',
+        'Symfony\\Component\\Notifier\\Event\\NotificationEvents' => __DIR__ . '/..' . '/symfony/notifier/Event/NotificationEvents.php',
+        'Symfony\\Component\\Notifier\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/notifier/Exception/ExceptionInterface.php',
+        'Symfony\\Component\\Notifier\\Exception\\IncompleteDsnException' => __DIR__ . '/..' . '/symfony/notifier/Exception/IncompleteDsnException.php',
+        'Symfony\\Component\\Notifier\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/symfony/notifier/Exception/InvalidArgumentException.php',
+        'Symfony\\Component\\Notifier\\Exception\\LengthException' => __DIR__ . '/..' . '/symfony/notifier/Exception/LengthException.php',
+        'Symfony\\Component\\Notifier\\Exception\\LogicException' => __DIR__ . '/..' . '/symfony/notifier/Exception/LogicException.php',
+        'Symfony\\Component\\Notifier\\Exception\\MissingRequiredOptionException' => __DIR__ . '/..' . '/symfony/notifier/Exception/MissingRequiredOptionException.php',
+        'Symfony\\Component\\Notifier\\Exception\\RuntimeException' => __DIR__ . '/..' . '/symfony/notifier/Exception/RuntimeException.php',
+        'Symfony\\Component\\Notifier\\Exception\\TransportException' => __DIR__ . '/..' . '/symfony/notifier/Exception/TransportException.php',
+        'Symfony\\Component\\Notifier\\Exception\\TransportExceptionInterface' => __DIR__ . '/..' . '/symfony/notifier/Exception/TransportExceptionInterface.php',
+        'Symfony\\Component\\Notifier\\Exception\\UnsupportedMessageTypeException' => __DIR__ . '/..' . '/symfony/notifier/Exception/UnsupportedMessageTypeException.php',
+        'Symfony\\Component\\Notifier\\Exception\\UnsupportedSchemeException' => __DIR__ . '/..' . '/symfony/notifier/Exception/UnsupportedSchemeException.php',
+        'Symfony\\Component\\Notifier\\Message\\ChatMessage' => __DIR__ . '/..' . '/symfony/notifier/Message/ChatMessage.php',
+        'Symfony\\Component\\Notifier\\Message\\EmailMessage' => __DIR__ . '/..' . '/symfony/notifier/Message/EmailMessage.php',
+        'Symfony\\Component\\Notifier\\Message\\MessageInterface' => __DIR__ . '/..' . '/symfony/notifier/Message/MessageInterface.php',
+        'Symfony\\Component\\Notifier\\Message\\MessageOptionsInterface' => __DIR__ . '/..' . '/symfony/notifier/Message/MessageOptionsInterface.php',
+        'Symfony\\Component\\Notifier\\Message\\NullMessage' => __DIR__ . '/..' . '/symfony/notifier/Message/NullMessage.php',
+        'Symfony\\Component\\Notifier\\Message\\SentMessage' => __DIR__ . '/..' . '/symfony/notifier/Message/SentMessage.php',
+        'Symfony\\Component\\Notifier\\Message\\SmsMessage' => __DIR__ . '/..' . '/symfony/notifier/Message/SmsMessage.php',
+        'Symfony\\Component\\Notifier\\Messenger\\MessageHandler' => __DIR__ . '/..' . '/symfony/notifier/Messenger/MessageHandler.php',
+        'Symfony\\Component\\Notifier\\Notification\\ChatNotificationInterface' => __DIR__ . '/..' . '/symfony/notifier/Notification/ChatNotificationInterface.php',
+        'Symfony\\Component\\Notifier\\Notification\\EmailNotificationInterface' => __DIR__ . '/..' . '/symfony/notifier/Notification/EmailNotificationInterface.php',
+        'Symfony\\Component\\Notifier\\Notification\\Notification' => __DIR__ . '/..' . '/symfony/notifier/Notification/Notification.php',
+        'Symfony\\Component\\Notifier\\Notification\\SmsNotificationInterface' => __DIR__ . '/..' . '/symfony/notifier/Notification/SmsNotificationInterface.php',
+        'Symfony\\Component\\Notifier\\Notifier' => __DIR__ . '/..' . '/symfony/notifier/Notifier.php',
+        'Symfony\\Component\\Notifier\\NotifierInterface' => __DIR__ . '/..' . '/symfony/notifier/NotifierInterface.php',
+        'Symfony\\Component\\Notifier\\Recipient\\EmailRecipientInterface' => __DIR__ . '/..' . '/symfony/notifier/Recipient/EmailRecipientInterface.php',
+        'Symfony\\Component\\Notifier\\Recipient\\EmailRecipientTrait' => __DIR__ . '/..' . '/symfony/notifier/Recipient/EmailRecipientTrait.php',
+        'Symfony\\Component\\Notifier\\Recipient\\NoRecipient' => __DIR__ . '/..' . '/symfony/notifier/Recipient/NoRecipient.php',
+        'Symfony\\Component\\Notifier\\Recipient\\Recipient' => __DIR__ . '/..' . '/symfony/notifier/Recipient/Recipient.php',
+        'Symfony\\Component\\Notifier\\Recipient\\RecipientInterface' => __DIR__ . '/..' . '/symfony/notifier/Recipient/RecipientInterface.php',
+        'Symfony\\Component\\Notifier\\Recipient\\SmsRecipientInterface' => __DIR__ . '/..' . '/symfony/notifier/Recipient/SmsRecipientInterface.php',
+        'Symfony\\Component\\Notifier\\Recipient\\SmsRecipientTrait' => __DIR__ . '/..' . '/symfony/notifier/Recipient/SmsRecipientTrait.php',
+        'Symfony\\Component\\Notifier\\Test\\TransportFactoryTestCase' => __DIR__ . '/..' . '/symfony/notifier/Test/TransportFactoryTestCase.php',
+        'Symfony\\Component\\Notifier\\Test\\TransportTestCase' => __DIR__ . '/..' . '/symfony/notifier/Test/TransportTestCase.php',
+        'Symfony\\Component\\Notifier\\Texter' => __DIR__ . '/..' . '/symfony/notifier/Texter.php',
+        'Symfony\\Component\\Notifier\\TexterInterface' => __DIR__ . '/..' . '/symfony/notifier/TexterInterface.php',
+        'Symfony\\Component\\Notifier\\Transport' => __DIR__ . '/..' . '/symfony/notifier/Transport.php',
+        'Symfony\\Component\\Notifier\\Transport\\AbstractTransport' => __DIR__ . '/..' . '/symfony/notifier/Transport/AbstractTransport.php',
+        'Symfony\\Component\\Notifier\\Transport\\AbstractTransportFactory' => __DIR__ . '/..' . '/symfony/notifier/Transport/AbstractTransportFactory.php',
+        'Symfony\\Component\\Notifier\\Transport\\Dsn' => __DIR__ . '/..' . '/symfony/notifier/Transport/Dsn.php',
+        'Symfony\\Component\\Notifier\\Transport\\FailoverTransport' => __DIR__ . '/..' . '/symfony/notifier/Transport/FailoverTransport.php',
+        'Symfony\\Component\\Notifier\\Transport\\NullTransport' => __DIR__ . '/..' . '/symfony/notifier/Transport/NullTransport.php',
+        'Symfony\\Component\\Notifier\\Transport\\NullTransportFactory' => __DIR__ . '/..' . '/symfony/notifier/Transport/NullTransportFactory.php',
+        'Symfony\\Component\\Notifier\\Transport\\RoundRobinTransport' => __DIR__ . '/..' . '/symfony/notifier/Transport/RoundRobinTransport.php',
+        'Symfony\\Component\\Notifier\\Transport\\TransportFactoryInterface' => __DIR__ . '/..' . '/symfony/notifier/Transport/TransportFactoryInterface.php',
+        'Symfony\\Component\\Notifier\\Transport\\TransportInterface' => __DIR__ . '/..' . '/symfony/notifier/Transport/TransportInterface.php',
+        'Symfony\\Component\\Notifier\\Transport\\Transports' => __DIR__ . '/..' . '/symfony/notifier/Transport/Transports.php',
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\OptionsResolver\\Debug\\OptionsResolverIntrospector' => __DIR__ . '/..' . '/symfony/options-resolver/Debug/OptionsResolverIntrospector.php',
         'Symfony\\Component\\OptionsResolver\\Exception\\AccessException' => __DIR__ . '/..' . '/symfony/options-resolver/Exception/AccessException.php',
         'Symfony\\Component\\OptionsResolver\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/options-resolver/Exception/ExceptionInterface.php',
@@ -3774,6 +3993,27 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\OptionsResolver\\OptionConfigurator' => __DIR__ . '/..' . '/symfony/options-resolver/OptionConfigurator.php',
         'Symfony\\Component\\OptionsResolver\\Options' => __DIR__ . '/..' . '/symfony/options-resolver/Options.php',
         'Symfony\\Component\\OptionsResolver\\OptionsResolver' => __DIR__ . '/..' . '/symfony/options-resolver/OptionsResolver.php',
+<<<<<<< HEAD
+=======
+        'Symfony\\Component\\PasswordHasher\\Command\\UserPasswordHashCommand' => __DIR__ . '/..' . '/symfony/password-hasher/Command/UserPasswordHashCommand.php',
+        'Symfony\\Component\\PasswordHasher\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/password-hasher/Exception/ExceptionInterface.php',
+        'Symfony\\Component\\PasswordHasher\\Exception\\InvalidPasswordException' => __DIR__ . '/..' . '/symfony/password-hasher/Exception/InvalidPasswordException.php',
+        'Symfony\\Component\\PasswordHasher\\Exception\\LogicException' => __DIR__ . '/..' . '/symfony/password-hasher/Exception/LogicException.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\CheckPasswordLengthTrait' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/CheckPasswordLengthTrait.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\MessageDigestPasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/MessageDigestPasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\MigratingPasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/MigratingPasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\NativePasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/NativePasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\PasswordHasherAwareInterface' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/PasswordHasherAwareInterface.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\PasswordHasherFactory' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/PasswordHasherFactory.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\PasswordHasherFactoryInterface' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/PasswordHasherFactoryInterface.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\Pbkdf2PasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/Pbkdf2PasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\PlaintextPasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/PlaintextPasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\SodiumPasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/SodiumPasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\UserPasswordHasher' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/UserPasswordHasher.php',
+        'Symfony\\Component\\PasswordHasher\\Hasher\\UserPasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/Hasher/UserPasswordHasherInterface.php',
+        'Symfony\\Component\\PasswordHasher\\LegacyPasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/LegacyPasswordHasherInterface.php',
+        'Symfony\\Component\\PasswordHasher\\PasswordHasherInterface' => __DIR__ . '/..' . '/symfony/password-hasher/PasswordHasherInterface.php',
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\PropertyAccess\\Exception\\AccessException' => __DIR__ . '/..' . '/symfony/property-access/Exception/AccessException.php',
         'Symfony\\Component\\PropertyAccess\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/property-access/Exception/ExceptionInterface.php',
         'Symfony\\Component\\PropertyAccess\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/symfony/property-access/Exception/InvalidArgumentException.php',
@@ -3888,6 +4128,270 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\Runtime\\Runner\\Symfony\\ResponseRunner' => __DIR__ . '/..' . '/symfony/runtime/Runner/Symfony/ResponseRunner.php',
         'Symfony\\Component\\Runtime\\RuntimeInterface' => __DIR__ . '/..' . '/symfony/runtime/RuntimeInterface.php',
         'Symfony\\Component\\Runtime\\SymfonyRuntime' => __DIR__ . '/..' . '/symfony/runtime/SymfonyRuntime.php',
+        'Symfony\\Component\\Security\\Core\\AuthenticationEvents' => __DIR__ . '/..' . '/symfony/security-core/AuthenticationEvents.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\AuthenticationManagerInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/AuthenticationManagerInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\AuthenticationProviderManager' => __DIR__ . '/..' . '/symfony/security-core/Authentication/AuthenticationProviderManager.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\AuthenticationTrustResolver' => __DIR__ . '/..' . '/symfony/security-core/Authentication/AuthenticationTrustResolver.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\AuthenticationTrustResolverInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/AuthenticationTrustResolverInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\AnonymousAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/AnonymousAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\AuthenticationProviderInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/AuthenticationProviderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\DaoAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/DaoAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\LdapBindAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/LdapBindAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\PreAuthenticatedAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/PreAuthenticatedAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\RememberMeAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/RememberMeAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Provider\\UserAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Provider/UserAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\CacheTokenVerifier' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/CacheTokenVerifier.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\InMemoryTokenProvider' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/InMemoryTokenProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\PersistentToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/PersistentToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\PersistentTokenInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/PersistentTokenInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\TokenProviderInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/TokenProviderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\RememberMe\\TokenVerifierInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/RememberMe/TokenVerifierInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\AbstractToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/AbstractToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\AnonymousToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/AnonymousToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\NullToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/NullToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\PreAuthenticatedToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/PreAuthenticatedToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\RememberMeToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/RememberMeToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\Storage\\TokenStorage' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/Storage/TokenStorage.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\Storage\\TokenStorageInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/Storage/TokenStorageInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\Storage\\UsageTrackingTokenStorage' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/Storage/UsageTrackingTokenStorage.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\SwitchUserToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/SwitchUserToken.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\TokenInterface' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/TokenInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authentication\\Token\\UsernamePasswordToken' => __DIR__ . '/..' . '/symfony/security-core/Authentication/Token/UsernamePasswordToken.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\AccessDecisionManager' => __DIR__ . '/..' . '/symfony/security-core/Authorization/AccessDecisionManager.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\AccessDecisionManagerInterface' => __DIR__ . '/..' . '/symfony/security-core/Authorization/AccessDecisionManagerInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\AuthorizationChecker' => __DIR__ . '/..' . '/symfony/security-core/Authorization/AuthorizationChecker.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\AuthorizationCheckerInterface' => __DIR__ . '/..' . '/symfony/security-core/Authorization/AuthorizationCheckerInterface.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\ExpressionLanguage' => __DIR__ . '/..' . '/symfony/security-core/Authorization/ExpressionLanguage.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\ExpressionLanguageProvider' => __DIR__ . '/..' . '/symfony/security-core/Authorization/ExpressionLanguageProvider.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\TraceableAccessDecisionManager' => __DIR__ . '/..' . '/symfony/security-core/Authorization/TraceableAccessDecisionManager.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\AuthenticatedVoter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/AuthenticatedVoter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\ExpressionVoter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/ExpressionVoter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\RoleHierarchyVoter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/RoleHierarchyVoter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\RoleVoter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/RoleVoter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\TraceableVoter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/TraceableVoter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\Voter' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/Voter.php',
+        'Symfony\\Component\\Security\\Core\\Authorization\\Voter\\VoterInterface' => __DIR__ . '/..' . '/symfony/security-core/Authorization/Voter/VoterInterface.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\BasePasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/BasePasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\EncoderAwareInterface' => __DIR__ . '/..' . '/symfony/security-core/Encoder/EncoderAwareInterface.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\EncoderFactory' => __DIR__ . '/..' . '/symfony/security-core/Encoder/EncoderFactory.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\EncoderFactoryInterface' => __DIR__ . '/..' . '/symfony/security-core/Encoder/EncoderFactoryInterface.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\LegacyEncoderTrait' => __DIR__ . '/..' . '/symfony/security-core/Encoder/LegacyEncoderTrait.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\LegacyPasswordHasherEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/LegacyPasswordHasherEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\MessageDigestPasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/MessageDigestPasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\MigratingPasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/MigratingPasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\NativePasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/NativePasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\PasswordEncoderInterface' => __DIR__ . '/..' . '/symfony/security-core/Encoder/PasswordEncoderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\PasswordHasherAdapter' => __DIR__ . '/..' . '/symfony/security-core/Encoder/PasswordHasherAdapter.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\PasswordHasherEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/PasswordHasherEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\Pbkdf2PasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/Pbkdf2PasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\PlaintextPasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/PlaintextPasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\SelfSaltingEncoderInterface' => __DIR__ . '/..' . '/symfony/security-core/Encoder/SelfSaltingEncoderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\SodiumPasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/SodiumPasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\UserPasswordEncoder' => __DIR__ . '/..' . '/symfony/security-core/Encoder/UserPasswordEncoder.php',
+        'Symfony\\Component\\Security\\Core\\Encoder\\UserPasswordEncoderInterface' => __DIR__ . '/..' . '/symfony/security-core/Encoder/UserPasswordEncoderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Event\\AuthenticationEvent' => __DIR__ . '/..' . '/symfony/security-core/Event/AuthenticationEvent.php',
+        'Symfony\\Component\\Security\\Core\\Event\\AuthenticationFailureEvent' => __DIR__ . '/..' . '/symfony/security-core/Event/AuthenticationFailureEvent.php',
+        'Symfony\\Component\\Security\\Core\\Event\\AuthenticationSuccessEvent' => __DIR__ . '/..' . '/symfony/security-core/Event/AuthenticationSuccessEvent.php',
+        'Symfony\\Component\\Security\\Core\\Event\\VoteEvent' => __DIR__ . '/..' . '/symfony/security-core/Event/VoteEvent.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AccessDeniedException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AccountExpiredException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AccountExpiredException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AccountStatusException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AccountStatusException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AuthenticationCredentialsNotFoundException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AuthenticationCredentialsNotFoundException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AuthenticationException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AuthenticationException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AuthenticationExpiredException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AuthenticationExpiredException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\AuthenticationServiceException' => __DIR__ . '/..' . '/symfony/security-core/Exception/AuthenticationServiceException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\BadCredentialsException' => __DIR__ . '/..' . '/symfony/security-core/Exception/BadCredentialsException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\CookieTheftException' => __DIR__ . '/..' . '/symfony/security-core/Exception/CookieTheftException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\CredentialsExpiredException' => __DIR__ . '/..' . '/symfony/security-core/Exception/CredentialsExpiredException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\CustomUserMessageAccountStatusException' => __DIR__ . '/..' . '/symfony/security-core/Exception/CustomUserMessageAccountStatusException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\CustomUserMessageAuthenticationException' => __DIR__ . '/..' . '/symfony/security-core/Exception/CustomUserMessageAuthenticationException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\DisabledException' => __DIR__ . '/..' . '/symfony/security-core/Exception/DisabledException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/security-core/Exception/ExceptionInterface.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\InsufficientAuthenticationException' => __DIR__ . '/..' . '/symfony/security-core/Exception/InsufficientAuthenticationException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/symfony/security-core/Exception/InvalidArgumentException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\InvalidCsrfTokenException' => __DIR__ . '/..' . '/symfony/security-core/Exception/InvalidCsrfTokenException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\LazyResponseException' => __DIR__ . '/..' . '/symfony/security-core/Exception/LazyResponseException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\LockedException' => __DIR__ . '/..' . '/symfony/security-core/Exception/LockedException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\LogicException' => __DIR__ . '/..' . '/symfony/security-core/Exception/LogicException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\LogoutException' => __DIR__ . '/..' . '/symfony/security-core/Exception/LogoutException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\ProviderNotFoundException' => __DIR__ . '/..' . '/symfony/security-core/Exception/ProviderNotFoundException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\RuntimeException' => __DIR__ . '/..' . '/symfony/security-core/Exception/RuntimeException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\SessionUnavailableException' => __DIR__ . '/..' . '/symfony/security-core/Exception/SessionUnavailableException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\TokenNotFoundException' => __DIR__ . '/..' . '/symfony/security-core/Exception/TokenNotFoundException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\TooManyLoginAttemptsAuthenticationException' => __DIR__ . '/..' . '/symfony/security-core/Exception/TooManyLoginAttemptsAuthenticationException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\UnsupportedUserException' => __DIR__ . '/..' . '/symfony/security-core/Exception/UnsupportedUserException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\UserNotFoundException' => __DIR__ . '/..' . '/symfony/security-core/Exception/UserNotFoundException.php',
+        'Symfony\\Component\\Security\\Core\\Exception\\UsernameNotFoundException' => __DIR__ . '/..' . '/symfony/security-core/Exception/UsernameNotFoundException.php',
+        'Symfony\\Component\\Security\\Core\\Role\\RoleHierarchy' => __DIR__ . '/..' . '/symfony/security-core/Role/RoleHierarchy.php',
+        'Symfony\\Component\\Security\\Core\\Role\\RoleHierarchyInterface' => __DIR__ . '/..' . '/symfony/security-core/Role/RoleHierarchyInterface.php',
+        'Symfony\\Component\\Security\\Core\\Security' => __DIR__ . '/..' . '/symfony/security-core/Security.php',
+        'Symfony\\Component\\Security\\Core\\Signature\\Exception\\ExpiredSignatureException' => __DIR__ . '/..' . '/symfony/security-core/Signature/Exception/ExpiredSignatureException.php',
+        'Symfony\\Component\\Security\\Core\\Signature\\Exception\\InvalidSignatureException' => __DIR__ . '/..' . '/symfony/security-core/Signature/Exception/InvalidSignatureException.php',
+        'Symfony\\Component\\Security\\Core\\Signature\\ExpiredSignatureStorage' => __DIR__ . '/..' . '/symfony/security-core/Signature/ExpiredSignatureStorage.php',
+        'Symfony\\Component\\Security\\Core\\Signature\\SignatureHasher' => __DIR__ . '/..' . '/symfony/security-core/Signature/SignatureHasher.php',
+        'Symfony\\Component\\Security\\Core\\User\\ChainUserProvider' => __DIR__ . '/..' . '/symfony/security-core/User/ChainUserProvider.php',
+        'Symfony\\Component\\Security\\Core\\User\\EquatableInterface' => __DIR__ . '/..' . '/symfony/security-core/User/EquatableInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\InMemoryUser' => __DIR__ . '/..' . '/symfony/security-core/User/InMemoryUser.php',
+        'Symfony\\Component\\Security\\Core\\User\\InMemoryUserChecker' => __DIR__ . '/..' . '/symfony/security-core/User/InMemoryUserChecker.php',
+        'Symfony\\Component\\Security\\Core\\User\\InMemoryUserProvider' => __DIR__ . '/..' . '/symfony/security-core/User/InMemoryUserProvider.php',
+        'Symfony\\Component\\Security\\Core\\User\\LegacyPasswordAuthenticatedUserInterface' => __DIR__ . '/..' . '/symfony/security-core/User/LegacyPasswordAuthenticatedUserInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\MissingUserProvider' => __DIR__ . '/..' . '/symfony/security-core/User/MissingUserProvider.php',
+        'Symfony\\Component\\Security\\Core\\User\\PasswordAuthenticatedUserInterface' => __DIR__ . '/..' . '/symfony/security-core/User/PasswordAuthenticatedUserInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\PasswordUpgraderInterface' => __DIR__ . '/..' . '/symfony/security-core/User/PasswordUpgraderInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\User' => __DIR__ . '/..' . '/symfony/security-core/User/User.php',
+        'Symfony\\Component\\Security\\Core\\User\\UserChecker' => __DIR__ . '/..' . '/symfony/security-core/User/UserChecker.php',
+        'Symfony\\Component\\Security\\Core\\User\\UserCheckerInterface' => __DIR__ . '/..' . '/symfony/security-core/User/UserCheckerInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\UserInterface' => __DIR__ . '/..' . '/symfony/security-core/User/UserInterface.php',
+        'Symfony\\Component\\Security\\Core\\User\\UserProviderInterface' => __DIR__ . '/..' . '/symfony/security-core/User/UserProviderInterface.php',
+        'Symfony\\Component\\Security\\Core\\Validator\\Constraints\\UserPassword' => __DIR__ . '/..' . '/symfony/security-core/Validator/Constraints/UserPassword.php',
+        'Symfony\\Component\\Security\\Core\\Validator\\Constraints\\UserPasswordValidator' => __DIR__ . '/..' . '/symfony/security-core/Validator/Constraints/UserPasswordValidator.php',
+        'Symfony\\Component\\Security\\Csrf\\CsrfToken' => __DIR__ . '/..' . '/symfony/security-csrf/CsrfToken.php',
+        'Symfony\\Component\\Security\\Csrf\\CsrfTokenManager' => __DIR__ . '/..' . '/symfony/security-csrf/CsrfTokenManager.php',
+        'Symfony\\Component\\Security\\Csrf\\CsrfTokenManagerInterface' => __DIR__ . '/..' . '/symfony/security-csrf/CsrfTokenManagerInterface.php',
+        'Symfony\\Component\\Security\\Csrf\\Exception\\TokenNotFoundException' => __DIR__ . '/..' . '/symfony/security-csrf/Exception/TokenNotFoundException.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenGenerator\\TokenGeneratorInterface' => __DIR__ . '/..' . '/symfony/security-csrf/TokenGenerator/TokenGeneratorInterface.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenGenerator\\UriSafeTokenGenerator' => __DIR__ . '/..' . '/symfony/security-csrf/TokenGenerator/UriSafeTokenGenerator.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenStorage\\ClearableTokenStorageInterface' => __DIR__ . '/..' . '/symfony/security-csrf/TokenStorage/ClearableTokenStorageInterface.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenStorage\\NativeSessionTokenStorage' => __DIR__ . '/..' . '/symfony/security-csrf/TokenStorage/NativeSessionTokenStorage.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenStorage\\SessionTokenStorage' => __DIR__ . '/..' . '/symfony/security-csrf/TokenStorage/SessionTokenStorage.php',
+        'Symfony\\Component\\Security\\Csrf\\TokenStorage\\TokenStorageInterface' => __DIR__ . '/..' . '/symfony/security-csrf/TokenStorage/TokenStorageInterface.php',
+        'Symfony\\Component\\Security\\Guard\\AbstractGuardAuthenticator' => __DIR__ . '/..' . '/symfony/security-guard/AbstractGuardAuthenticator.php',
+        'Symfony\\Component\\Security\\Guard\\AuthenticatorInterface' => __DIR__ . '/..' . '/symfony/security-guard/AuthenticatorInterface.php',
+        'Symfony\\Component\\Security\\Guard\\Authenticator\\AbstractFormLoginAuthenticator' => __DIR__ . '/..' . '/symfony/security-guard/Authenticator/AbstractFormLoginAuthenticator.php',
+        'Symfony\\Component\\Security\\Guard\\Authenticator\\GuardBridgeAuthenticator' => __DIR__ . '/..' . '/symfony/security-guard/Authenticator/GuardBridgeAuthenticator.php',
+        'Symfony\\Component\\Security\\Guard\\Firewall\\GuardAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-guard/Firewall/GuardAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Guard\\GuardAuthenticatorHandler' => __DIR__ . '/..' . '/symfony/security-guard/GuardAuthenticatorHandler.php',
+        'Symfony\\Component\\Security\\Guard\\PasswordAuthenticatedInterface' => __DIR__ . '/..' . '/symfony/security-guard/PasswordAuthenticatedInterface.php',
+        'Symfony\\Component\\Security\\Guard\\Provider\\GuardAuthenticationProvider' => __DIR__ . '/..' . '/symfony/security-guard/Provider/GuardAuthenticationProvider.php',
+        'Symfony\\Component\\Security\\Guard\\Token\\GuardTokenInterface' => __DIR__ . '/..' . '/symfony/security-guard/Token/GuardTokenInterface.php',
+        'Symfony\\Component\\Security\\Guard\\Token\\PostAuthenticationGuardToken' => __DIR__ . '/..' . '/symfony/security-guard/Token/PostAuthenticationGuardToken.php',
+        'Symfony\\Component\\Security\\Guard\\Token\\PreAuthenticationGuardToken' => __DIR__ . '/..' . '/symfony/security-guard/Token/PreAuthenticationGuardToken.php',
+        'Symfony\\Component\\Security\\Http\\AccessMap' => __DIR__ . '/..' . '/symfony/security-http/AccessMap.php',
+        'Symfony\\Component\\Security\\Http\\AccessMapInterface' => __DIR__ . '/..' . '/symfony/security-http/AccessMapInterface.php',
+        'Symfony\\Component\\Security\\Http\\Attribute\\CurrentUser' => __DIR__ . '/..' . '/symfony/security-http/Attribute/CurrentUser.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\AuthenticationFailureHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/Authentication/AuthenticationFailureHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\AuthenticationSuccessHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/Authentication/AuthenticationSuccessHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\AuthenticationUtils' => __DIR__ . '/..' . '/symfony/security-http/Authentication/AuthenticationUtils.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\AuthenticatorManager' => __DIR__ . '/..' . '/symfony/security-http/Authentication/AuthenticatorManager.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\AuthenticatorManagerInterface' => __DIR__ . '/..' . '/symfony/security-http/Authentication/AuthenticatorManagerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\CustomAuthenticationFailureHandler' => __DIR__ . '/..' . '/symfony/security-http/Authentication/CustomAuthenticationFailureHandler.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\CustomAuthenticationSuccessHandler' => __DIR__ . '/..' . '/symfony/security-http/Authentication/CustomAuthenticationSuccessHandler.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\DefaultAuthenticationFailureHandler' => __DIR__ . '/..' . '/symfony/security-http/Authentication/DefaultAuthenticationFailureHandler.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\DefaultAuthenticationSuccessHandler' => __DIR__ . '/..' . '/symfony/security-http/Authentication/DefaultAuthenticationSuccessHandler.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\NoopAuthenticationManager' => __DIR__ . '/..' . '/symfony/security-http/Authentication/NoopAuthenticationManager.php',
+        'Symfony\\Component\\Security\\Http\\Authentication\\UserAuthenticatorInterface' => __DIR__ . '/..' . '/symfony/security-http/Authentication/UserAuthenticatorInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\AbstractAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/AbstractAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\AbstractLoginFormAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/AbstractLoginFormAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\AbstractPreAuthenticatedAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/AbstractPreAuthenticatedAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\AuthenticatorInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/AuthenticatorInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\FormLoginAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/FormLoginAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\HttpBasicAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/HttpBasicAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\InteractiveAuthenticatorInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/InteractiveAuthenticatorInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\JsonLoginAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/JsonLoginAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\LoginLinkAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/LoginLinkAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\BadgeInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/BadgeInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\CsrfTokenBadge' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/CsrfTokenBadge.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\PasswordUpgradeBadge' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/PasswordUpgradeBadge.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\PreAuthenticatedUserBadge' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/PreAuthenticatedUserBadge.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\RememberMeBadge' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/RememberMeBadge.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Badge\\UserBadge' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Badge/UserBadge.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Credentials\\CredentialsInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Credentials/CredentialsInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Credentials\\CustomCredentials' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Credentials/CustomCredentials.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Credentials\\PasswordCredentials' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Credentials/PasswordCredentials.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\Passport' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/Passport.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\PassportInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/PassportInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\PassportTrait' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/PassportTrait.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\SelfValidatingPassport' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/SelfValidatingPassport.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Passport\\UserPassportInterface' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Passport/UserPassportInterface.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\RememberMeAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/RememberMeAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\RemoteUserAuthenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/RemoteUserAuthenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\Token\\PostAuthenticationToken' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/Token/PostAuthenticationToken.php',
+        'Symfony\\Component\\Security\\Http\\Authenticator\\X509Authenticator' => __DIR__ . '/..' . '/symfony/security-http/Authenticator/X509Authenticator.php',
+        'Symfony\\Component\\Security\\Http\\Authorization\\AccessDeniedHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/Authorization/AccessDeniedHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Controller\\UserValueResolver' => __DIR__ . '/..' . '/symfony/security-http/Controller/UserValueResolver.php',
+        'Symfony\\Component\\Security\\Http\\EntryPoint\\AuthenticationEntryPointInterface' => __DIR__ . '/..' . '/symfony/security-http/EntryPoint/AuthenticationEntryPointInterface.php',
+        'Symfony\\Component\\Security\\Http\\EntryPoint\\BasicAuthenticationEntryPoint' => __DIR__ . '/..' . '/symfony/security-http/EntryPoint/BasicAuthenticationEntryPoint.php',
+        'Symfony\\Component\\Security\\Http\\EntryPoint\\Exception\\NotAnEntryPointException' => __DIR__ . '/..' . '/symfony/security-http/EntryPoint/Exception/NotAnEntryPointException.php',
+        'Symfony\\Component\\Security\\Http\\EntryPoint\\FormAuthenticationEntryPoint' => __DIR__ . '/..' . '/symfony/security-http/EntryPoint/FormAuthenticationEntryPoint.php',
+        'Symfony\\Component\\Security\\Http\\EntryPoint\\RetryAuthenticationEntryPoint' => __DIR__ . '/..' . '/symfony/security-http/EntryPoint/RetryAuthenticationEntryPoint.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\CheckCredentialsListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/CheckCredentialsListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\CheckRememberMeConditionsListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/CheckRememberMeConditionsListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\CookieClearingLogoutListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/CookieClearingLogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\CsrfProtectionListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/CsrfProtectionListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\CsrfTokenClearingLogoutListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/CsrfTokenClearingLogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\DefaultLogoutListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/DefaultLogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\LoginThrottlingListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/LoginThrottlingListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\PasswordMigratingListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/PasswordMigratingListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\RememberMeListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/RememberMeListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\RememberMeLogoutListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/RememberMeLogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\SessionLogoutListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/SessionLogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\SessionStrategyListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/SessionStrategyListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\UserCheckerListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/UserCheckerListener.php',
+        'Symfony\\Component\\Security\\Http\\EventListener\\UserProviderListener' => __DIR__ . '/..' . '/symfony/security-http/EventListener/UserProviderListener.php',
+        'Symfony\\Component\\Security\\Http\\Event\\AuthenticationTokenCreatedEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/AuthenticationTokenCreatedEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\CheckPassportEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/CheckPassportEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\DeauthenticatedEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/DeauthenticatedEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\InteractiveLoginEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/InteractiveLoginEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\LazyResponseEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/LazyResponseEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\LoginFailureEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/LoginFailureEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\LoginSuccessEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/LoginSuccessEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\LogoutEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/LogoutEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\SwitchUserEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/SwitchUserEvent.php',
+        'Symfony\\Component\\Security\\Http\\Event\\TokenDeauthenticatedEvent' => __DIR__ . '/..' . '/symfony/security-http/Event/TokenDeauthenticatedEvent.php',
+        'Symfony\\Component\\Security\\Http\\Firewall' => __DIR__ . '/..' . '/symfony/security-http/Firewall.php',
+        'Symfony\\Component\\Security\\Http\\FirewallMap' => __DIR__ . '/..' . '/symfony/security-http/FirewallMap.php',
+        'Symfony\\Component\\Security\\Http\\FirewallMapInterface' => __DIR__ . '/..' . '/symfony/security-http/FirewallMapInterface.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AbstractAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AbstractAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AbstractListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AbstractListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AbstractPreAuthenticatedListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AbstractPreAuthenticatedListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AccessListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AccessListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AnonymousAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AnonymousAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\AuthenticatorManagerListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/AuthenticatorManagerListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\BasicAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/BasicAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\ChannelListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/ChannelListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\ContextListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/ContextListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\ExceptionListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/ExceptionListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\FirewallListenerInterface' => __DIR__ . '/..' . '/symfony/security-http/Firewall/FirewallListenerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\LogoutListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/LogoutListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\RememberMeListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/RememberMeListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\RemoteUserAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/RemoteUserAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\SwitchUserListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/SwitchUserListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\UsernamePasswordFormAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/UsernamePasswordFormAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\UsernamePasswordJsonAuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/UsernamePasswordJsonAuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\Firewall\\X509AuthenticationListener' => __DIR__ . '/..' . '/symfony/security-http/Firewall/X509AuthenticationListener.php',
+        'Symfony\\Component\\Security\\Http\\HttpUtils' => __DIR__ . '/..' . '/symfony/security-http/HttpUtils.php',
+        'Symfony\\Component\\Security\\Http\\Impersonate\\ImpersonateUrlGenerator' => __DIR__ . '/..' . '/symfony/security-http/Impersonate/ImpersonateUrlGenerator.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\Exception\\ExpiredLoginLinkException' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/Exception/ExpiredLoginLinkException.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\Exception\\InvalidLoginLinkAuthenticationException' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/Exception/InvalidLoginLinkAuthenticationException.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\Exception\\InvalidLoginLinkException' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/Exception/InvalidLoginLinkException.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\Exception\\InvalidLoginLinkExceptionInterface' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/Exception/InvalidLoginLinkExceptionInterface.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\LoginLinkDetails' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/LoginLinkDetails.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\LoginLinkHandler' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/LoginLinkHandler.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\LoginLinkHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/LoginLinkHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\LoginLink\\LoginLinkNotification' => __DIR__ . '/..' . '/symfony/security-http/LoginLink/LoginLinkNotification.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\CookieClearingLogoutHandler' => __DIR__ . '/..' . '/symfony/security-http/Logout/CookieClearingLogoutHandler.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\CsrfTokenClearingLogoutHandler' => __DIR__ . '/..' . '/symfony/security-http/Logout/CsrfTokenClearingLogoutHandler.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\DefaultLogoutSuccessHandler' => __DIR__ . '/..' . '/symfony/security-http/Logout/DefaultLogoutSuccessHandler.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\LogoutHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/Logout/LogoutHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\LogoutSuccessHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/Logout/LogoutSuccessHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\LogoutUrlGenerator' => __DIR__ . '/..' . '/symfony/security-http/Logout/LogoutUrlGenerator.php',
+        'Symfony\\Component\\Security\\Http\\Logout\\SessionLogoutHandler' => __DIR__ . '/..' . '/symfony/security-http/Logout/SessionLogoutHandler.php',
+        'Symfony\\Component\\Security\\Http\\ParameterBagUtils' => __DIR__ . '/..' . '/symfony/security-http/ParameterBagUtils.php',
+        'Symfony\\Component\\Security\\Http\\RateLimiter\\DefaultLoginRateLimiter' => __DIR__ . '/..' . '/symfony/security-http/RateLimiter/DefaultLoginRateLimiter.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\AbstractRememberMeHandler' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/AbstractRememberMeHandler.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\AbstractRememberMeServices' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/AbstractRememberMeServices.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\PersistentRememberMeHandler' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/PersistentRememberMeHandler.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\PersistentTokenBasedRememberMeServices' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/PersistentTokenBasedRememberMeServices.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\RememberMeDetails' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/RememberMeDetails.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\RememberMeHandlerInterface' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/RememberMeHandlerInterface.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\RememberMeServicesInterface' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/RememberMeServicesInterface.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\ResponseListener' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/ResponseListener.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\SignatureRememberMeHandler' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/SignatureRememberMeHandler.php',
+        'Symfony\\Component\\Security\\Http\\RememberMe\\TokenBasedRememberMeServices' => __DIR__ . '/..' . '/symfony/security-http/RememberMe/TokenBasedRememberMeServices.php',
+        'Symfony\\Component\\Security\\Http\\SecurityEvents' => __DIR__ . '/..' . '/symfony/security-http/SecurityEvents.php',
+        'Symfony\\Component\\Security\\Http\\Session\\SessionAuthenticationStrategy' => __DIR__ . '/..' . '/symfony/security-http/Session/SessionAuthenticationStrategy.php',
+        'Symfony\\Component\\Security\\Http\\Session\\SessionAuthenticationStrategyInterface' => __DIR__ . '/..' . '/symfony/security-http/Session/SessionAuthenticationStrategyInterface.php',
+        'Symfony\\Component\\Security\\Http\\Util\\TargetPathTrait' => __DIR__ . '/..' . '/symfony/security-http/Util/TargetPathTrait.php',
         'Symfony\\Component\\Stopwatch\\Section' => __DIR__ . '/..' . '/symfony/stopwatch/Section.php',
         'Symfony\\Component\\Stopwatch\\Stopwatch' => __DIR__ . '/..' . '/symfony/stopwatch/Stopwatch.php',
         'Symfony\\Component\\Stopwatch\\StopwatchEvent' => __DIR__ . '/..' . '/symfony/stopwatch/StopwatchEvent.php',
@@ -3907,6 +4411,9 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\String\\Slugger\\SluggerInterface' => __DIR__ . '/..' . '/symfony/string/Slugger/SluggerInterface.php',
         'Symfony\\Component\\String\\UnicodeString' => __DIR__ . '/..' . '/symfony/string/UnicodeString.php',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\Validator\\Command\\DebugCommand' => __DIR__ . '/..' . '/symfony/validator/Command/DebugCommand.php',
         'Symfony\\Component\\Validator\\Constraint' => __DIR__ . '/..' . '/symfony/validator/Constraint.php',
         'Symfony\\Component\\Validator\\ConstraintValidator' => __DIR__ . '/..' . '/symfony/validator/ConstraintValidator.php',
@@ -4114,8 +4621,11 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
         'Symfony\\Component\\Validator\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/symfony/validator/Validator/ValidatorInterface.php',
         'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilder' => __DIR__ . '/..' . '/symfony/validator/Violation/ConstraintViolationBuilder.php',
         'Symfony\\Component\\Validator\\Violation\\ConstraintViolationBuilderInterface' => __DIR__ . '/..' . '/symfony/validator/Violation/ConstraintViolationBuilderInterface.php',
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         'Symfony\\Component\\VarDumper\\Caster\\AmqpCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/AmqpCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\ArgsStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ArgsStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\Caster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/Caster.php',
@@ -4504,6 +5014,7 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
     {
         return \Closure::bind(function () use ($loader) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $loader->prefixLengthsPsr4 = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit3635d0a28cc5e6cbb790a860e856255c::$classMap;
@@ -4512,6 +5023,11 @@ class ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb
             $loader->prefixDirsPsr4 = ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit7d4f3222db8084e82f4191244f48e0bb::$classMap;
 >>>>>>> feature-PageAvis
+=======
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7e1809885756f2415bf7e68671fb1b4a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7e1809885756f2415bf7e68671fb1b4a::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7e1809885756f2415bf7e68671fb1b4a::$classMap;
+>>>>>>> origin/feature-PagePrestation
 
         }, null, ClassLoader::class);
     }

@@ -64,9 +64,13 @@ class __TwigTemplate_d019b34444d70b53daf82d27a3b3218ac074c720eed6c347a5d605e8dd0
     c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S18.8,13.6,18,13.6z M19,16H5c-1.7,0-3,1.3-3,3s1.3,3,3,3h14c1.7,0,3-1.3,3-3S20.7,16,19,16z M18,20.6c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S18.8,20.6,18,20.6z\"/>
 </svg>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "@Doctrine/Collector/icon.svg", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\icon.svg");
 =======
 ", "@Doctrine/Collector/icon.svg", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\icon.svg");
 >>>>>>> feature-PageAvis
+=======
+", "@Doctrine/Collector/icon.svg", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\icon.svg");
+>>>>>>> origin/feature-PagePrestation
     }
 }

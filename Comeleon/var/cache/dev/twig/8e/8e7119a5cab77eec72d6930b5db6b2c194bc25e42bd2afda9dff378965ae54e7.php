@@ -1388,9 +1388,13 @@ $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBl
     {%- endif %}
 {%- endblock form_errors %}
 <<<<<<< HEAD
+<<<<<<< HEAD
 ", "foundation_5_layout.html.twig", "C:\\Users\\Marvine Gaudrée\\OneDrive - Établissement Saint-Adjutor\\AP\\AP1\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
 =======
 ", "foundation_5_layout.html.twig", "C:\\Workspace\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
 >>>>>>> feature-PageAvis
+=======
+", "foundation_5_layout.html.twig", "C:\\Users\\gaudreem\\Desktop\\AP1Comeleon\\Comeleon\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
+>>>>>>> origin/feature-PagePrestation
     }
 }

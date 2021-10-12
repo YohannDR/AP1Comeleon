@@ -4,15 +4,31 @@
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'avis' => [[], ['_controller' => 'App\\Controller\\AvisController::index'], [], [['text', '/avis']], [], []],
+    'cart_index' => [[], ['_controller' => 'App\\Controller\\CartController::index'], [], [['text', '/panier']], [], []],
+    'cart_add' => [['id'], ['_controller' => 'App\\Controller\\CartController::add'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/panier/add']], [], []],
+    'cart_remove' => [['id'], ['_controller' => 'App\\Controller\\CartController::remove'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/panier/remove']], [], []],
+    'contact' => [[], ['_controller' => 'App\\Controller\\ContactController::index'], [], [['text', '/']], [], []],
+    'contact_create' => [[], ['_controller' => 'App\\Controller\\ContactController::create'], [], [['text', '/contact']], [], []],
+>>>>>>> origin/feature-PagePrestation
     'prestation' => [[], ['_controller' => 'App\\Controller\\PrestationController::index'], [], [['text', '/prestation']], [], []],
     'prestation_create' => [[], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/prestation/new']], [], []],
     'prestation_edit' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::form'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
     'prestation_show' => [['id'], ['_controller' => 'App\\Controller\\PrestationController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/prestation']], [], []],
+<<<<<<< HEAD
     'prestation_supp' => [[], ['_controller' => 'App\\Controller\\PrestationController::supp'], [], [['text', '/prestation/supp']], [], []],
 =======
     'avis/ajouter' => [[], ['_controller' => 'App\\Controller\\AvisController::avisAjout'], [], [['text', '/avis/ajouter']], [], []],
     'avis' => [[], ['_controller' => 'App\\Controller\\AvisController::avis'], [], [['text', '/avis']], [], []],
     'prestation' => [[], ['_controller' => 'App\\Controller\\PrestationController::index'], [], [['text', '/prestation']], [], []],
 >>>>>>> feature-PageAvis
+=======
+    'app_register' => [[], ['_controller' => 'App\\Controller\\RegistrationController::register'], [], [['text', '/register']], [], []],
+    'home' => [[], ['_controller' => 'App\\Controller\\SecurityController::home'], [], [['text', '/home']], [], []],
+    'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], []],
+    'app_logout' => [[], ['_controller' => 'App\\Controller\\SecurityController::logout'], [], [['text', '/logout']], [], []],
+>>>>>>> origin/feature-PagePrestation
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
 ];

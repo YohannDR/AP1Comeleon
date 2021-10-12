@@ -196,6 +196,7 @@
     "symfony/form": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "version": "v5.3.7"
 =======
         "version": "v5.3.8"
@@ -203,6 +204,9 @@
 =======
         "version": "v5.3.7"
 >>>>>>> feature-PageAvis
+=======
+        "version": "v5.3.7"
+>>>>>>> origin/feature-PagePrestation
     },
     "symfony/framework-bundle": {
         "version": "5.3",
@@ -241,6 +245,7 @@
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
     },
+<<<<<<< HEAD
     "symfony/options-resolver": {
         "version": "v5.3.7"
     },
@@ -253,6 +258,26 @@
 >>>>>>> origin/feature-Page-Presentation
 =======
 >>>>>>> feature-PageAvis
+=======
+    "symfony/notifier": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "c31585e252b32fe0e1f30b1f256af553f4a06eb9"
+        },
+        "files": [
+            "./config/packages/notifier.yaml"
+        ]
+    },
+    "symfony/options-resolver": {
+        "version": "v5.3.7"
+    },
+    "symfony/password-hasher": {
+        "version": "v5.3.8"
+    },
+>>>>>>> origin/feature-PagePrestation
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.23.1"
     },
@@ -277,12 +302,16 @@
     "symfony/property-access": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
         "version": "v5.3.7"
     },
     "symfony/property-info": {
         "version": "v5.3.7"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         "version": "v5.3.8"
@@ -292,6 +321,8 @@
 >>>>>>> origin/feature-Page-Presentation
 =======
 >>>>>>> feature-PageAvis
+=======
+>>>>>>> origin/feature-PagePrestation
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.4"
