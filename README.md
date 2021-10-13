@@ -10,21 +10,15 @@
 - Page de présentation de l'actvité
 - Barre de navigation permettant de facilement naviguer sur le site
 
-## Configurer la base de données
-- Avoir WAMPServer/MAMPServer/LAMPServer d'installé
-- Avoir Symfony d'installé
-- Ouvrir une invite de commande dansle dossier ou se trouve le site et éxecuter : `symfony server:start`
-- Éxecuter la commande `symfony console doctrine:migrations:migrate` pour remplir la BDD
-
 ## Installer les requirements
 - composer install
 - composer update
-- composer require orm
-- composer require security
-- composer require symfony/form
-- composer require validator
+- `composer require orm`
+- `composer require security`
+- `composer require symfony/form`
+- `composer require validator`
 
 ## Récupérer la base de données
-- symfony console doctrine:database:create
-- symfony console make:migration
-- symfony console doctrine:migrations:migrate
+- `symfony console doctrine:database:create`
+- `symfony console make:migration`
+- `symfony console doctrine:migrations:migrate`
